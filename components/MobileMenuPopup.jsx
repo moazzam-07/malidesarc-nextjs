@@ -68,9 +68,14 @@ export default function MobileMenuPopup() {
             <div className="elementor-element elementor-element-9176d2a e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="9176d2a" data-settings='{"background_background":"classic"}'>
     <div className="e-con-inner">
       <div className="elementor-element elementor-element-23d46bf e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="23d46bf">
-        <div className="elementor-element elementor-element-0a953a0 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="0a953a0" data-widget_type="image.default">
-          <a href="/">
-            <img alt="Malidesarc_WP_logo_JPEG" loading="lazy" src="/wp-content/uploads/elementor/thumbs/Malidesarc_WP_logo_JPEG-rstacvmimmtjg7kt9v8e933190yz8afovbd7mry1og.jpg" title="Malidesarc_WP_logo_JPEG" />
+        <div className="elementor-element elementor-element-0a953a0" data-e-type="widget" data-element_type="widget" data-id="0a953a0" style={{ padding: '10px 0' }}>
+          <a href="/" onClick={closeMenu} style={{ textDecoration: 'none', display: 'inline-flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+            <span style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '26px', fontWeight: 700, letterSpacing: '2px', color: '#FFFFFF', lineHeight: 1 }}>
+              SPACE<span style={{ color: '#F4C600' }}>WORA</span>
+            </span>
+            <span style={{ fontFamily: '"Quicksand", sans-serif', fontSize: '11px', fontWeight: 600, letterSpacing: '3px', color: '#F4C600', textTransform: 'uppercase', marginTop: '4px' }}>
+              DESIGN STUDIO
+            </span>
           </a>
         </div>
       </div>

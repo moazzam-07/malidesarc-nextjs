@@ -26,11 +26,14 @@ export default function Header() {
 <header className="elementor elementor-6886 elementor-location-header" data-elementor-id="6886" data-elementor-post-type="elementor_library" data-elementor-type="header">
   <div className={`elementor-element elementor-element-a2436b7 dynamic-header e-con-full e-flex e-con e-parent ${isScrolled ? "scrolled" : ""}`} data-e-type="container" data-element_type="container" data-id="a2436b7" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
     <div className="elementor-element elementor-element-5caf2c5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5caf2c5" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-      <div className="elementor-element elementor-element-f46eff8 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="f46eff8" data-widget_type="image.default">
-        <a href="/">
-          <img alt="" className="attachment-large size-large wp-image-6888" fetchpriority="high" height="153" sizes="(max-width: 800px) 100vw, 800px" src="/wp-content/uploads/2026/07/Malidesarc_WP_logo_JPEG.jpg" srcSet="/wp-content/uploads/2026/07/Malidesarc_WP_logo_JPEG.jpg 880w, /wp-content/uploads/2026/07/Malidesarc_WP_logo_JPEG-300x57.jpg 300w, /wp-content/uploads/2026/07/Malidesarc_WP_logo_JPEG-768x147.jpg 768w" width="800" />
+        <a href="/" style={{ textDecoration: 'none', display: 'inline-flex', flexDirection: 'column', alignItems: 'flex-start', padding: '6px 0' }}>
+          <span style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '24px', fontWeight: 700, letterSpacing: '2px', color: '#FFFFFF', lineHeight: 1 }}>
+            SPACE<span style={{ color: '#F4C600' }}>WORA</span>
+          </span>
+          <span style={{ fontFamily: '"Quicksand", sans-serif', fontSize: '10px', fontWeight: 600, letterSpacing: '3px', color: '#F4C600', textTransform: 'uppercase', marginTop: '4px' }}>
+            DESIGN STUDIO
+          </span>
         </a>
-      </div>
     </div>
     <div className="elementor-element elementor-element-ce5d956 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="ce5d956">
       <div className="elementor-element elementor-element-322d3c8 .elementor-nav-menu elementor-hidden-mobile elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-e-type="widget" data-element_type="widget" data-id="322d3c8" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
@@ -240,7 +243,7 @@ export default function Header() {
         <a className="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="/contact/">
           <span className="elementor-button-content-wrapper">
             <span className="elementor-button-text">
-              Let’s Connect
+              Book Consultation
             </span>
           </span>
         </a>

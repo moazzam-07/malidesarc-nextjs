@@ -8,8 +8,8 @@ import ClientAnimationManager from '@/components/ClientAnimationManager';
 import { MobileMenuProvider } from '@/components/MobileMenuContext';
 
 export const metadata = {
-  title: 'Commercial Interior Designers in Mumbai | MaliDesarc',
-  description: 'MaliDesarc offers turnkey interior solutions for commercial, residential, retail, hospitality, and corporate spaces in Mumbai with excellence.',
+  title: 'SPACEWORA Design Studio | Luxury Interior Architecture & Design',
+  description: 'SPACEWORA Design Studio creates luxury interiors and architectural experiences that reflect your personality, celebrate your lifestyle, and elevate the way you live.',
   icons: {
     icon: '/wp-content/uploads/2026/08/cropped-Malidesarc-Favicon-32x32.png',
     apple: '/wp-content/uploads/2026/08/cropped-Malidesarc-Favicon-180x180.png',
