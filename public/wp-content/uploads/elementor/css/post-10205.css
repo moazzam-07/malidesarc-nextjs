@@ -1,0 +1,84 @@
+.elementor-10205 .elementor-element.elementor-element-7b2753e{--display:flex;--min-height:70vh;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--overlay-opacity:0.54;}.elementor-10205 .elementor-element.elementor-element-7b2753e:not(.elementor-motion-effects-element-type-background), .elementor-10205 .elementor-element.elementor-element-7b2753e > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("../../2026/08/Hero-Banner-2.webp");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-10205 .elementor-element.elementor-element-7b2753e::before, .elementor-10205 .elementor-element.elementor-element-7b2753e > .elementor-background-video-container::before, .elementor-10205 .elementor-element.elementor-element-7b2753e > .e-con-inner > .elementor-background-video-container::before, .elementor-10205 .elementor-element.elementor-element-7b2753e > .elementor-background-slideshow::before, .elementor-10205 .elementor-element.elementor-element-7b2753e > .e-con-inner > .elementor-background-slideshow::before, .elementor-10205 .elementor-element.elementor-element-7b2753e > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#000000;--background-overlay:'';}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );font-style:var( --e-global-typography-primary-font-style );color:var( --e-global-color-primary );}.elementor-10205 .elementor-element.elementor-element-9ffdfc4 .elementor-heading-title{font-family:var( --e-global-typography-541031b-font-family ), Sans-serif;font-size:var( --e-global-typography-541031b-font-size );font-style:var( --e-global-typography-541031b-font-style );color:var( --e-global-color-ba0dfd8 );}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );font-style:var( --e-global-typography-text-font-style );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-10205 .elementor-element.elementor-element-342ab16{width:var( --container-widget-width, 50% );max-width:50%;--container-widget-width:50%;--container-widget-flex-grow:0;text-align:center;}.elementor-10205 .elementor-element.elementor-element-9ef0398{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--padding-top:80px;--padding-bottom:80px;--padding-left:0px;--padding-right:0px;}.elementor-10205 .elementor-element.elementor-element-a092234{--e-filter-direction:row;--e-filter-white-space:nowrap;--e-filter-wrap:wrap;--e-filter-overflow-x:initial;}.elementor-widget-loop-grid .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );font-style:var( --e-global-typography-accent-font-style );}.elementor-widget-loop-grid .elementor-pagination{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );font-style:var( --e-global-typography-secondary-font-style );}.elementor-widget-loop-grid .e-load-more-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );font-style:var( --e-global-typography-secondary-font-style );}.elementor-10205 .elementor-element.elementor-element-e71893d{--grid-columns:4;}.elementor-10205 .elementor-element.elementor-element-e71893d > .elementor-widget-container{padding:20px 0px 0px 0px;}.elementor-10205 .elementor-element.elementor-element-e71893d .elementor-loop-container{grid-auto-rows:1fr;}.elementor-10205 .elementor-element.elementor-element-e71893d .e-loop-item > .elementor-section, .elementor-10205 .elementor-element.elementor-element-e71893d .e-loop-item > .elementor-section > .elementor-container, .elementor-10205 .elementor-element.elementor-element-e71893d .e-loop-item > .e-con, .elementor-10205 .elementor-element.elementor-element-e71893d .e-loop-item .elementor-section-wrap  > .e-con{height:100%;}:root{--page-title-display:none;}@media(max-width:1366px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-10205 .elementor-element.elementor-element-9ffdfc4 .elementor-heading-title{font-size:var( --e-global-typography-541031b-font-size );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );}.elementor-widget-loop-grid .elementor-pagination{font-size:var( --e-global-typography-secondary-font-size );}.elementor-widget-loop-grid .elementor-button{font-size:var( --e-global-typography-accent-font-size );}.elementor-widget-loop-grid .e-load-more-message{font-size:var( --e-global-typography-secondary-font-size );}.elementor-10205 .elementor-element.elementor-element-e71893d{--grid-row-gap:0px;--grid-column-gap:0px;}.elementor-10205 .elementor-element.elementor-element-e71893d > .elementor-widget-container{padding:20px 20px 0px 20px;}}@media(max-width:1024px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-10205 .elementor-element.elementor-element-9ffdfc4 .elementor-heading-title{font-size:var( --e-global-typography-541031b-font-size );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );}.elementor-10205 .elementor-element.elementor-element-a092234{--e-filter-direction:row;--e-filter-white-space:nowrap;--e-filter-wrap:wrap;--e-filter-overflow-x:initial;}.elementor-widget-loop-grid .elementor-pagination{font-size:var( --e-global-typography-secondary-font-size );}.elementor-widget-loop-grid .elementor-button{font-size:var( --e-global-typography-accent-font-size );}.elementor-widget-loop-grid .e-load-more-message{font-size:var( --e-global-typography-secondary-font-size );}.elementor-10205 .elementor-element.elementor-element-e71893d{--grid-columns:3;--grid-row-gap:0px;--grid-column-gap:0px;}.elementor-10205 .elementor-element.elementor-element-e71893d > .elementor-widget-container{padding:20px 20px 0px 20px;}}@media(max-width:767px){.elementor-10205 .elementor-element.elementor-element-7b2753e{--min-height:80vh;}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-10205 .elementor-element.elementor-element-9ffdfc4 .elementor-heading-title{font-size:var( --e-global-typography-541031b-font-size );}.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );}.elementor-10205 .elementor-element.elementor-element-342ab16{width:var( --container-widget-width, 90% );max-width:90%;--container-widget-width:90%;--container-widget-flex-grow:0;}.elementor-10205 .elementor-element.elementor-element-a092234{width:var( --container-widget-width, 100% );max-width:100%;padding:0px 10px 0px 10px;--container-widget-width:100%;--container-widget-flex-grow:0;}.elementor-widget-loop-grid .elementor-pagination{font-size:var( --e-global-typography-secondary-font-size );}.elementor-widget-loop-grid .elementor-button{font-size:var( --e-global-typography-accent-font-size );}.elementor-widget-loop-grid .e-load-more-message{font-size:var( --e-global-typography-secondary-font-size );}.elementor-10205 .elementor-element.elementor-element-e71893d{--grid-columns:1;--grid-row-gap:11px;}.elementor-10205 .elementor-element.elementor-element-e71893d > .elementor-widget-container{padding:20px 10px 0px 10px;}}/* Start custom CSS for heading, class: .elementor-element-9ffdfc4 *//* =========================================
+   PROJECT DYNAMIC HERO
+========================================= */
+
+.project-dynamic-hero {
+    min-height: 520px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+
+/* =========================================
+   DYNAMIC HERO TITLE
+========================================= */
+
+.project-dynamic-title .elementor-heading-title {
+    font-size: clamp(3rem, 5vw, 5.5rem) !important;
+    line-height: 1.1 !important;
+    font-weight: 400 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+}
+
+
+/* Yellow "Projects" / highlighted text */
+
+.project-dynamic-title .custom-amp {
+    color: #f4c600 !important;
+}
+
+
+/* =========================================
+   DYNAMIC HERO DESCRIPTION
+========================================= */
+
+.project-dynamic-description {
+    font-size: clamp(1rem, 1.2vw, 1.25rem) !important;
+    line-height: 1.6 !important;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .project-dynamic-hero {
+        min-height: 500px !important;
+        padding-top: 80px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .project-dynamic-title .elementor-heading-title {
+        font-size: clamp(2.3rem, 10vw, 3.5rem) !important;
+        line-height: 1.1 !important;
+    }
+
+}/* End custom CSS */
+/* Start custom CSS for taxonomy-filter, class: .elementor-element-a092234 */.elementor-10205 .elementor-element.elementor-element-a092234 .e-filter-item{
+    padding:12px 28px;
+    border:1px solid #D9D9D9;
+    border-radius:50px;
+    background:transparent;
+    color:#1C1C1C;
+    font-family:"Quicksand",sans-serif;
+    font-size:15px;
+    font-weight:600;
+    transition:all .35s ease;
+}
+
+.elementor-10205 .elementor-element.elementor-element-a092234 .e-filter-item:hover{
+    background:#F4C600;
+    border-color:#F4C600;
+    color:#1C1C1C;
+    transform:translateY(-2px);
+}
+
+.elementor-10205 .elementor-element.elementor-element-a092234 .e-filter-item[aria-pressed="true"]{
+    background:#F4C600;
+    border-color:#F4C600;
+    color:#1C1C1C;
+}/* End custom CSS */

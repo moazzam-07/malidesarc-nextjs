@@ -1,0 +1,391 @@
+/* MaliDesarc Next.js Global Styles */
+
+/* =========================================
+   LENIS SMOOTH SCROLLING
+========================================= */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* =========================================
+   ANIMATED HEADLINE FLIP
+========================================= */
+.elementor-headline-dynamic-wrapper {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.elementor-headline-dynamic-text {
+  display: none;
+  opacity: 0;
+  transform-origin: 50% 100%;
+}
+
+.elementor-headline-dynamic-text.elementor-headline-text-active {
+  display: inline-block;
+  opacity: 1;
+  animation: elementor-headline-flip-in 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes elementor-headline-flip-in {
+  0% {
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+/* =========================================
+   MARQUEE
+========================================= */
+.malidesarc-marquee {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 15px 0 !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  z-index: 10;
+}
+
+.malidesarc-marquee-track {
+  display: flex !important;
+  width: max-content !important;
+  max-width: none !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  animation: malidesarcMarquee 32s linear infinite;
+  will-change: transform;
+}
+
+.malidesarc-marquee-item {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex: 0 0 auto !important;
+  width: max-content !important;
+  min-width: max-content !important;
+  white-space: nowrap !important;
+  margin: 0 !important;
+  padding: 0 28px !important;
+  font-family: 'Quicksand', sans-serif !important;
+  font-size: clamp(13px, 0.75rem + 0.15vw, 16px) !important;
+  font-weight: 500 !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0.02em !important;
+  color: #ffffff !important;
+}
+
+.malidesarc-marquee-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 auto !important;
+  margin-right: 18px !important;
+  color: #F4C600 !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 19px !important;
+  line-height: 1 !important;
+}
+
+@keyframes malidesarcMarquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .malidesarc-marquee {
+    padding: 9px 0 !important;
+  }
+  .malidesarc-marquee-item {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+    font-size: 14px !important;
+  }
+  .malidesarc-marquee-icon {
+    margin-right: 14px !important;
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .malidesarc-marquee {
+    padding: 15px 0 !important;
+  }
+  .malidesarc-marquee-item {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    font-size: 13px !important;
+  }
+  .malidesarc-marquee-icon {
+    margin-right: 11px !important;
+    font-size: 16px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .malidesarc-marquee-track {
+    animation: none !important;
+  }
+}
+
+/* =========================================
+   ELEMENTOR RESPONSIVE & VISIBILITY FIXES
+========================================= */
+@media (max-width: 767px) {
+  .elementor-hidden-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .elementor-hidden-tablet {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .elementor-hidden-desktop {
+    display: none !important;
+  }
+  .elementor-hidden-laptop {
+    display: none !important;
+  }
+}
+
+/* Nav Menu Hover Dropdown */
+.elementor-nav-menu--main .menu-item-has-children {
+  position: relative;
+}
+
+.elementor-nav-menu--main .menu-item-has-children > .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 280px;
+  background: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  list-style: none;
+  z-index: 1000;
+}
+
+.elementor-nav-menu--main .menu-item-has-children:hover > .sub-menu,
+.elementor-nav-menu--main .menu-item-has-children:focus-within > .sub-menu {
+  display: block;
+}
+
+.elementor-nav-menu--main .sub-menu li {
+  padding: 8px 20px;
+}
+
+.elementor-nav-menu--main .sub-menu li a {
+  color: #13253B !important;
+  font-size: 16px !important;
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.elementor-nav-menu--main .sub-menu li a:hover {
+  color: #F4C600 !important;
+}
+
+/* =========================================
+   ELEMENTOR INVISIBLE OVERRIDE & ANIMATIONS
+   Ensure elements with entrance animations are visible
+   and animated smoothly without permanent white gaps.
+========================================= */
+.elementor-invisible {
+  visibility: visible !important;
+}
+
+/* Swiper lazy preloader arc removal */
+.swiper-lazy-preloader {
+  display: none !important;
+}
+
+/* Animation durations matching Elementor / animate.css */
+.animated {
+  animation-duration: 1.25s;
+  animation-fill-mode: both;
+}
+
+.animated-slow {
+  animation-duration: 2s;
+}
+
+.animated-fast {
+  animation-duration: 0.75s;
+}
+
+/* =========================================
+   SERVICES CAROUSEL
+========================================= */
+.services-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.services-carousel .elementor-main-swiper {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden !important;
+  position: relative;
+}
+
+.services-carousel .swiper-wrapper {
+  overflow: visible !important;
+}
+
+.services-carousel .elementor-swiper-button-prev,
+.services-carousel .elementor-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  width: 34px;
+  height: 34px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.services-carousel .elementor-swiper-button-prev {
+  left: 10px;
+}
+
+.services-carousel .elementor-swiper-button-next {
+  right: 10px;
+}
+
+.services-carousel .elementor-swiper-button-prev:hover,
+.services-carousel .elementor-swiper-button-next:hover {
+  transform: translateY(-50%) scale(1.12);
+}
+
+.services-carousel .elementor-swiper-button-prev svg,
+.services-carousel .elementor-swiper-button-next svg {
+  width: 20px;
+  height: 20px;
+  fill: #1c1c1c;
+}
+
+/* =========================================
+   TEXT REVEAL FIX (ABOUT PAGE)
+========================================= */
+.text-reveal {
+  opacity: 1 !important;
+}
+
+/* =========================================
+   TEAM SECTION CTA CARD STYLES
+========================================= */
+.elementor-widget-call-to-action .elementor-cta {
+  display: flex !important;
+  flex-direction: column !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.elementor-widget-call-to-action .elementor-cta__bg-wrapper {
+  min-height: 350px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  border-radius: 12px !important;
+  width: 100% !important;
+}
+
+.elementor-widget-call-to-action .elementor-cta__bg {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  z-index: 1 !important;
+  transition: transform 0.6s ease !important;
+}
+
+.elementor-widget-call-to-action .elementor-cta:hover .elementor-cta__bg {
+  transform: scale(1.05);
+}
+
+.elementor-widget-call-to-action .elementor-cta__content {
+  position: relative !important;
+  z-index: 2 !important;
+  padding: 20px 0 0 0 !important;
+  text-align: left !important;
+}
+
+/* =========================================
+   CLIENT LOGO CAROUSEL INFINITE MARQUEE
+========================================= */
+.client-logo-carousel .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -moz-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
+
+.client-logo-carousel .swiper-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 10px !important;
+}
+
+.client-logo-carousel img {
+  width: 115px !important;
+  height: 76px !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  display: block !important;
+  margin: auto !important;
+  transition: 0.3s ease !important;
+}
+
+

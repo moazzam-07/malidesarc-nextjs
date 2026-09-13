@@ -1,0 +1,171 @@
+.elementor-kit-6{--e-global-color-primary:#000000;--e-global-color-secondary:#18533A;--e-global-color-text:#F2F2FA;--e-global-color-accent:#18533A;--e-global-color-ba0dfd8:#FFFFFF;--e-global-color-6deefcd:#1C1C1C;--e-global-color-134011b:#F6F6F6;--e-global-color-ec18598:#02010100;--e-global-color-3bdf112:#FF4F19;--e-global-color-05ffdd6:#FF4F1A;--e-global-color-0deea99:#2E2E2E;--e-global-color-c103269:#F2F2F2;--e-global-color-c9316db:#41965F;--e-global-color-88aebcc:#F4C600;--e-global-color-d547df7:#13253B;--e-global-color-a65d705:#F4C600;--e-global-color-4570f4d:#F4C600;--e-global-typography-primary-font-family:"Bai Jamjuree";--e-global-typography-primary-font-size:clamp(2.8rem, 2rem + 3vw, 5.5rem);--e-global-typography-primary-font-weight:500;--e-global-typography-primary-font-style:normal;--e-global-typography-secondary-font-family:"Bai Jamjuree";--e-global-typography-secondary-font-size:clamp(2.2rem, 1.8rem + 2vw, 4rem);--e-global-typography-secondary-font-weight:400;--e-global-typography-secondary-font-style:normal;--e-global-typography-text-font-family:"Quicksand";--e-global-typography-text-font-size:clamp(1rem, 0.96rem + 0.2vw, 1.125rem);--e-global-typography-text-font-weight:400;--e-global-typography-text-font-style:normal;--e-global-typography-accent-font-family:"Quicksand";--e-global-typography-accent-font-size:clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);--e-global-typography-accent-font-weight:500;--e-global-typography-accent-font-style:normal;--e-global-typography-d13b76a-font-family:"Playfair Display";--e-global-typography-d13b76a-font-style:normal;--e-global-typography-541031b-font-family:"Bai Jamjuree";--e-global-typography-541031b-font-size:clamp(3rem, 2.2rem + 3vw, 5.5rem);--e-global-typography-541031b-font-style:normal;--e-global-typography-de0c911-font-family:"Bai Jamjuree";--e-global-typography-de0c911-font-size:clamp(2.3rem, 1.55rem + 1.35vw, 3.125rem);--e-global-typography-de0c911-font-style:normal;--e-global-typography-35bbc60-font-family:"Poppins";--e-global-typography-35bbc60-font-size:clamp(1.7rem, 1.4rem + 1vw, 2.4rem);--e-global-typography-35bbc60-font-style:normal;--e-global-typography-947fde7-font-family:"Poppins";--e-global-typography-947fde7-font-size:clamp(1.4rem, 1.2rem + 0.7vw, 1.9rem);--e-global-typography-947fde7-font-style:normal;--e-global-typography-030ac98-font-family:"Poppins";--e-global-typography-030ac98-font-size:clamp(1.15rem, 1rem + 0.35vw, 1.4rem);--e-global-typography-030ac98-font-style:normal;--e-global-typography-1232b34-font-family:"Poppins";--e-global-typography-1232b34-font-size:clamp(1rem, 0.95rem + 0.2vw, 1.15rem);--e-global-typography-1232b34-font-style:normal;--e-global-typography-6de06eb-font-family:"Quicksand";--e-global-typography-6de06eb-font-size:clamp(1.25rem, 1.1rem + 0.6vw, 1.75rem);--e-global-typography-6de06eb-font-style:normal;--e-global-typography-6de06eb-line-height:1.1em;--e-global-typography-6de06eb-letter-spacing:0px;--e-global-typography-1387548-font-family:"Quicksand";--e-global-typography-1387548-font-size:clamp(0.875rem, 0.84rem + 0.15vw, 1rem);--e-global-typography-1387548-font-style:normal;--e-global-typography-c068827-font-family:"Bai Jamjuree";--e-global-typography-c068827-font-size:clamp(0.95rem, 0.9rem + 0.15vw, 1.05rem);--e-global-typography-c068827-font-style:normal;--e-global-typography-055980c-font-family:"Playfair Display";--e-global-typography-055980c-font-size:clamp(2.5rem, 3rem + 2vw, 4.5rem);--e-global-typography-055980c-font-weight:600;--e-global-typography-055980c-font-style:normal;--e-global-typography-28de9f1-font-family:"Bai Jamjuree";--e-global-typography-28de9f1-font-size:clamp(0.75rem, 0.72rem + 0.15vw, 0.875rem);--e-global-typography-28de9f1-font-weight:400;--e-global-typography-28de9f1-font-style:normal;--e-global-typography-3dfea8d-font-family:"Bai Jamjuree";--e-global-typography-3dfea8d-font-size:clamp(1rem, 0.94rem + 0.15vw, 1.125rem);--e-global-typography-3dfea8d-font-weight:400;color:var( --e-global-color-primary );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );font-style:var( --e-global-typography-text-font-style );}.elementor-kit-6 e-page-transition{background-color:#FFBC7D;}.elementor-kit-6 a{color:var( --e-global-color-primary );}.elementor-kit-6 h1{color:var( --e-global-color-primary );font-family:var( --e-global-typography-541031b-font-family ), Sans-serif;font-size:var( --e-global-typography-541031b-font-size );font-style:var( --e-global-typography-541031b-font-style );}.elementor-kit-6 h2{color:var( --e-global-color-primary );font-family:var( --e-global-typography-de0c911-font-family ), Sans-serif;font-size:var( --e-global-typography-de0c911-font-size );font-style:var( --e-global-typography-de0c911-font-style );}.elementor-kit-6 h3{color:var( --e-global-color-primary );font-family:var( --e-global-typography-35bbc60-font-family ), Sans-serif;font-size:var( --e-global-typography-35bbc60-font-size );font-style:var( --e-global-typography-35bbc60-font-style );}.elementor-kit-6 h4{color:var( --e-global-color-primary );font-family:var( --e-global-typography-947fde7-font-family ), Sans-serif;font-size:var( --e-global-typography-947fde7-font-size );font-style:var( --e-global-typography-947fde7-font-style );}.elementor-kit-6 h5{color:var( --e-global-color-primary );font-family:var( --e-global-typography-030ac98-font-family ), Sans-serif;font-size:var( --e-global-typography-030ac98-font-size );font-style:var( --e-global-typography-030ac98-font-style );}.elementor-kit-6 h6{color:var( --e-global-color-primary );font-family:var( --e-global-typography-1232b34-font-family ), Sans-serif;font-size:var( --e-global-typography-1232b34-font-size );font-style:var( --e-global-typography-1232b34-font-style );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1240px;}.e-con{--container-max-width:1240px;}.elementor-widget:not(:last-child){--kit-widget-spacing:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1366px){.elementor-kit-6{font-size:var( --e-global-typography-text-font-size );}.elementor-kit-6 h1{font-size:var( --e-global-typography-541031b-font-size );}.elementor-kit-6 h2{font-size:var( --e-global-typography-de0c911-font-size );}.elementor-kit-6 h3{font-size:var( --e-global-typography-35bbc60-font-size );}.elementor-kit-6 h4{font-size:var( --e-global-typography-947fde7-font-size );}.elementor-kit-6 h5{font-size:var( --e-global-typography-030ac98-font-size );}.elementor-kit-6 h6{font-size:var( --e-global-typography-1232b34-font-size );}}@media(max-width:1024px){.elementor-kit-6{font-size:var( --e-global-typography-text-font-size );}.elementor-kit-6 h1{font-size:var( --e-global-typography-541031b-font-size );}.elementor-kit-6 h2{font-size:var( --e-global-typography-de0c911-font-size );}.elementor-kit-6 h3{font-size:var( --e-global-typography-35bbc60-font-size );}.elementor-kit-6 h4{font-size:var( --e-global-typography-947fde7-font-size );}.elementor-kit-6 h5{font-size:var( --e-global-typography-030ac98-font-size );}.elementor-kit-6 h6{font-size:var( --e-global-typography-1232b34-font-size );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-6{--e-global-typography-6de06eb-line-height:1em;font-size:var( --e-global-typography-text-font-size );}.elementor-kit-6 h1{font-size:var( --e-global-typography-541031b-font-size );}.elementor-kit-6 h2{font-size:var( --e-global-typography-de0c911-font-size );}.elementor-kit-6 h3{font-size:var( --e-global-typography-35bbc60-font-size );}.elementor-kit-6 h4{font-size:var( --e-global-typography-947fde7-font-size );}.elementor-kit-6 h5{font-size:var( --e-global-typography-030ac98-font-size );}.elementor-kit-6 h6{font-size:var( --e-global-typography-1232b34-font-size );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS *//* add this to your custom CSS in the site settings */
+
+html {
+  scroll-behavior: auto !important;
+}
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ :root {
+  --brand: #f4c542;
+  --brand-ink: #111;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+/* Grid layout */
+.stall-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+@media (max-width: 1024px) {
+  .stall-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .stall-grid { grid-template-columns: 1fr; }
+}
+
+/* Each card */
+.stall-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  aspect-ratio: 4 / 3;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Image scales on hover */
+.stall-card .elementor-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .5s var(--ease);
+}
+.stall-card:hover .elementor-image img {
+  transform: scale(1.1);
+}
+
+/* Top-left index number */
+.stall-card .v2-index {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #fff;
+  z-index: 4;
+  mix-blend-mode: difference;
+}
+
+/* Bottom slide-up panel */
+.stall-card .v2-panel {
+  position: absolute;
+  inset: 0;
+  top: auto;
+  height: 100%;
+  background: var(--brand);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 28px;
+  transform: translateY(100%);
+  transition: transform .5s var(--ease);
+  z-index: 3;
+}
+.stall-card:hover .v2-panel {
+  transform: translateY(0);
+}
+
+/* Panel text */
+.stall-card .v2-panel .v2-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--brand-ink);
+  margin-bottom: 4px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all .4s var(--ease) .05s;
+}
+.stall-card .v2-panel .v2-event {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: rgba(0,0,0,0.65);
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all .4s var(--ease) .12s;
+}
+
+.stall-card:hover .v2-panel .v2-name,
+.stall-card:hover .v2-panel .v2-event {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+/* =========================================
+   FIX MARQUEE VISIBILITY AT 1367px
+========================================= */
+
+.malidesarc-marquee {
+    position: relative !important;
+    z-index: 20 !important;
+
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    overflow: hidden !important;
+}
+
+
+/* Prevent Elementor parent from clipping marquee */
+.malidesarc-marquee {
+    transform: translateZ(0);
+}
+
+
+/* =========================================
+   1367px - 1200px
+========================================= */
+
+@media (min-width: 1200px) and (max-width: 1367px) {
+
+    .malidesarc-marquee {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative !important;
+        z-index: 999 !important;
+    }
+
+}/* End custom CSS */
