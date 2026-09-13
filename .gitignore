@@ -36,3 +36,4 @@ next-env.d.ts
 # python cache / scripts
 __pycache__/
 *.pyc
+

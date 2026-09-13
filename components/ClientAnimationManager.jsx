@@ -221,9 +221,12 @@ export default function ClientAnimationManager() {
     logoContainers.forEach((container) => {
       const s = new Swiper(container, {
         modules: [Autoplay],
+        slidesPerView: 2,
+        spaceBetween: 24,
         slidesPerView: 3,
         spaceBetween: 34,
         loop: true,
+        speed: 5000,
         speed: 7000,
         autoplay: {
           delay: 0,
@@ -231,6 +234,7 @@ export default function ClientAnimationManager() {
           pauseOnMouseEnter: false,
         },
         breakpoints: {
+          640: { slidesPerView: 3, spaceBetween: 30 },
           0: { slidesPerView: 3, spaceBetween: 34 },
           768: { slidesPerView: 4, spaceBetween: 34 },
           1024: { slidesPerView: 6, spaceBetween: 34 },

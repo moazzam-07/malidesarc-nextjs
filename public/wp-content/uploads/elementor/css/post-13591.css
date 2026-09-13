@@ -13,7 +13,7 @@
 }
 
 .dynamic-header.scrolled {
-    background-color: #13253B !important;
+    background-color: #0A0A0A !important;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -25,14 +25,14 @@
 
     .dynamic-header {
         /* 85% opacity before scroll */
-        background-color: rgba(19, 37, 59, 0.85) !important;
+        background-color: rgba(10, 10, 10, 0.92) !important;
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
     }
 
     .dynamic-header.scrolled {
         /* Fully solid after scroll */
-        background-color: #13253B !important;
+        background-color: #0A0A0A !important;
     }
 
 }/* End custom CSS */

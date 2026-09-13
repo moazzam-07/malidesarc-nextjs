@@ -215,7 +215,7 @@ html.lenis, html.lenis body {
 }
 
 .elementor-nav-menu--main .sub-menu li a {
-  color: #13253B !important;
+  color: #111111 !important;
   font-size: 16px !important;
   display: block;
   transition: color 0.2s ease;
@@ -387,5 +387,92 @@ html.lenis, html.lenis body {
   margin: auto !important;
   transition: 0.3s ease !important;
 }
+
+/* =========================================
+   GOLDEN + WHITE + BLACK LUXURY THEME OVERRIDES
+   Client Specification: Golden (#F4C600 / #D4AF37)
+   + White (#FFFFFF) + Black (#0A0A0A / #111111)
+========================================= */
+
+/* Scrolled & Mobile Header */
+.dynamic-header.scrolled {
+  background-color: #0A0A0A !important;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6) !important;
+  border-bottom: 1px solid rgba(244, 198, 0, 0.2) !important;
+}
+
+@media (max-width: 768px) {
+  .dynamic-header {
+    background-color: rgba(10, 10, 10, 0.92) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    border-bottom: 1px solid rgba(244, 198, 0, 0.15) !important;
+  }
+  .dynamic-header.scrolled {
+    background-color: #0A0A0A !important;
+  }
+}
+
+/* Stats Counter Container (Desktop & Mobile) */
+.elementor-13403 .elementor-element.elementor-element-b5ba00c,
+.elementor-13403 .elementor-element.elementor-element-909a3ae,
+.elementor-element-b5ba00c,
+.elementor-element-909a3ae {
+  background-color: #0A0A0A !important;
+  border-top: 1px solid rgba(244, 198, 0, 0.2) !important;
+  border-bottom: 1px solid rgba(244, 198, 0, 0.2) !important;
+}
+
+.elementor-element-b5ba00c .elementor-counter-number,
+.elementor-element-909a3ae .elementor-counter-number,
+.elementor-element-b5ba00c .elementor-counter-number-suffix,
+.elementor-element-909a3ae .elementor-counter-number-suffix {
+  color: #FFFFFF !important;
+}
+
+.elementor-element-b5ba00c .elementor-counter-title,
+.elementor-element-909a3ae .elementor-counter-title {
+  color: #D6D6D6 !important;
+}
+
+/* Footer Section */
+.elementor-9770 .elementor-element.elementor-element-4fb77f4,
+.elementor-location-footer,
+footer.elementor-9770 {
+  background-color: #0A0A0A !important;
+  border-top: 1px solid rgba(244, 198, 0, 0.2) !important;
+}
+
+.elementor-9770 .elementor-divider-separator {
+  border-top-color: #F4C600 !important;
+}
+
+.elementor-9770 .elementor-heading-title {
+  color: #FFFFFF !important;
+}
+
+.elementor-9770 .elementor-icon-list-icon i,
+.elementor-9770 .elementor-icon-list-icon svg {
+  color: #F4C600 !important;
+  fill: #F4C600 !important;
+}
+
+/* Mobile Menu Popup Modal */
+#elementor-popup-modal-7903 .elementor-element-9176d2a {
+  background-color: #0A0A0A !important;
+  border: 1px solid rgba(244, 198, 0, 0.2) !important;
+}
+
+/* Testimonial body text contrast */
+.elementor-widget-testimonial-carousel .elementor-testimonial__text {
+  color: #111111 !important;
+}
+
+/* Accordion Active Headers */
+.elementor-accordion .elementor-tab-title.elementor-active a,
+.elementor-accordion .elementor-tab-title.elementor-active {
+  color: #F4C600 !important;
+}
+
 
 
