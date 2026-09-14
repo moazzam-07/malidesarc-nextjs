@@ -1,0 +1,919 @@
+{
+  "projects": [
+    {
+      "slug": "bhayander-residence",
+      "title": "Bhayandar Luxury Residence",
+      "category": "residential",
+      "categoryLabel": "Residential",
+      "location": "Bhayandar West, Mumbai",
+      "area": "3 BHK \u2022 1,350 sq. ft.",
+      "year": "2024",
+      "tagline": "Modern Minimalist Living with Warm Wooden Accents",
+      "description": "A refined residential sanctuary featuring bespoke fluted wall paneling, integrated warm LED profile lighting, minimalist false ceiling geometries, and custom modular storage tailored for modern family living.",
+      "highlights": [
+        "Fluted Wall Paneling",
+        "Profile LED Lighting",
+        "Bespoke TV Unit",
+        "Master Bedroom Suite"
+      ],
+      "id": "bhayander-residence",
+      "coverImage": "/images/projects/bhayander-residence/01_img-20230228-wa0004.webp",
+      "thumbnail": "/images/projects/bhayander-residence/thumb.webp",
+      "imageCount": 8,
+      "gallery": [
+        {
+          "src": "/images/projects/bhayander-residence/01_img-20230228-wa0004.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Bhayandar Luxury Residence - Photo 1"
+        },
+        {
+          "src": "/images/projects/bhayander-residence/02_img-20230228-wa0007.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Bhayandar Luxury Residence - Photo 2"
+        },
+        {
+          "src": "/images/projects/bhayander-residence/03_img-20230228-wa0009.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Bhayandar Luxury Residence - Photo 3"
+        },
+        {
+          "src": "/images/projects/bhayander-residence/04_picture2.webp",
+          "width": 1920,
+          "height": 1913,
+          "alt": "Bhayandar Luxury Residence - Photo 4"
+        },
+        {
+          "src": "/images/projects/bhayander-residence/05_picture3.webp",
+          "width": 1920,
+          "height": 1920,
+          "alt": "Bhayandar Luxury Residence - Photo 5"
+        },
+        {
+          "src": "/images/projects/bhayander-residence/06_picture4.webp",
+          "width": 1920,
+          "height": 1919,
+          "alt": "Bhayandar Luxury Residence - Photo 6"
+        },
+        {
+          "src": "/images/projects/bhayander-residence/07_picture5.webp",
+          "width": 1920,
+          "height": 1920,
+          "alt": "Bhayandar Luxury Residence - Photo 7"
+        },
+        {
+          "src": "/images/projects/bhayander-residence/08_picture6.webp",
+          "width": 1920,
+          "height": 1919,
+          "alt": "Bhayandar Luxury Residence - Photo 8"
+        }
+      ]
+    },
+    {
+      "slug": "borivali-residence",
+      "title": "Borivali Modern Apartment",
+      "category": "residential",
+      "categoryLabel": "Residential",
+      "location": "Borivali West, Mumbai",
+      "area": "2 BHK \u2022 980 sq. ft.",
+      "year": "2023",
+      "tagline": "Contemporary Urban Living with Smart Spatial Planning",
+      "description": "Designed with clean contemporary lines, an open-concept living and dining layout, custom media consoles, and a modern master suite that maximizes natural light and usable floor area.",
+      "highlights": [
+        "Open Concept Living",
+        "Custom Modular Wardrobes",
+        "Compact Kitchen Architecture",
+        "Contemporary Ambient Lighting"
+      ],
+      "id": "borivali-residence",
+      "coverImage": "/images/projects/borivali-residence/01_img-20230204-wa0007.webp",
+      "thumbnail": "/images/projects/borivali-residence/thumb.webp",
+      "imageCount": 8,
+      "gallery": [
+        {
+          "src": "/images/projects/borivali-residence/01_img-20230204-wa0007.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Borivali Modern Apartment - Photo 1"
+        },
+        {
+          "src": "/images/projects/borivali-residence/02_img-20230204-wa0008.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Borivali Modern Apartment - Photo 2"
+        },
+        {
+          "src": "/images/projects/borivali-residence/03_img-20230204-wa0009.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Borivali Modern Apartment - Photo 3"
+        },
+        {
+          "src": "/images/projects/borivali-residence/04_img-20230204-wa0010.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Borivali Modern Apartment - Photo 4"
+        },
+        {
+          "src": "/images/projects/borivali-residence/05_img-20230204-wa0011.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Borivali Modern Apartment - Photo 5"
+        },
+        {
+          "src": "/images/projects/borivali-residence/06_img-20230530-wa0035.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Borivali Modern Apartment - Photo 6"
+        },
+        {
+          "src": "/images/projects/borivali-residence/07_img-20230530-wa0036.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Borivali Modern Apartment - Photo 7"
+        },
+        {
+          "src": "/images/projects/borivali-residence/08_img-20230612-wa0007.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Borivali Modern Apartment - Photo 8"
+        }
+      ]
+    },
+    {
+      "slug": "chembur-residence",
+      "title": "Chembur Contemporary Home",
+      "category": "residential",
+      "categoryLabel": "Residential",
+      "location": "Chembur, Mumbai",
+      "area": "3 BHK \u2022 1,520 sq. ft.",
+      "year": "2023",
+      "tagline": "Sophisticated Textures & Neutral Elegance",
+      "description": "A timeless home interior characterized by premium neutral palettes, custom upholstered furnishings, elegant marble finishes, and functional modular kitchen architecture.",
+      "highlights": [
+        "Neutral Color Palette",
+        "Custom Upholstered Headboards",
+        "Modular Kitchen Architecture",
+        "Seamless Storage Solutions"
+      ],
+      "id": "chembur-residence",
+      "coverImage": "/images/projects/chembur-residence/01_img-20230305-wa0022.webp",
+      "thumbnail": "/images/projects/chembur-residence/thumb.webp",
+      "imageCount": 7,
+      "gallery": [
+        {
+          "src": "/images/projects/chembur-residence/01_img-20230305-wa0022.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Chembur Contemporary Home - Photo 1"
+        },
+        {
+          "src": "/images/projects/chembur-residence/02_img-20230305-wa0023.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Chembur Contemporary Home - Photo 2"
+        },
+        {
+          "src": "/images/projects/chembur-residence/03_img-20230305-wa0027.webp",
+          "width": 1536,
+          "height": 1167,
+          "alt": "Chembur Contemporary Home - Photo 3"
+        },
+        {
+          "src": "/images/projects/chembur-residence/04_img-20230306-wa0029.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Chembur Contemporary Home - Photo 4"
+        },
+        {
+          "src": "/images/projects/chembur-residence/05_img-20230306-wa0030.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Chembur Contemporary Home - Photo 5"
+        },
+        {
+          "src": "/images/projects/chembur-residence/06_img-20230311-wa0000.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Chembur Contemporary Home - Photo 6"
+        },
+        {
+          "src": "/images/projects/chembur-residence/07_img-20230313-wa0001.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Chembur Contemporary Home - Photo 7"
+        }
+      ]
+    },
+    {
+      "slug": "ghatkopar-penthouse",
+      "title": "Ghatkopar Premium Penthouse",
+      "category": "residential",
+      "categoryLabel": "Residential",
+      "location": "Ghatkopar East, Mumbai",
+      "area": "4 BHK \u2022 2,400 sq. ft.",
+      "year": "2024",
+      "tagline": "Opulent Living with Grand Volume & Bespoke Millwork",
+      "description": "A sprawling luxury penthouse featuring double-height ceiling accents, Italian marble flooring, intricate brass inlay detailing, bespoke designer bedrooms, and ambient cove lighting throughout.",
+      "highlights": [
+        "Italian Marble Flooring",
+        "Double-Height Ceiling Details",
+        "Brass Inlay Woodwork",
+        "Bespoke Dressing Lounge"
+      ],
+      "id": "ghatkopar-penthouse",
+      "coverImage": "/images/projects/ghatkopar-penthouse/01_20240803_181944.webp",
+      "thumbnail": "/images/projects/ghatkopar-penthouse/thumb.webp",
+      "imageCount": 19,
+      "gallery": [
+        {
+          "src": "/images/projects/ghatkopar-penthouse/01_20240803_181944.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 1"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/02_20240803_182442.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 2"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/03_20240803_182456.webp",
+          "width": 1920,
+          "height": 1440,
+          "alt": "Ghatkopar Premium Penthouse - Photo 3"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/04_20240803_182501.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 4"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/05_20240803_182508.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 5"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/06_20240803_182516.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 6"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/07_20240803_182519.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 7"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/08_20240803_182528.webp",
+          "width": 1920,
+          "height": 1440,
+          "alt": "Ghatkopar Premium Penthouse - Photo 8"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/09_20240803_182533.webp",
+          "width": 1920,
+          "height": 1440,
+          "alt": "Ghatkopar Premium Penthouse - Photo 9"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/10_20240803_182549.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 10"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/11_20240803_182605.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 11"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/12_20240803_182632.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 12"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/13_20240803_182902.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 13"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/14_20240803_182936.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 14"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/15_20240803_183310.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 15"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/16_20240803_184047.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 16"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/17_20240803_184304__1_.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 17"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/18_20240803_185223.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 18"
+        },
+        {
+          "src": "/images/projects/ghatkopar-penthouse/19_20240803_185227.webp",
+          "width": 1440,
+          "height": 1920,
+          "alt": "Ghatkopar Premium Penthouse - Photo 19"
+        }
+      ]
+    },
+    {
+      "slug": "ghatkopar-architectural-residence",
+      "title": "Ghatkopar Architectural Residence",
+      "category": "show-flats",
+      "categoryLabel": "Show Flats & 3D Concepts",
+      "location": "Ghatkopar, Mumbai",
+      "area": "3 BHK \u2022 1,650 sq. ft.",
+      "year": "2024",
+      "tagline": "Photorealistic 3D Concept to Turnkey Realization",
+      "description": "Showcasing the complete design lifecycle from high-end photorealistic 3D architectural renders to turnkey site execution, featuring curated mood lighting, Scandinavian wood textures, and luxury bathroom design.",
+      "highlights": [
+        "Photorealistic 3D Renders",
+        "Turnkey Site Execution",
+        "Scandinavian Wood Elements",
+        "Luxury Master Bath"
+      ],
+      "id": "ghatkopar-architectural-residence",
+      "coverImage": "/images/projects/ghatkopar-architectural-residence/01_enscape_2023-06-14-01-21-18.webp",
+      "thumbnail": "/images/projects/ghatkopar-architectural-residence/thumb.webp",
+      "imageCount": 9,
+      "gallery": [
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/01_enscape_2023-06-14-01-21-18.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Ghatkopar Architectural Residence - Photo 1"
+        },
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/02_enscape_2023-06-14-01-27-21.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Ghatkopar Architectural Residence - Photo 2"
+        },
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/03_enscape_2023-06-14-01-34-23.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Ghatkopar Architectural Residence - Photo 3"
+        },
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/04_enscape_2023-06-14-01-40-37.webp",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Ghatkopar Architectural Residence - Photo 4"
+        },
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/05_img-20230615-wa0005.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Ghatkopar Architectural Residence - Photo 5"
+        },
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/06_img-20230615-wa0006.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Ghatkopar Architectural Residence - Photo 6"
+        },
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/07_img-20230615-wa0007.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Ghatkopar Architectural Residence - Photo 7"
+        },
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/08_img-20230615-wa0015.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Ghatkopar Architectural Residence - Photo 8"
+        },
+        {
+          "src": "/images/projects/ghatkopar-architectural-residence/09_img-20230615-wa0021.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Ghatkopar Architectural Residence - Photo 9"
+        }
+      ]
+    },
+    {
+      "slug": "haldiram-hospitality",
+      "title": "Haldiram Fine Dining & Hospitality",
+      "category": "hospitality",
+      "categoryLabel": "Hospitality",
+      "location": "Mumbai Metropolitan Region",
+      "area": "Commercial \u2022 3,800 sq. ft.",
+      "year": "2023",
+      "tagline": "High-Traffic Hospitality Architecture & Premium Ambience",
+      "description": "A flagship hospitality and fine-dining venue combining durable high-traffic materials with a warm, inviting dining atmosphere, acoustic ceiling treatments, and custom illuminated service counters.",
+      "highlights": [
+        "Acoustic Ceiling Architecture",
+        "Illuminated Service Counters",
+        "Custom Dining Furniture",
+        "Warm Ambient Luminescence"
+      ],
+      "id": "haldiram-hospitality",
+      "coverImage": "/images/projects/haldiram-hospitality/01_global-photo-01.webp",
+      "thumbnail": "/images/projects/haldiram-hospitality/thumb.webp",
+      "imageCount": 6,
+      "gallery": [
+        {
+          "src": "/images/projects/haldiram-hospitality/01_global-photo-01.webp",
+          "width": 1280,
+          "height": 960,
+          "alt": "Haldiram Fine Dining & Hospitality - Photo 1"
+        },
+        {
+          "src": "/images/projects/haldiram-hospitality/02_global-photo-02__1_.webp",
+          "width": 1280,
+          "height": 960,
+          "alt": "Haldiram Fine Dining & Hospitality - Photo 2"
+        },
+        {
+          "src": "/images/projects/haldiram-hospitality/03_global-photo-03.webp",
+          "width": 1280,
+          "height": 960,
+          "alt": "Haldiram Fine Dining & Hospitality - Photo 3"
+        },
+        {
+          "src": "/images/projects/haldiram-hospitality/04_global-photo-04.webp",
+          "width": 1280,
+          "height": 960,
+          "alt": "Haldiram Fine Dining & Hospitality - Photo 4"
+        },
+        {
+          "src": "/images/projects/haldiram-hospitality/05_global-photo-05.webp",
+          "width": 1280,
+          "height": 960,
+          "alt": "Haldiram Fine Dining & Hospitality - Photo 5"
+        },
+        {
+          "src": "/images/projects/haldiram-hospitality/06_global-photo-06.webp",
+          "width": 1600,
+          "height": 899,
+          "alt": "Haldiram Fine Dining & Hospitality - Photo 6"
+        }
+      ]
+    },
+    {
+      "slug": "jkt-corporate-office",
+      "title": "JKT Corporate Office, Kopar Khairane",
+      "category": "commercial",
+      "categoryLabel": "Commercial",
+      "location": "Kopar Khairane, Navi Mumbai",
+      "area": "Commercial \u2022 4,500 sq. ft.",
+      "year": "2023",
+      "tagline": "Ergonomic Workspaces & Prestigious Executive Suites",
+      "description": "A state-of-the-art corporate interior designed for seamless collaboration, featuring sound-insulated executive cabins, ergonomic open workstations, glass partitions, and a grand reception lobby.",
+      "highlights": [
+        "Executive Conference Suites",
+        "Acoustic Glass Partitions",
+        "Ergonomic Workstations",
+        "Branded Reception Lobby"
+      ],
+      "id": "jkt-corporate-office",
+      "coverImage": "/images/projects/jkt-corporate-office/01_picture1.webp",
+      "thumbnail": "/images/projects/jkt-corporate-office/thumb.webp",
+      "imageCount": 9,
+      "gallery": [
+        {
+          "src": "/images/projects/jkt-corporate-office/01_picture1.webp",
+          "width": 731,
+          "height": 447,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 1"
+        },
+        {
+          "src": "/images/projects/jkt-corporate-office/02_picture2.webp",
+          "width": 379,
+          "height": 257,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 2"
+        },
+        {
+          "src": "/images/projects/jkt-corporate-office/03_picture3.webp",
+          "width": 379,
+          "height": 257,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 3"
+        },
+        {
+          "src": "/images/projects/jkt-corporate-office/04_picture4.webp",
+          "width": 379,
+          "height": 256,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 4"
+        },
+        {
+          "src": "/images/projects/jkt-corporate-office/05_picture5.webp",
+          "width": 379,
+          "height": 257,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 5"
+        },
+        {
+          "src": "/images/projects/jkt-corporate-office/06_picture6.webp",
+          "width": 379,
+          "height": 256,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 6"
+        },
+        {
+          "src": "/images/projects/jkt-corporate-office/07_picture7.webp",
+          "width": 379,
+          "height": 256,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 7"
+        },
+        {
+          "src": "/images/projects/jkt-corporate-office/08_picture8.webp",
+          "width": 379,
+          "height": 257,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 8"
+        },
+        {
+          "src": "/images/projects/jkt-corporate-office/09_picture9.webp",
+          "width": 379,
+          "height": 257,
+          "alt": "JKT Corporate Office, Kopar Khairane - Photo 9"
+        }
+      ]
+    },
+    {
+      "slug": "kalyan-residence",
+      "title": "Kalyan Elegant Residence",
+      "category": "residential",
+      "categoryLabel": "Residential",
+      "location": "Kalyan, Maharashtra",
+      "area": "3 BHK \u2022 1,400 sq. ft.",
+      "year": "2023",
+      "tagline": "Warm Domestic Comfort with Handcrafted Details",
+      "description": "Thoughtfully curated residential spaces blending comfortable domestic warmth with bespoke storage solutions, textured accent walls, and custom-designed headboards and study units.",
+      "highlights": [
+        "Textured Accent Feature Walls",
+        "Handcrafted Wooden Details",
+        "Integrated Study Nook",
+        "Comfortable Master Bedroom"
+      ],
+      "id": "kalyan-residence",
+      "coverImage": "/images/projects/kalyan-residence/01_img-20230615-wa0023.webp",
+      "thumbnail": "/images/projects/kalyan-residence/thumb.webp",
+      "imageCount": 10,
+      "gallery": [
+        {
+          "src": "/images/projects/kalyan-residence/01_img-20230615-wa0023.webp",
+          "width": 1150,
+          "height": 1280,
+          "alt": "Kalyan Elegant Residence - Photo 1"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/02_img-20230615-wa0024.webp",
+          "width": 1280,
+          "height": 984,
+          "alt": "Kalyan Elegant Residence - Photo 2"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/03_img-20230620-wa0009.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Kalyan Elegant Residence - Photo 3"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/04_img-20230620-wa0033.webp",
+          "width": 1600,
+          "height": 1600,
+          "alt": "Kalyan Elegant Residence - Photo 4"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/05_img-20230620-wa0039.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Kalyan Elegant Residence - Photo 5"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/06_img-20230620-wa0041.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Kalyan Elegant Residence - Photo 6"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/07_img-20230620-wa0042.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Kalyan Elegant Residence - Photo 7"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/08_img-20230620-wa0048.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Kalyan Elegant Residence - Photo 8"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/09_img-20230812-wa0006.webp",
+          "width": 1024,
+          "height": 576,
+          "alt": "Kalyan Elegant Residence - Photo 9"
+        },
+        {
+          "src": "/images/projects/kalyan-residence/10_img-20230829-wa0014.webp",
+          "width": 1024,
+          "height": 576,
+          "alt": "Kalyan Elegant Residence - Photo 10"
+        }
+      ]
+    },
+    {
+      "slug": "matunga-residence",
+      "title": "Matunga Bespoke Residence",
+      "category": "residential",
+      "categoryLabel": "Residential",
+      "location": "Matunga, Mumbai",
+      "area": "3 BHK \u2022 1,300 sq. ft.",
+      "year": "2023",
+      "tagline": "Art Deco Influences & Modern Architectural Polish",
+      "description": "Nestled in the cultural heart of Matunga, this residence features subtle heritage-inspired geometry, premium veneer paneling, bespoke wardrobe systems, and sophisticated concealed ambient illumination.",
+      "highlights": [
+        "Premium Veneer Paneling",
+        "Concealed LED Coves",
+        "Geometric Design Accents",
+        "Bespoke Wardrobe Suites"
+      ],
+      "id": "matunga-residence",
+      "coverImage": "/images/projects/matunga-residence/01_img-20230210-wa0006.webp",
+      "thumbnail": "/images/projects/matunga-residence/thumb.webp",
+      "imageCount": 7,
+      "gallery": [
+        {
+          "src": "/images/projects/matunga-residence/01_img-20230210-wa0006.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Matunga Bespoke Residence - Photo 1"
+        },
+        {
+          "src": "/images/projects/matunga-residence/02_img-20230210-wa0007.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Matunga Bespoke Residence - Photo 2"
+        },
+        {
+          "src": "/images/projects/matunga-residence/03_img-20230210-wa0008.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Matunga Bespoke Residence - Photo 3"
+        },
+        {
+          "src": "/images/projects/matunga-residence/04_img-20230212-wa0003.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Matunga Bespoke Residence - Photo 4"
+        },
+        {
+          "src": "/images/projects/matunga-residence/05_img-20230217-wa0040.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Matunga Bespoke Residence - Photo 5"
+        },
+        {
+          "src": "/images/projects/matunga-residence/06_img-20230228-wa0003.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Matunga Bespoke Residence - Photo 6"
+        },
+        {
+          "src": "/images/projects/matunga-residence/07_img-20230302-wa0014.webp",
+          "width": 1000,
+          "height": 800,
+          "alt": "Matunga Bespoke Residence - Photo 7"
+        }
+      ]
+    },
+    {
+      "slug": "mulund-residence",
+      "title": "Mulund Contemporary Residence",
+      "category": "residential",
+      "categoryLabel": "Residential",
+      "location": "Mulund West, Mumbai",
+      "area": "2.5 BHK \u2022 1,150 sq. ft.",
+      "year": "2023",
+      "tagline": "Clean Minimalism, Reflective Surfaces & Calming Tones",
+      "description": "An airy, modern apartment focused on space optimization, utilizing tinted mirrors, fluted glass partitions, seamless modular wardrobes, and a sleek dining nook.",
+      "highlights": [
+        "Tinted Mirror Accents",
+        "Fluted Glass Partitions",
+        "Seamless Modular Storage",
+        "Open Living & Dining Flow"
+      ],
+      "id": "mulund-residence",
+      "coverImage": "/images/projects/mulund-residence/01_img-20230208-wa0045.webp",
+      "thumbnail": "/images/projects/mulund-residence/thumb.webp",
+      "imageCount": 7,
+      "gallery": [
+        {
+          "src": "/images/projects/mulund-residence/01_img-20230208-wa0045.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Mulund Contemporary Residence - Photo 1"
+        },
+        {
+          "src": "/images/projects/mulund-residence/02_img-20230208-wa0046.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Mulund Contemporary Residence - Photo 2"
+        },
+        {
+          "src": "/images/projects/mulund-residence/03_img-20230208-wa0047.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Mulund Contemporary Residence - Photo 3"
+        },
+        {
+          "src": "/images/projects/mulund-residence/04_img-20230208-wa0049.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Mulund Contemporary Residence - Photo 4"
+        },
+        {
+          "src": "/images/projects/mulund-residence/05_img-20230208-wa0052.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Mulund Contemporary Residence - Photo 5"
+        },
+        {
+          "src": "/images/projects/mulund-residence/06_img-20230208-wa0053.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Mulund Contemporary Residence - Photo 6"
+        },
+        {
+          "src": "/images/projects/mulund-residence/07_img-20230208-wa0062.webp",
+          "width": 1000,
+          "height": 800,
+          "alt": "Mulund Contemporary Residence - Photo 7"
+        }
+      ]
+    },
+    {
+      "slug": "powai-residence",
+      "title": "Powai Luxury Residence",
+      "category": "residential",
+      "categoryLabel": "Residential",
+      "location": "Powai, Mumbai",
+      "area": "3 BHK \u2022 1,800 sq. ft.",
+      "year": "2023",
+      "tagline": "Lakeside Elegance with Neo-Classical Flourishes",
+      "description": "A high-floor luxury residence overlooking Powai lake, designed with neo-classical molding profiles, plush contemporary seating, designer chandelier lighting, and a state-of-the-art chef's kitchen.",
+      "highlights": [
+        "Neo-Classical Wall Moldings",
+        "Designer Chandelier Lighting",
+        "Luxury Marble Finishes",
+        "Custom Entertainment Console"
+      ],
+      "id": "powai-residence",
+      "coverImage": "/images/projects/powai-residence/01_img-20230322-wa0015.webp",
+      "thumbnail": "/images/projects/powai-residence/thumb.webp",
+      "imageCount": 7,
+      "gallery": [
+        {
+          "src": "/images/projects/powai-residence/01_img-20230322-wa0015.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Powai Luxury Residence - Photo 1"
+        },
+        {
+          "src": "/images/projects/powai-residence/02_img-20230322-wa0019.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Powai Luxury Residence - Photo 2"
+        },
+        {
+          "src": "/images/projects/powai-residence/03_img-20230322-wa0020.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Powai Luxury Residence - Photo 3"
+        },
+        {
+          "src": "/images/projects/powai-residence/04_img-20230322-wa0021.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Powai Luxury Residence - Photo 4"
+        },
+        {
+          "src": "/images/projects/powai-residence/05_img-20230322-wa0022.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Powai Luxury Residence - Photo 5"
+        },
+        {
+          "src": "/images/projects/powai-residence/06_img-20230325-wa0011.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Powai Luxury Residence - Photo 6"
+        },
+        {
+          "src": "/images/projects/powai-residence/07_img-20230325-wa0013.webp",
+          "width": 1200,
+          "height": 900,
+          "alt": "Powai Luxury Residence - Photo 7"
+        }
+      ]
+    }
+  ],
+  "homepage": [
+    {
+      "src": "/images/homepage/hero_01_enscape_2023-06-14-01-34-23.webp",
+      "width": 1920,
+      "height": 1080,
+      "alt": "SPACEWORA Featured Showcase 1"
+    },
+    {
+      "src": "/images/homepage/hero_02_img-20230204-wa0008.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 2"
+    },
+    {
+      "src": "/images/homepage/hero_03_img-20230208-wa0046.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 3"
+    },
+    {
+      "src": "/images/homepage/hero_04_img-20230208-wa0053.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 4"
+    },
+    {
+      "src": "/images/homepage/hero_05_img-20230210-wa0007.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 5"
+    },
+    {
+      "src": "/images/homepage/hero_06_img-20230302-wa0014.webp",
+      "width": 1000,
+      "height": 800,
+      "alt": "SPACEWORA Featured Showcase 6"
+    },
+    {
+      "src": "/images/homepage/hero_07_img-20230305-wa0028.webp",
+      "width": 1536,
+      "height": 1167,
+      "alt": "SPACEWORA Featured Showcase 7"
+    },
+    {
+      "src": "/images/homepage/hero_08_img-20230306-wa0030.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 8"
+    },
+    {
+      "src": "/images/homepage/hero_09_img-20230322-wa0022.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 9"
+    },
+    {
+      "src": "/images/homepage/hero_10_img-20230325-wa0011.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 10"
+    },
+    {
+      "src": "/images/homepage/hero_11_img-20230325-wa0013.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 11"
+    },
+    {
+      "src": "/images/homepage/hero_12_img-20230325-wa0015.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "SPACEWORA Featured Showcase 12"
+    },
+    {
+      "src": "/images/homepage/hero_13_picture4.webp",
+      "width": 1920,
+      "height": 1919,
+      "alt": "SPACEWORA Featured Showcase 13"
+    }
+  ]
+}

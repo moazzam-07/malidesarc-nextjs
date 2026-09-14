@@ -3,11 +3,12 @@
 import { useState, useEffect } from 'react';
 
 const SLIDES = [
-  '/wp-content/uploads/2026/08/Bandra-House.webp',
-  '/wp-content/uploads/2026/08/dgs-gurudarshan-sales-office-open-lounge-interior.webp',
-  '/wp-content/uploads/2026/08/rudra-sales-office-meeting-room-scaled-1.webp',
-  '/wp-content/uploads/2026/08/unnamed-file-1-scaled-1.webp',
-  '/wp-content/uploads/2026/08/vensco-sample-flat-dining-area-interior.webp',
+  '/images/homepage/hero_01_enscape_2023-06-14-01-34-23.webp',
+  '/images/homepage/hero_03_img-20230208-wa0046.webp',
+  '/images/homepage/hero_07_img-20230305-wa0028.webp',
+  '/images/homepage/hero_09_img-20230322-wa0022.webp',
+  '/images/homepage/hero_13_picture4.webp',
+  '/images/homepage/hero_05_img-20230210-wa0007.webp',
 ];
 
 export default function HeroSlideshow() {
@@ -16,7 +17,7 @@ export default function HeroSlideshow() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % SLIDES.length);
-    }, 5000);
+    }, 5500);
     return () => clearInterval(timer);
   }, []);
 
@@ -49,7 +50,7 @@ export default function HeroSlideshow() {
               width: '100%',
               height: '100%',
               opacity: idx === currentIndex ? 1 : 0,
-              transition: 'opacity 0.8s ease-in-out',
+              transition: 'opacity 1.2s ease-in-out',
               zIndex: idx === currentIndex ? 1 : 0,
             }}
           >
@@ -58,15 +59,19 @@ export default function HeroSlideshow() {
               style={{
                 width: '100%',
                 height: '100%',
+                backgroundImage: `url('${slide}')`,
+                backgroundPosition: 'center 40%',
                 backgroundSize: 'cover',
-                backgroundPosition: 'center center',
-                backgroundImage: `url("${slide}")`,
+                backgroundRepeat: 'no-repeat',
+                transform: idx === currentIndex ? 'scale(1.04)' : 'scale(1.0)',
+                transition: 'transform 6s ease-out',
               }}
             />
           </div>
         ))}
       </div>
-      {/* Dark tint overlay */}
+
+      {/* Dark Film Overlay for pristine contrast */}
       <div
         className="elementor-background-overlay"
         style={{
@@ -75,11 +80,10 @@ export default function HeroSlideshow() {
           left: 0,
           width: '100%',
           height: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.45)',
-          zIndex: 2,
+          background: 'linear-gradient(180deg, rgba(10, 10, 10, 0.75) 0%, rgba(10, 10, 10, 0.5) 50%, rgba(10, 10, 10, 0.88) 100%)',
+          zIndex: 1,
         }}
       />
     </div>
   );
 }
-

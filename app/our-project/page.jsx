@@ -3,27 +3,28 @@ import ProjectsFilterGrid from '@/components/projects/ProjectsFilterGrid';
 
 export const metadata = {
   title: 'Our Architecture & Interior Projects | SPACEWORA Design Studio',
-  description: 'Explore our portfolio of luxury commercial, residential, hospitality, retail, and corporate interior architecture projects across Mumbai.',
+  description: 'Explore our portfolio of luxury residential, commercial, and hospitality interior architecture projects across Mumbai.',
 };
 
 export default function OurProjectPage() {
   return (
-    <div style={{ backgroundColor: '#FFFFFF', minHeight: '100vh' }}>
+    <div style={{ backgroundColor: '#0A0A0A', minHeight: '100vh', color: '#FFFFFF' }}>
       {/* Hero Banner with Architectural Background */}
       <section 
         style={{
           position: 'relative',
-          minHeight: '62vh',
+          minHeight: '50vh',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
           textAlign: 'center',
-          backgroundImage: "url('/wp-content/uploads/2026/08/Hero-Banner-2.webp')",
-          backgroundPosition: 'center center',
+          backgroundImage: "url('/images/homepage/hero_01_enscape_2023-06-14-01-34-23.webp')",
+          backgroundPosition: 'center 35%',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          padding: '140px 24px 80px 24px'
+          padding: '140px 24px 80px 24px',
+          overflow: 'hidden'
         }}
       >
         {/* Dark Film Overlay for Luxury Contrast */}
@@ -31,8 +32,9 @@ export default function OurProjectPage() {
           style={{
             position: 'absolute',
             inset: 0,
-            backgroundColor: 'rgba(10, 10, 10, 0.65)',
-            backdropFilter: 'blur(1px)',
+            background: 'linear-gradient(180deg, rgba(10, 10, 10, 0.7) 0%, rgba(10, 10, 10, 0.5) 45%, rgba(10, 10, 10, 0.95) 100%)',
+            backdropFilter: 'blur(2px)',
+            WebkitBackdropFilter: 'blur(2px)',
             zIndex: 1
           }} 
         />
@@ -42,7 +44,7 @@ export default function OurProjectPage() {
           style={{
             position: 'relative',
             zIndex: 2,
-            maxWidth: '820px',
+            maxWidth: '860px',
             margin: '0 auto'
           }}
         >
@@ -55,10 +57,14 @@ export default function OurProjectPage() {
               letterSpacing: '3px',
               color: '#F4C600',
               textTransform: 'uppercase',
-              marginBottom: '16px'
+              marginBottom: '16px',
+              padding: '6px 20px',
+              borderRadius: '20px',
+              backgroundColor: 'rgba(0, 0, 0, 0.6)',
+              border: '1px solid rgba(244, 198, 0, 0.35)'
             }}
           >
-            Portfolio & Showcase
+            Authentic Studio Portfolio
           </span>
 
           <h1 
@@ -67,7 +73,7 @@ export default function OurProjectPage() {
               fontSize: 'clamp(36px, 5.5vw, 64px)',
               fontWeight: 700,
               color: '#FFFFFF',
-              margin: '0 0 20px 0',
+              margin: '0 0 18px 0',
               lineHeight: 1.15
             }}
           >
@@ -82,16 +88,16 @@ export default function OurProjectPage() {
               color: '#E0E0E0',
               lineHeight: 1.7,
               margin: '0 auto',
-              maxWidth: '680px'
+              maxWidth: '720px'
             }}
           >
-            Explore our diverse portfolio of interior architecture projects, where thoughtful design, refined detailing, and functional spaces come together to create timeless environments.
+            Explore our authentic portfolio of turnkey interior architecture projects across Mumbai—from luxury residences and high-volume penthouses to commercial corporate offices and fine-dining hospitality.
           </p>
         </div>
       </section>
 
       {/* Interactive Category Filter and 4-Column Project Grid */}
-      <Suspense fallback={<div style={{ textAlign: 'center', padding: '60px', color: '#666', fontSize: '16px' }}>Loading projects...</div>}>
+      <Suspense fallback={<div style={{ textAlign: 'center', padding: '60px', color: '#888', fontSize: '16px' }}>Loading projects...</div>}>
         <ProjectsFilterGrid />
       </Suspense>
     </div>
