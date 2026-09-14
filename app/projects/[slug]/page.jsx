@@ -52,7 +52,7 @@ export default async function ProjectDetailPage({ params }) {
   const nextProject = ALL_PROJECTS[(currentIndex + 1) % ALL_PROJECTS.length];
 
   return (
-    <div style={{ backgroundColor: '#070707', color: '#FFFFFF', minHeight: '100vh', fontFamily: '"Quicksand", sans-serif' }}>
+    <div style={{ backgroundColor: '#FFFFFF', color: '#111111', minHeight: '100vh', fontFamily: '"Quicksand", sans-serif' }}>
       {/* Project Hero Header */}
       <section 
         style={{
@@ -175,20 +175,21 @@ export default async function ProjectDetailPage({ params }) {
             gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
             gap: '40px',
             marginBottom: '70px',
-            backgroundColor: '#0F0F0F',
-            padding: '36px',
+            backgroundColor: '#F9FAFB',
+            padding: '40px 36px',
             borderRadius: '16px',
-            border: '1px solid rgba(244, 198, 0, 0.2)'
+            border: '1px solid #E5E7EB',
+            boxShadow: '0 4px 20px rgba(0, 0, 0, 0.04)'
           }}
         >
           <div>
             <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>
               Design Philosophy & Spatial Intent
             </span>
-            <h2 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '24px', color: '#FFFFFF', margin: '8px 0 16px 0' }}>
+            <h2 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '24px', color: '#111111', margin: '8px 0 16px 0' }}>
               Crafted For Extraordinary Living
             </h2>
-            <p style={{ color: '#C8C8C8', fontSize: '15px', lineHeight: 1.8, margin: 0 }}>
+            <p style={{ color: '#4B5563', fontSize: '15px', lineHeight: 1.8, margin: 0 }}>
               {project.description}
             </p>
           </div>
@@ -197,7 +198,7 @@ export default async function ProjectDetailPage({ params }) {
             <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>
               Bespoke Specifications
             </span>
-            <h3 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '24px', color: '#FFFFFF', margin: '8px 0 16px 0' }}>
+            <h3 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '24px', color: '#111111', margin: '8px 0 16px 0' }}>
               Architectural Highlights
             </h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
@@ -205,16 +206,17 @@ export default async function ProjectDetailPage({ params }) {
                 <div
                   key={idx}
                   style={{
-                    backgroundColor: 'rgba(244, 198, 0, 0.1)',
-                    color: '#FFFFFF',
-                    border: '1px solid rgba(244, 198, 0, 0.35)',
+                    backgroundColor: '#FFFFFF',
+                    color: '#111111',
+                    border: '1px solid #E5E7EB',
                     padding: '8px 16px',
                     borderRadius: '20px',
                     fontSize: '13px',
                     fontWeight: 600,
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '6px'
+                    gap: '6px',
+                    boxShadow: '0 2px 6px rgba(0, 0, 0, 0.04)'
                   }}
                 >
                   <span style={{ color: '#F4C600' }}>&bull;</span>
@@ -233,7 +235,7 @@ export default async function ProjectDetailPage({ params }) {
           style={{
             marginTop: '80px',
             paddingTop: '40px',
-            borderTop: '1px solid rgba(255, 255, 255, 0.1)',
+            borderTop: '1px solid #E5E7EB',
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
             gap: '24px'
@@ -244,17 +246,17 @@ export default async function ProjectDetailPage({ params }) {
             style={{
               display: 'block',
               textDecoration: 'none',
-              backgroundColor: '#121212',
+              backgroundColor: '#F9FAFB',
               padding: '24px',
               borderRadius: '12px',
-              border: '1px solid rgba(255, 255, 255, 0.08)',
+              border: '1px solid #E5E7EB',
               transition: 'all 0.3s ease'
             }}
           >
-            <div style={{ color: '#888', fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px' }}>
+            <div style={{ color: '#6B7280', fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px' }}>
               &larr; Previous Project
             </div>
-            <div style={{ color: '#FFF', fontSize: '18px', fontWeight: 700, fontFamily: '"Bai Jamjuree", sans-serif', marginTop: '6px' }}>
+            <div style={{ color: '#111111', fontSize: '18px', fontWeight: 700, fontFamily: '"Bai Jamjuree", sans-serif', marginTop: '6px' }}>
               {prevProject.title}
             </div>
             <div style={{ color: '#F4C600', fontSize: '13px', marginTop: '4px' }}>
@@ -267,18 +269,18 @@ export default async function ProjectDetailPage({ params }) {
             style={{
               display: 'block',
               textDecoration: 'none',
-              backgroundColor: '#121212',
+              backgroundColor: '#F9FAFB',
               padding: '24px',
               borderRadius: '12px',
-              border: '1px solid rgba(255, 255, 255, 0.08)',
+              border: '1px solid #E5E7EB',
               textAlign: 'right',
               transition: 'all 0.3s ease'
             }}
           >
-            <div style={{ color: '#888', fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px' }}>
+            <div style={{ color: '#6B7280', fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px' }}>
               Next Project &rarr;
             </div>
-            <div style={{ color: '#FFF', fontSize: '18px', fontWeight: 700, fontFamily: '"Bai Jamjuree", sans-serif', marginTop: '6px' }}>
+            <div style={{ color: '#111111', fontSize: '18px', fontWeight: 700, fontFamily: '"Bai Jamjuree", sans-serif', marginTop: '6px' }}>
               {nextProject.title}
             </div>
             <div style={{ color: '#F4C600', fontSize: '13px', marginTop: '4px' }}>
@@ -293,11 +295,12 @@ export default async function ProjectDetailPage({ params }) {
             marginTop: '60px',
             padding: '50px 30px',
             borderRadius: '16px',
-            backgroundColor: '#0F0F0F',
+            backgroundColor: '#0A0A0A',
             border: '1px solid rgba(244, 198, 0, 0.35)',
             textAlign: 'center',
             position: 'relative',
-            overflow: 'hidden'
+            overflow: 'hidden',
+            boxShadow: '0 12px 36px rgba(0, 0, 0, 0.15)'
           }}
         >
           <div style={{ color: '#F4C600', fontSize: '13px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '10px' }}>
@@ -306,7 +309,7 @@ export default async function ProjectDetailPage({ params }) {
           <h2 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#FFFFFF', margin: '0 0 16px 0' }}>
             Ready To Design Your Timeless Environment?
           </h2>
-          <p style={{ color: '#A0A0A0', fontSize: '15px', maxWidth: '640px', margin: '0 auto 28px auto', lineHeight: 1.6 }}>
+          <p style={{ color: '#D1D5DB', fontSize: '15px', maxWidth: '640px', margin: '0 auto 28px auto', lineHeight: 1.6 }}>
             Whether you are planning a bespoke residence, high-impact commercial headquarters, or luxury hospitality venue, our studio delivers turnkey excellence from concept to final finish.
           </p>
           <Link
@@ -315,7 +318,7 @@ export default async function ProjectDetailPage({ params }) {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '8px',
-              backgroundColor: '#FFFFFF',
+              backgroundColor: '#F4C600',
               color: '#0A0A0A',
               fontWeight: 700,
               fontSize: '14px',
@@ -324,7 +327,8 @@ export default async function ProjectDetailPage({ params }) {
               padding: '14px 34px',
               borderRadius: '30px',
               textDecoration: 'none',
-              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.5)'
+              boxShadow: '0 4px 20px rgba(244, 198, 0, 0.35)',
+              transition: 'all 0.3s ease'
             }}
           >
             <span>Book Free Consultation</span>

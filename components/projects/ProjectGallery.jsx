@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
-import Image from 'next/image';
 
 export default function ProjectGallery({ images, projectTitle }) {
   const [lightboxIndex, setLightboxIndex] = useState(null);
@@ -48,7 +47,7 @@ export default function ProjectGallery({ images, projectTitle }) {
           alignItems: 'center',
           marginBottom: '28px',
           paddingBottom: '16px',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+          borderBottom: '1px solid #E5E7EB',
           flexWrap: 'wrap',
           gap: '12px'
         }}
@@ -57,11 +56,11 @@ export default function ProjectGallery({ images, projectTitle }) {
           <span style={{ color: '#F4C600', fontSize: '13px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>
             Visual Showcase
           </span>
-          <h2 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '26px', color: '#FFFFFF', margin: '4px 0 0 0' }}>
+          <h2 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '26px', color: '#111111', margin: '4px 0 0 0' }}>
             Project Gallery ({images.length} Photos)
           </h2>
         </div>
-        <div style={{ color: '#A0A0A0', fontSize: '13px', fontWeight: 500 }}>
+        <div style={{ color: '#6B7280', fontSize: '13px', fontWeight: 500 }}>
           Click any photo to open full-screen lightbox
         </div>
       </div>
@@ -84,21 +83,22 @@ export default function ProjectGallery({ images, projectTitle }) {
                 position: 'relative',
                 borderRadius: '12px',
                 overflow: 'hidden',
-                backgroundColor: '#141414',
+                backgroundColor: '#FFFFFF',
                 cursor: 'pointer',
-                border: '1px solid rgba(255, 255, 255, 0.08)',
+                border: '1px solid #E5E7EB',
+                boxShadow: '0 4px 14px rgba(0, 0, 0, 0.05)',
                 transition: 'transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease',
                 aspectRatio: isLandscape ? '16/11' : '3/4',
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.borderColor = 'rgba(244, 198, 0, 0.5)';
-                e.currentTarget.style.boxShadow = '0 12px 30px rgba(0, 0, 0, 0.6), 0 0 20px rgba(244, 198, 0, 0.12)';
+                e.currentTarget.style.borderColor = '#F4C600';
+                e.currentTarget.style.boxShadow = '0 12px 28px rgba(0, 0, 0, 0.12)';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.08)';
-                e.currentTarget.style.boxShadow = 'none';
+                e.currentTarget.style.borderColor = '#E5E7EB';
+                e.currentTarget.style.boxShadow = '0 4px 14px rgba(0, 0, 0, 0.05)';
               }}
             >
               <img
@@ -144,39 +144,44 @@ export default function ProjectGallery({ images, projectTitle }) {
         })}
       </div>
 
-      {/* Fullscreen Lightbox Modal */}
+      {/* Lightbox Modal */}
       {lightboxIndex !== null && (
-        <div
+        <div 
           onClick={closeLightbox}
           style={{
             position: 'fixed',
             inset: 0,
-            zIndex: 99999,
-            backgroundColor: 'rgba(5, 5, 5, 0.95)',
-            backdropFilter: 'blur(16px)',
+            zIndex: 999999,
+            backgroundColor: 'rgba(5, 5, 5, 0.94)',
+            backdropFilter: 'blur(12px)',
             display: 'flex',
-            flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
             padding: '24px'
           }}
         >
-          {/* Top Control Bar */}
+          {/* Top Bar with title & close button */}
           <div 
+            onClick={(e) => e.stopPropagation()}
             style={{
               position: 'absolute',
-              top: '20px',
-              left: '24px',
-              right: '24px',
+              top: 0,
+              left: 0,
+              right: 0,
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
-              zIndex: 100000
+              padding: '20px 28px',
+              zIndex: 10
             }}
-            onClick={(e) => e.stopPropagation()}
           >
-            <div style={{ color: '#FFFFFF', fontSize: '15px', fontWeight: 600 }}>
-              {projectTitle} &bull; <span style={{ color: '#F4C600' }}>{lightboxIndex + 1} of {images.length}</span>
+            <div>
+              <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase' }}>
+                {projectTitle}
+              </span>
+              <div style={{ color: '#FFF', fontSize: '14px', fontWeight: 600 }}>
+                Photo {lightboxIndex + 1} of {images.length}
+              </div>
             </div>
 
             <button
@@ -184,17 +189,17 @@ export default function ProjectGallery({ images, projectTitle }) {
               aria-label="Close Lightbox"
               style={{
                 backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                color: '#FFFFFF',
                 border: '1px solid rgba(255, 255, 255, 0.2)',
-                borderRadius: '50%',
+                color: '#FFFFFF',
                 width: '44px',
                 height: '44px',
+                borderRadius: '50%',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 cursor: 'pointer',
-                fontSize: '20px',
-                transition: 'all 0.2s ease'
+                transition: 'all 0.2s ease',
+                fontSize: '18px'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.backgroundColor = '#F4C600';
@@ -205,33 +210,8 @@ export default function ProjectGallery({ images, projectTitle }) {
                 e.currentTarget.style.color = '#FFFFFF';
               }}
             >
-              ✕
+              &times;
             </button>
-          </div>
-
-          {/* Main Image Container */}
-          <div 
-            style={{
-              position: 'relative',
-              maxWidth: '92vw',
-              maxHeight: '82vh',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <img
-              src={images[lightboxIndex].src}
-              alt={images[lightboxIndex].alt || projectTitle}
-              style={{
-                maxWidth: '92vw',
-                maxHeight: '82vh',
-                objectFit: 'contain',
-                borderRadius: '8px',
-                boxShadow: '0 20px 60px rgba(0, 0, 0, 0.9)'
-              }}
-            />
           </div>
 
           {/* Navigation Arrows */}
@@ -240,15 +220,14 @@ export default function ProjectGallery({ images, projectTitle }) {
             aria-label="Previous Image"
             style={{
               position: 'absolute',
-              left: '20px',
-              top: '50%',
-              transform: 'translateY(-50%)',
+              left: '24px',
+              zIndex: 10,
               backgroundColor: 'rgba(20, 20, 20, 0.7)',
-              color: '#FFFFFF',
               border: '1px solid rgba(255, 255, 255, 0.2)',
-              borderRadius: '50%',
+              color: '#FFFFFF',
               width: '50px',
               height: '50px',
+              borderRadius: '50%',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -265,7 +244,7 @@ export default function ProjectGallery({ images, projectTitle }) {
               e.currentTarget.style.color = '#FFFFFF';
             }}
           >
-            &#8592;
+            &#8249;
           </button>
 
           <button
@@ -273,15 +252,14 @@ export default function ProjectGallery({ images, projectTitle }) {
             aria-label="Next Image"
             style={{
               position: 'absolute',
-              right: '20px',
-              top: '50%',
-              transform: 'translateY(-50%)',
+              right: '24px',
+              zIndex: 10,
               backgroundColor: 'rgba(20, 20, 20, 0.7)',
-              color: '#FFFFFF',
               border: '1px solid rgba(255, 255, 255, 0.2)',
-              borderRadius: '50%',
+              color: '#FFFFFF',
               width: '50px',
               height: '50px',
+              borderRadius: '50%',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -298,8 +276,33 @@ export default function ProjectGallery({ images, projectTitle }) {
               e.currentTarget.style.color = '#FFFFFF';
             }}
           >
-            &#8594;
+            &#8250;
           </button>
+
+          {/* Main Active Image */}
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              position: 'relative',
+              maxWidth: '90vw',
+              maxHeight: '80vh',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
+            <img 
+              src={images[lightboxIndex].src} 
+              alt={images[lightboxIndex].alt || `${projectTitle} photo`} 
+              style={{
+                maxWidth: '100%',
+                maxHeight: '80vh',
+                objectFit: 'contain',
+                borderRadius: '8px',
+                boxShadow: '0 20px 60px rgba(0, 0, 0, 0.9)'
+              }}
+            />
+          </div>
         </div>
       )}
     </div>

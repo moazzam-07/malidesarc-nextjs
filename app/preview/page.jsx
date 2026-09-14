@@ -7,15 +7,15 @@ export default function PreviewPage() {
   const [deviceMode, setDeviceMode] = useState('desktop'); // desktop, tablet, mobile
 
   return (
-    <div style={{ backgroundColor: '#070707', color: '#FFFFFF', minHeight: '100vh', paddingTop: '100px', paddingBottom: '80px', fontFamily: '"Quicksand", sans-serif' }}>
+    <div style={{ backgroundColor: '#F8F9FA', color: '#111111', minHeight: '100vh', paddingTop: '100px', paddingBottom: '80px', fontFamily: '"Quicksand", sans-serif' }}>
       {/* Top Banner / Breadcrumb */}
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px', marginBottom: '32px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid rgba(244, 198, 0, 0.2)', paddingBottom: '20px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid #E5E7EB', paddingBottom: '20px' }}>
           <div>
             <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>
               SPACEWORA Design Studio &bull; Preview Mode
             </span>
-            <h1 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 700, color: '#FFFFFF', marginTop: '6px' }}>
+            <h1 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 700, color: '#111111', marginTop: '6px' }}>
               Hero Section & Studio Showcase
             </h1>
           </div>
@@ -28,8 +28,8 @@ export default function PreviewPage() {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '8px',
-                backgroundColor: '#FFFFFF',
-                color: '#0A0A0A',
+                backgroundColor: '#0A0A0A',
+                color: '#FFFFFF',
                 fontWeight: 700,
                 fontSize: '13px',
                 letterSpacing: '1px',
@@ -50,9 +50,9 @@ export default function PreviewPage() {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '8px',
-                backgroundColor: 'rgba(255, 255, 255, 0.08)',
-                color: '#FFFFFF',
-                border: '1px solid rgba(244, 198, 0, 0.4)',
+                backgroundColor: '#FFFFFF',
+                color: '#111111',
+                border: '1px solid #D1D5DB',
                 fontWeight: 700,
                 fontSize: '13px',
                 letterSpacing: '1px',
@@ -72,8 +72,8 @@ export default function PreviewPage() {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '8px',
-                backgroundColor: 'rgba(244, 198, 0, 0.15)',
-                color: '#F4C600',
+                backgroundColor: '#FFFFFF',
+                color: '#D49B00',
                 border: '1px solid #F4C600',
                 fontWeight: 700,
                 fontSize: '13px',
@@ -95,19 +95,20 @@ export default function PreviewPage() {
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px', flexWrap: 'wrap', gap: '12px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span style={{ fontSize: '13px', color: '#A0A0A0', fontWeight: 600 }}>Viewport Frame:</span>
+            <span style={{ fontSize: '13px', color: '#555555', fontWeight: 600 }}>Viewport Frame:</span>
             <button
               onClick={() => setDeviceMode('desktop')}
               style={{
-                background: deviceMode === 'desktop' ? '#F4C600' : 'rgba(255,255,255,0.06)',
-                color: deviceMode === 'desktop' ? '#0A0A0A' : '#FFFFFF',
-                border: 'none',
+                background: deviceMode === 'desktop' ? '#F4C600' : '#FFFFFF',
+                color: deviceMode === 'desktop' ? '#0A0A0A' : '#333333',
+                border: deviceMode === 'desktop' ? '1px solid #F4C600' : '1px solid #D1D5DB',
                 borderRadius: '8px',
                 padding: '6px 14px',
                 fontSize: '12px',
                 fontWeight: 700,
                 cursor: 'pointer',
-                transition: 'all 0.2s'
+                transition: 'all 0.2s',
+                boxShadow: deviceMode === 'desktop' ? '0 2px 8px rgba(244, 198, 0, 0.3)' : 'none'
               }}
             >
               Desktop (1200px)
@@ -115,15 +116,16 @@ export default function PreviewPage() {
             <button
               onClick={() => setDeviceMode('tablet')}
               style={{
-                background: deviceMode === 'tablet' ? '#F4C600' : 'rgba(255,255,255,0.06)',
-                color: deviceMode === 'tablet' ? '#0A0A0A' : '#FFFFFF',
-                border: 'none',
+                background: deviceMode === 'tablet' ? '#F4C600' : '#FFFFFF',
+                color: deviceMode === 'tablet' ? '#0A0A0A' : '#333333',
+                border: deviceMode === 'tablet' ? '1px solid #F4C600' : '1px solid #D1D5DB',
                 borderRadius: '8px',
                 padding: '6px 14px',
                 fontSize: '12px',
                 fontWeight: 700,
                 cursor: 'pointer',
-                transition: 'all 0.2s'
+                transition: 'all 0.2s',
+                boxShadow: deviceMode === 'tablet' ? '0 2px 8px rgba(244, 198, 0, 0.3)' : 'none'
               }}
             >
               Tablet (768px)
@@ -131,22 +133,23 @@ export default function PreviewPage() {
             <button
               onClick={() => setDeviceMode('mobile')}
               style={{
-                background: deviceMode === 'mobile' ? '#F4C600' : 'rgba(255,255,255,0.06)',
-                color: deviceMode === 'mobile' ? '#0A0A0A' : '#FFFFFF',
-                border: 'none',
+                background: deviceMode === 'mobile' ? '#F4C600' : '#FFFFFF',
+                color: deviceMode === 'mobile' ? '#0A0A0A' : '#333333',
+                border: deviceMode === 'mobile' ? '1px solid #F4C600' : '1px solid #D1D5DB',
                 borderRadius: '8px',
                 padding: '6px 14px',
                 fontSize: '12px',
                 fontWeight: 700,
                 cursor: 'pointer',
-                transition: 'all 0.2s'
+                transition: 'all 0.2s',
+                boxShadow: deviceMode === 'mobile' ? '0 2px 8px rgba(244, 198, 0, 0.3)' : 'none'
               }}
             >
               Mobile (420px)
             </button>
           </div>
 
-          <div style={{ fontSize: '12px', color: '#888' }}>
+          <div style={{ fontSize: '12px', color: '#666666' }}>
             Social Share Thumbnail &bull; High Resolution 1200&times;630px
           </div>
         </div>
@@ -160,7 +163,7 @@ export default function PreviewPage() {
             backgroundColor: '#111111',
             borderRadius: '16px',
             border: '1px solid rgba(244, 198, 0, 0.35)',
-            boxShadow: '0 20px 60px rgba(0, 0, 0, 0.8), 0 0 30px rgba(244, 198, 0, 0.1)',
+            boxShadow: '0 20px 60px rgba(0, 0, 0, 0.2), 0 0 30px rgba(244, 198, 0, 0.1)',
             overflow: 'hidden'
           }}
         >
@@ -232,46 +235,46 @@ export default function PreviewPage() {
 
         {/* Feature Highlights Grid */}
         <div style={{ marginTop: '48px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px' }}>
-          <div style={{ backgroundColor: '#111111', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
+          <div style={{ backgroundColor: '#FFFFFF', padding: '24px', borderRadius: '12px', border: '1px solid #E5E7EB', boxShadow: '0 4px 16px rgba(0, 0, 0, 0.05)' }}>
             <div style={{ color: '#F4C600', fontSize: '13px', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
               Brand Identity
             </div>
-            <h3 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '18px', marginBottom: '10px', color: '#FFF' }}>
+            <h3 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '18px', marginBottom: '10px', color: '#111111' }}>
               Golden &bull; White &bull; Deep Black
             </h3>
-            <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#A0A0A0' }}>
-              Sophisticated architectural palette: Golden (#F4C600) accents, Pure White (#FFFFFF) typography, and Rich Obsidian (#0A0A0A) backdrops.
+            <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#555555' }}>
+              Sophisticated architectural palette: Golden (#F4C600) accents, Pure White (#FFFFFF) canvas, and Rich Obsidian (#0A0A0A) typography and elements.
             </p>
           </div>
 
-          <div style={{ backgroundColor: '#111111', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
+          <div style={{ backgroundColor: '#FFFFFF', padding: '24px', borderRadius: '12px', border: '1px solid #E5E7EB', boxShadow: '0 4px 16px rgba(0, 0, 0, 0.05)' }}>
             <div style={{ color: '#F4C600', fontSize: '13px', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
               Social & OpenGraph
             </div>
-            <h3 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '18px', marginBottom: '10px', color: '#FFF' }}>
+            <h3 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '18px', marginBottom: '10px', color: '#111111' }}>
               Auto Thumbnail Card
             </h3>
-            <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#A0A0A0' }}>
+            <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#555555' }}>
               Sharing links on WhatsApp, Twitter/X, LinkedIn, and Facebook automatically renders the 1200&times;630 hero thumbnail preview card.
             </p>
           </div>
 
-          <div style={{ backgroundColor: '#111111', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
+          <div style={{ backgroundColor: '#FFFFFF', padding: '24px', borderRadius: '12px', border: '1px solid #E5E7EB', boxShadow: '0 4px 16px rgba(0, 0, 0, 0.05)' }}>
             <div style={{ color: '#F4C600', fontSize: '13px', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '8px' }}>
               Favicon Assets
             </div>
-            <h3 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '18px', marginBottom: '10px', color: '#FFF' }}>
+            <h3 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '18px', marginBottom: '10px', color: '#111111' }}>
               Multi-Format SVG + ICO
             </h3>
-            <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#A0A0A0' }}>
+            <p style={{ fontSize: '13px', lineHeight: 1.6, color: '#555555' }}>
               Golden ribbon "S" emblem with marble pillar deployed as SVG vector, multi-resolution ICO (16/32/48), and Apple Touch Icon (180&times;180).
             </p>
           </div>
         </div>
 
         {/* Site Directory Links */}
-        <div style={{ marginTop: '36px', padding: '24px', backgroundColor: '#0D0D0D', borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)', textAlign: 'center' }}>
-          <h4 style={{ color: '#FFFFFF', fontSize: '15px', fontWeight: 700, marginBottom: '14px', textTransform: 'uppercase', letterSpacing: '1px' }}>
+        <div style={{ marginTop: '36px', padding: '24px', backgroundColor: '#FFFFFF', borderRadius: '12px', border: '1px solid #E5E7EB', boxShadow: '0 4px 16px rgba(0, 0, 0, 0.05)', textAlign: 'center' }}>
+          <h4 style={{ color: '#111111', fontSize: '15px', fontWeight: 700, marginBottom: '14px', textTransform: 'uppercase', letterSpacing: '1px' }}>
             Quick Explore Studio Routes
           </h4>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', justifyContent: 'center' }}>
@@ -287,13 +290,14 @@ export default function PreviewPage() {
                 key={route.href}
                 href={route.href}
                 style={{
-                  color: '#DDD',
-                  backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                  color: '#333333',
+                  backgroundColor: '#F3F4F6',
                   padding: '8px 16px',
                   borderRadius: '20px',
                   fontSize: '13px',
                   textDecoration: 'none',
-                  border: '1px solid rgba(255, 255, 255, 0.1)',
+                  border: '1px solid #E5E7EB',
+                  fontWeight: 600,
                   transition: 'all 0.2s ease'
                 }}
               >
@@ -306,4 +310,3 @@ export default function PreviewPage() {
     </div>
   );
 }
-

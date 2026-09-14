@@ -33,7 +33,7 @@ export default function ProjectsFilterGrid() {
   };
 
   return (
-    <section style={{ padding: '40px 24px 100px 24px', maxWidth: '1440px', margin: '0 auto' }}>
+    <section style={{ backgroundColor: '#FFFFFF', padding: '40px 24px 100px 24px', maxWidth: '1440px', margin: '0 auto' }}>
       {/* Interactive Filter Pills */}
       <div 
         style={{ 
@@ -51,9 +51,9 @@ export default function ProjectsFilterGrid() {
               key={cat.id}
               onClick={() => handleFilterClick(cat.id)}
               style={{
-                backgroundColor: isActive ? '#0A0A0A' : 'transparent',
-                color: isActive ? '#F4C600' : '#444444',
-                border: isActive ? '2px solid #0A0A0A' : '1px solid #D8D8D8',
+                backgroundColor: isActive ? '#F4C600' : '#FFFFFF',
+                color: isActive ? '#111111' : '#333333',
+                border: isActive ? '2px solid #F4C600' : '1px solid #D1D5DB',
                 borderRadius: '30px',
                 padding: '10px 24px',
                 fontSize: '14px',
@@ -62,18 +62,18 @@ export default function ProjectsFilterGrid() {
                 fontFamily: '"Quicksand", sans-serif',
                 letterSpacing: '0.5px',
                 transition: 'all 0.25s ease',
-                boxShadow: isActive ? '0 4px 14px rgba(0, 0, 0, 0.15)' : 'none'
+                boxShadow: isActive ? '0 4px 14px rgba(244, 198, 0, 0.35)' : 'none'
               }}
               onMouseEnter={(e) => {
                 if (!isActive) {
-                  e.currentTarget.style.borderColor = '#0A0A0A';
-                  e.currentTarget.style.color = '#0A0A0A';
+                  e.currentTarget.style.borderColor = '#F4C600';
+                  e.currentTarget.style.color = '#111111';
                 }
               }}
               onMouseLeave={(e) => {
                 if (!isActive) {
-                  e.currentTarget.style.borderColor = '#D8D8D8';
-                  e.currentTarget.style.color = '#444444';
+                  e.currentTarget.style.borderColor = '#D1D5DB';
+                  e.currentTarget.style.color = '#333333';
                 }
               }}
             >
@@ -84,7 +84,7 @@ export default function ProjectsFilterGrid() {
       </div>
 
       {/* Projects Count Summary */}
-      <div style={{ textAlign: 'center', marginBottom: '30px', color: '#777', fontSize: '14px', fontWeight: 600 }}>
+      <div style={{ textAlign: 'center', marginBottom: '30px', color: '#555555', fontSize: '14px', fontWeight: 600 }}>
         Showing {filteredProjects.length} authentic studio project{filteredProjects.length === 1 ? '' : 's'}
       </div>
 
@@ -115,27 +115,26 @@ export default function ProjectsFilterGrid() {
                 height: '420px',
                 borderRadius: '16px',
                 overflow: 'hidden',
-                backgroundColor: '#111111',
-                boxShadow: '0 8px 24px rgba(0, 0, 0, 0.08)',
+                backgroundColor: '#FFFFFF',
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
                 transition: 'transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease',
-                border: '1px solid rgba(0, 0, 0, 0.06)'
+                border: '1px solid #EAEAEA'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-6px)';
-                e.currentTarget.style.boxShadow = '0 16px 36px rgba(0, 0, 0, 0.22), 0 0 20px rgba(244, 198, 0, 0.2)';
+                e.currentTarget.style.boxShadow = '0 16px 36px rgba(0, 0, 0, 0.16)';
                 e.currentTarget.style.borderColor = '#F4C600';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.08)';
-                e.currentTarget.style.borderColor = 'rgba(0, 0, 0, 0.06)';
+                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+                e.currentTarget.style.borderColor = '#EAEAEA';
               }}
             >
               {/* Background Image */}
               <img
                 src={project.coverImage}
                 alt={project.title}
-                loading="lazy"
                 style={{
                   position: 'absolute',
                   top: 0,
@@ -251,19 +250,18 @@ export default function ProjectsFilterGrid() {
                     borderTop: '1px solid rgba(255, 255, 255, 0.15)'
                   }}
                 >
-                  <span style={{ color: '#F4C600', fontSize: '13px', fontWeight: 700 }}>
+                  <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700 }}>
                     {project.area}
                   </span>
 
-                  <span
-                    style={{
-                      color: '#FFFFFF',
-                      fontSize: '12px',
+                  <span 
+                    style={{ 
+                      color: '#FFFFFF', 
+                      fontSize: '12px', 
                       fontWeight: 700,
                       display: 'flex',
                       alignItems: 'center',
-                      gap: '4px',
-                      letterSpacing: '0.5px'
+                      gap: '4px'
                     }}
                   >
                     View Project &rarr;
@@ -274,29 +272,6 @@ export default function ProjectsFilterGrid() {
           </Link>
         ))}
       </div>
-
-      <style jsx>{`
-        @media (min-width: 1200px) {
-          .spacewora-projects-grid {
-            grid-template-columns: repeat(4, 1fr) !important;
-          }
-        }
-        @media (max-width: 1199px) and (min-width: 860px) {
-          .spacewora-projects-grid {
-            grid-template-columns: repeat(3, 1fr) !important;
-          }
-        }
-        @media (max-width: 859px) and (min-width: 580px) {
-          .spacewora-projects-grid {
-            grid-template-columns: repeat(2, 1fr) !important;
-          }
-        }
-        @media (max-width: 579px) {
-          .spacewora-projects-grid {
-            grid-template-columns: 1fr !important;
-          }
-        }
-      `}</style>
     </section>
   );
 }

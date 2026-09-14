@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function OurProjectPage() {
   return (
-    <div style={{ backgroundColor: '#0A0A0A', minHeight: '100vh', color: '#FFFFFF' }}>
+    <div style={{ backgroundColor: '#FFFFFF', minHeight: '100vh', color: '#111111' }}>
       {/* Hero Banner with Architectural Background */}
       <section 
         style={{
@@ -32,7 +32,7 @@ export default function OurProjectPage() {
           style={{
             position: 'absolute',
             inset: 0,
-            background: 'linear-gradient(180deg, rgba(10, 10, 10, 0.7) 0%, rgba(10, 10, 10, 0.5) 45%, rgba(10, 10, 10, 0.95) 100%)',
+            background: 'linear-gradient(180deg, rgba(10, 10, 10, 0.75) 0%, rgba(10, 10, 10, 0.55) 45%, rgba(10, 10, 10, 0.9) 100%)',
             backdropFilter: 'blur(2px)',
             WebkitBackdropFilter: 'blur(2px)',
             zIndex: 1

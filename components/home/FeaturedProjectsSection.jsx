@@ -10,10 +10,10 @@ export default function FeaturedProjectsSection() {
   return (
     <section 
       style={{ 
-        backgroundColor: '#0A0A0A', 
+        backgroundColor: '#FFFFFF', 
         padding: '100px 24px', 
-        borderTop: '1px solid rgba(255, 255, 255, 0.06)',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.06)'
+        borderTop: '1px solid #EAEAEA',
+        borderBottom: '1px solid #EAEAEA'
       }}
     >
       <div style={{ maxWidth: '1360px', margin: '0 auto' }}>
@@ -37,14 +37,14 @@ export default function FeaturedProjectsSection() {
               fontFamily: '"Bai Jamjuree", sans-serif', 
               fontSize: 'clamp(28px, 4vw, 44px)', 
               fontWeight: 700, 
-              color: '#FFFFFF', 
+              color: '#111111', 
               lineHeight: 1.2,
               margin: '0 0 18px 0'
             }}
           >
             Featured Turnkey Interior Projects
           </h2>
-          <p style={{ color: '#A0A0A0', fontSize: '15px', lineHeight: 1.7, margin: 0 }}>
+          <p style={{ color: '#555555', fontSize: '15px', lineHeight: 1.7, margin: 0 }}>
             Our turnkey approach brings bespoke architectural design, custom carpentry, and precision execution together under one seamless process. Explore our highlighted residential, commercial, and hospitality spaces.
           </p>
         </div>
@@ -73,27 +73,26 @@ export default function FeaturedProjectsSection() {
                   height: '440px',
                   borderRadius: '16px',
                   overflow: 'hidden',
-                  backgroundColor: '#141414',
-                  border: '1px solid rgba(255, 255, 255, 0.08)',
-                  boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)',
+                  backgroundColor: '#FFFFFF',
+                  border: '1px solid #EAEAEA',
+                  boxShadow: '0 6px 24px rgba(0, 0, 0, 0.08)',
                   transition: 'transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease'
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = 'translateY(-8px)';
                   e.currentTarget.style.borderColor = '#F4C600';
-                  e.currentTarget.style.boxShadow = '0 20px 40px rgba(0, 0, 0, 0.8), 0 0 25px rgba(244, 198, 0, 0.2)';
+                  e.currentTarget.style.boxShadow = '0 16px 36px rgba(0, 0, 0, 0.16)';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.08)';
-                  e.currentTarget.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.5)';
+                  e.currentTarget.style.borderColor = '#EAEAEA';
+                  e.currentTarget.style.boxShadow = '0 6px 24px rgba(0, 0, 0, 0.08)';
                 }}
               >
                 {/* Background Cover Image */}
                 <img
                   src={project.coverImage}
                   alt={project.title}
-                  loading="lazy"
                   style={{
                     position: 'absolute',
                     top: 0,
@@ -240,8 +239,8 @@ export default function FeaturedProjectsSection() {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '10px',
-              backgroundColor: '#FFFFFF',
-              color: '#0A0A0A',
+              backgroundColor: '#0A0A0A',
+              color: '#FFFFFF',
               fontWeight: 700,
               fontSize: '14px',
               letterSpacing: '1px',
@@ -249,7 +248,7 @@ export default function FeaturedProjectsSection() {
               padding: '14px 36px',
               borderRadius: '30px',
               textDecoration: 'none',
-              boxShadow: '0 6px 20px rgba(0, 0, 0, 0.4)',
+              boxShadow: '0 6px 20px rgba(0, 0, 0, 0.15)',
               transition: 'all 0.3s ease'
             }}
             onMouseEnter={(e) => {
@@ -257,8 +256,8 @@ export default function FeaturedProjectsSection() {
               e.currentTarget.style.color = '#0A0A0A';
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = '#FFFFFF';
-              e.currentTarget.style.color = '#0A0A0A';
+              e.currentTarget.style.backgroundColor = '#0A0A0A';
+              e.currentTarget.style.color = '#FFFFFF';
             }}
           >
             <span>Explore All 11 Studio Projects</span>
