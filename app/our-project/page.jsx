@@ -2,35 +2,96 @@ import React, { Suspense } from 'react';
 import ProjectsFilterGrid from '@/components/projects/ProjectsFilterGrid';
 
 export const metadata = {
-  title: 'Our Commercial & Residential Projects | MaliDesarc',
-  description: 'Explore our comprehensive portfolio of award-winning commercial, residential, hospitality, retail, and corporate interior design projects across Mumbai.',
+  title: 'Our Architecture & Interior Projects | SPACEWORA Design Studio',
+  description: 'Explore our portfolio of luxury commercial, residential, hospitality, retail, and corporate interior architecture projects across Mumbai.',
 };
 
 export default function OurProjectPage() {
   return (
-    <div className="elementor elementor-10205" data-elementor-id="10205" data-elementor-type="wp-page">
-      {/* Hero Banner */}
-<div className="elementor-element elementor-element-7b2753e project-dynamic-hero project-hero e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="7b2753e" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-  <div className="e-con-inner">
-    <div className="elementor-element elementor-element-9ffdfc4 project-hero-title elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="9ffdfc4" data-widget_type="heading.default">
-      <h1 className="elementor-heading-title elementor-size-default">
-        Our
-        <span className="custom-amp">
-           Projects
-        </span>
-      </h1>
-    </div>
-    <div className="elementor-element elementor-element-342ab16 elementor-widget__width-initial elementor-widget-mobile__width-initial project-dynamic-description project-hero-description elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="342ab16" data-widget_type="text-editor.default">
-      <p>
-        Explore our diverse portfolio of interior projects, where thoughtful design, refined detailing, and functional spaces come together to create meaningful environments.
-      </p>
-    </div>
-    <div className="elementor-element elementor-element-3e20dd9 elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="3e20dd9" data-widget_type="html.default"></div>
-  </div>
-</div>
+    <div style={{ backgroundColor: '#FFFFFF', minHeight: '100vh' }}>
+      {/* Hero Banner with Architectural Background */}
+      <section 
+        style={{
+          position: 'relative',
+          minHeight: '62vh',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          textAlign: 'center',
+          backgroundImage: "url('/wp-content/uploads/2026/08/Hero-Banner-2.webp')",
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          padding: '140px 24px 80px 24px'
+        }}
+      >
+        {/* Dark Film Overlay for Luxury Contrast */}
+        <div 
+          style={{
+            position: 'absolute',
+            inset: 0,
+            backgroundColor: 'rgba(10, 10, 10, 0.65)',
+            backdropFilter: 'blur(1px)',
+            zIndex: 1
+          }} 
+        />
 
-      {/* Interactive Filter and Project Grid */}
-      <Suspense fallback={<div style={{ textAlign: 'center', padding: '50px', color: '#fff' }}>Loading projects...</div>}>
+        {/* Hero Content */}
+        <div 
+          style={{
+            position: 'relative',
+            zIndex: 2,
+            maxWidth: '820px',
+            margin: '0 auto'
+          }}
+        >
+          <span 
+            style={{
+              display: 'inline-block',
+              fontFamily: '"Quicksand", sans-serif',
+              fontSize: '13px',
+              fontWeight: 700,
+              letterSpacing: '3px',
+              color: '#F4C600',
+              textTransform: 'uppercase',
+              marginBottom: '16px'
+            }}
+          >
+            Portfolio & Showcase
+          </span>
+
+          <h1 
+            style={{
+              fontFamily: '"Bai Jamjuree", sans-serif',
+              fontSize: 'clamp(36px, 5.5vw, 64px)',
+              fontWeight: 700,
+              color: '#FFFFFF',
+              margin: '0 0 20px 0',
+              lineHeight: 1.15
+            }}
+          >
+            Our <span style={{ color: '#F4C600' }}>Projects</span>
+          </h1>
+
+          <p 
+            style={{
+              fontFamily: '"Quicksand", sans-serif',
+              fontSize: 'clamp(15px, 1.8vw, 18px)',
+              fontWeight: 500,
+              color: '#E0E0E0',
+              lineHeight: 1.7,
+              margin: '0 auto',
+              maxWidth: '680px'
+            }}
+          >
+            Explore our diverse portfolio of interior architecture projects, where thoughtful design, refined detailing, and functional spaces come together to create timeless environments.
+          </p>
+        </div>
+      </section>
+
+      {/* Interactive Category Filter and 4-Column Project Grid */}
+      <Suspense fallback={<div style={{ textAlign: 'center', padding: '60px', color: '#666', fontSize: '16px' }}>Loading projects...</div>}>
         <ProjectsFilterGrid />
       </Suspense>
     </div>
