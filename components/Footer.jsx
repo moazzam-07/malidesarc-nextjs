@@ -27,13 +27,18 @@ export default function Footer() {
         {/* Col 1: Brand Info */}
         <div>
           <div style={{ paddingBottom: '16px' }}>
-            <Link href="/" style={{ textDecoration: 'none', display: 'inline-flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-              <span style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '26px', fontWeight: 700, letterSpacing: '2px', color: '#FFFFFF', lineHeight: 1 }}>
-                SPACE<span style={{ color: '#F4C600' }}>WORA</span>
-              </span>
-              <span style={{ fontFamily: '"Quicksand", sans-serif', fontSize: '10px', fontWeight: 600, letterSpacing: '3px', color: '#F4C600', textTransform: 'uppercase', marginTop: '6px' }}>
-                DESIGN STUDIO
-              </span>
+            <Link href="/" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>
+              <img 
+                src="/spacewora-logo-white-text.svg" 
+                alt="SPACEWORA Design Studio" 
+                style={{ 
+                  height: '52px', 
+                  width: 'auto', 
+                  maxWidth: '220px', 
+                  objectFit: 'contain', 
+                  display: 'block' 
+                }} 
+              />
             </Link>
           </div>
           

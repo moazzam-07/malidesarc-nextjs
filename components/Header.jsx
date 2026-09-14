@@ -26,13 +26,18 @@ export default function Header() {
 <header className="elementor elementor-6886 elementor-location-header" data-elementor-id="6886" data-elementor-post-type="elementor_library" data-elementor-type="header">
   <div className={`elementor-element elementor-element-a2436b7 dynamic-header e-con-full e-flex e-con e-parent ${isScrolled ? "scrolled" : ""}`} data-e-type="container" data-element_type="container" data-id="a2436b7" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
     <div className="elementor-element elementor-element-5caf2c5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5caf2c5" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style={{ paddingLeft: '8px' }}>
-        <a href="/" style={{ textDecoration: 'none', display: 'inline-flex', flexDirection: 'column', alignItems: 'flex-start', padding: '6px 0' }}>
-          <span style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '24px', fontWeight: 700, letterSpacing: '2px', color: '#FFFFFF', lineHeight: 1 }}>
-            SPACE<span style={{ color: '#F4C600' }}>WORA</span>
-          </span>
-          <span style={{ fontFamily: '"Quicksand", sans-serif', fontSize: '10px', fontWeight: 600, letterSpacing: '3px', color: '#F4C600', textTransform: 'uppercase', marginTop: '4px' }}>
-            DESIGN STUDIO
-          </span>
+        <a href="/" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', padding: '6px 0' }}>
+          <img 
+            src="/spacewora-logo-white-text.svg" 
+            alt="SPACEWORA Design Studio" 
+            style={{ 
+              height: '46px', 
+              width: 'auto', 
+              maxWidth: '180px', 
+              objectFit: 'contain', 
+              display: 'block' 
+            }} 
+          />
         </a>
     </div>
     <div className="elementor-element elementor-element-ce5d956 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="ce5d956">

@@ -69,13 +69,18 @@ export default function MobileMenuPopup() {
     <div className="e-con-inner">
       <div className="elementor-element elementor-element-23d46bf e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="23d46bf">
         <div className="elementor-element elementor-element-0a953a0" data-e-type="widget" data-element_type="widget" data-id="0a953a0" style={{ padding: '10px 0' }}>
-          <a href="/" onClick={closeMenu} style={{ textDecoration: 'none', display: 'inline-flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-            <span style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: '26px', fontWeight: 700, letterSpacing: '2px', color: '#FFFFFF', lineHeight: 1 }}>
-              SPACE<span style={{ color: '#F4C600' }}>WORA</span>
-            </span>
-            <span style={{ fontFamily: '"Quicksand", sans-serif', fontSize: '11px', fontWeight: 600, letterSpacing: '3px', color: '#F4C600', textTransform: 'uppercase', marginTop: '4px' }}>
-              DESIGN STUDIO
-            </span>
+          <a href="/" onClick={closeMenu} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>
+            <img 
+              src="/spacewora-logo-white-text.svg" 
+              alt="SPACEWORA Design Studio" 
+              style={{ 
+                height: '48px', 
+                width: 'auto', 
+                maxWidth: '200px', 
+                objectFit: 'contain', 
+                display: 'block' 
+              }} 
+            />
           </a>
         </div>
       </div>
