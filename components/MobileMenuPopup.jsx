@@ -74,9 +74,9 @@ export default function MobileMenuPopup() {
               src="/spacewora-logo-white-text.svg" 
               alt="SPACEWORA Design Studio" 
               style={{ 
-                height: '48px', 
+                height: '54px', 
                 width: 'auto', 
-                maxWidth: '200px', 
+                maxWidth: '230px', 
                 objectFit: 'contain', 
                 display: 'block' 
               }} 

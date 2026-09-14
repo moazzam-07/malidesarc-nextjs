@@ -25,17 +25,18 @@ export default function Header() {
   return (
 <header className="elementor elementor-6886 elementor-location-header" data-elementor-id="6886" data-elementor-post-type="elementor_library" data-elementor-type="header">
   <div className={`elementor-element elementor-element-a2436b7 dynamic-header e-con-full e-flex e-con e-parent ${isScrolled ? "scrolled" : ""}`} data-e-type="container" data-element_type="container" data-id="a2436b7" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
-    <div className="elementor-element elementor-element-5caf2c5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5caf2c5" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style={{ paddingLeft: '8px' }}>
-        <a href="/" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', padding: '6px 0' }}>
+    <div className="elementor-element elementor-element-5caf2c5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5caf2c5" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style={{ paddingLeft: '0px' }}>
+        <a href="/" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', padding: '4px 0' }}>
           <img 
             src="/spacewora-logo-white-text.svg" 
             alt="SPACEWORA Design Studio" 
             style={{ 
-              height: '46px', 
+              height: 'clamp(52px, 5.2vw, 68px)', 
               width: 'auto', 
-              maxWidth: '180px', 
+              maxWidth: '260px', 
               objectFit: 'contain', 
-              display: 'block' 
+              display: 'block',
+              transition: 'all 0.3s ease'
             }} 
           />
         </a>

@@ -10,9 +10,38 @@ import { MobileMenuProvider } from '@/components/MobileMenuContext';
 export const metadata = {
   title: 'SPACEWORA Design Studio | Luxury Interior Architecture & Design',
   description: 'SPACEWORA Design Studio creates luxury interiors and architectural experiences that reflect your personality, celebrate your lifestyle, and elevate the way you live.',
+  metadataBase: new URL('https://spacewora.vercel.app'),
   icons: {
-    icon: '/wp-content/uploads/2026/08/cropped-Malidesarc-Favicon-32x32.png',
-    apple: '/wp-content/uploads/2026/08/cropped-Malidesarc-Favicon-180x180.png',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  openGraph: {
+    title: 'SPACEWORA Design Studio | Luxury Interior Architecture & Design',
+    description: 'Designing Timeless Spaces That Feel As Extraordinary As They Look. Bespoke interiors, commercial architecture, and turnkey execution.',
+    url: 'https://spacewora.vercel.app',
+    siteName: 'SPACEWORA Design Studio',
+    images: [
+      {
+        url: '/og-hero-thumbnail.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'SPACEWORA Design Studio Hero Section Thumbnail',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SPACEWORA Design Studio | Luxury Interior Architecture & Design',
+    description: 'Designing Timeless Spaces That Feel As Extraordinary As They Look.',
+    images: ['/og-hero-thumbnail.jpg'],
   },
 };
 
@@ -25,6 +54,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en-US">
       <head>
+        {/* Favicon & Touch Icons */}
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
         {/* Core Elementor & Theme Stylesheets */}
         <link rel="stylesheet" href="/wp-content/themes/hello-elementor/assets/css/reset.css" />
         <link rel="stylesheet" href="/wp-content/themes/hello-elementor/assets/css/theme.css" />
