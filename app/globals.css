@@ -406,55 +406,63 @@ html.lenis, html.lenis body {
    + White (#FFFFFF) + Black (#0A0A0A / #111111)
 ========================================= */
 
-/* Scrolled & Mobile Header */
-.dynamic-header {
+/* Dynamic Header — Sleek Luxury Architectural Bar */
 .dynamic-header,
 .elementor-6886 .elementor-element.elementor-element-a2436b7,
 .elementor-6886 .elementor-element.elementor-element-a2436b7:not(.elementor-motion-effects-element-type-background),
 .elementor-6886 .elementor-element.elementor-element-a2436b7 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 9999 !important;
+  box-sizing: border-box !important;
   padding-left: clamp(24px, 4vw, 56px) !important;
   padding-right: clamp(24px, 4vw, 56px) !important;
-  box-sizing: border-box !important;
-  background-color: rgba(10, 10, 10, 0.95) !important;
-  backdrop-filter: blur(14px) !important;
-  -webkit-backdrop-filter: blur(14px) !important;
-  background-color: #0A0A0A !important;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.18) 60%, transparent 100%) !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  background: linear-gradient(180deg, rgba(10, 10, 10, 0.75) 0%, rgba(10, 10, 10, 0.3) 65%, transparent 100%) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
-  transition: all 0.35s ease-in-out !important;
+  transition: transform 0.38s cubic-bezier(0.16, 1, 0.3, 1), background 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease !important;
+  will-change: transform;
 }
 
-.dynamic-header.scrolled {
-  background-color: #0A0A0A !important;
 .dynamic-header.scrolled,
 .elementor-6886 .elementor-element.elementor-element-a2436b7.scrolled {
-  background: rgba(10, 10, 10, 0.96) !important;
-  backdrop-filter: blur(14px) !important;
-  -webkit-backdrop-filter: blur(14px) !important;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6) !important;
-  border-bottom: 1px solid rgba(244, 198, 0, 0.2) !important;
-  border-bottom: 1px solid rgba(244, 198, 0, 0.25) !important;
+  background: rgba(10, 10, 10, 0.95) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+  border-bottom: 1px solid rgba(244, 198, 0, 0.22) !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+/* Slide Up and Disappear on Scroll Down */
+.dynamic-header.header-hidden,
+.elementor-6886 .elementor-element.elementor-element-a2436b7.header-hidden {
+  transform: translateY(-110%) !important;
+}
+
+.dynamic-header.header-visible,
+.elementor-6886 .elementor-element.elementor-element-a2436b7.header-visible {
+  transform: translateY(0%) !important;
 }
 
 @media (max-width: 768px) {
-  .dynamic-header {
   .dynamic-header,
   .elementor-6886 .elementor-element.elementor-element-a2436b7 {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    background-color: rgba(10, 10, 10, 0.92) !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
     background: rgba(10, 10, 10, 0.92) !important;
-    backdrop-filter: blur(14px) !important;
-    -webkit-backdrop-filter: blur(14px) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
     border-bottom: 1px solid rgba(244, 198, 0, 0.15) !important;
-  }
-  .dynamic-header.scrolled {
-    background-color: #0A0A0A !important;
-  .dynamic-header.scrolled,
-  .elementor-6886 .elementor-element.elementor-element-a2436b7.scrolled {
-    background: #0A0A0A !important;
   }
 }
 
