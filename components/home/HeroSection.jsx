@@ -57,8 +57,8 @@ export default function HeroSection() {
             marginBottom: '18px',
             padding: '6px 18px',
             borderRadius: '20px',
-            backgroundColor: 'rgba(0, 0, 0, 0.4)',
-            border: '1px solid rgba(244, 198, 0, 0.3)',
+            backgroundColor: 'rgba(0, 0, 0, 0.28)',
+            border: '1px solid rgba(244, 198, 0, 0.45)',
             backdropFilter: 'blur(8px)',
             WebkitBackdropFilter: 'blur(8px)'
           }}
@@ -75,7 +75,7 @@ export default function HeroSection() {
             fontWeight: 600,
             lineHeight: 1.2,
             margin: '0 auto 20px auto',
-            textShadow: '0 2px 20px rgba(0, 0, 0, 0.7)'
+            textShadow: '0 3px 25px rgba(0, 0, 0, 0.9), 0 1px 5px rgba(0, 0, 0, 0.95)'
           }}
         >
           Designing Timeless Spaces That Feel As Extraordinary As They Look.
@@ -85,12 +85,12 @@ export default function HeroSection() {
         <p
           style={{
             fontFamily: '"Quicksand", sans-serif',
-            color: '#F0F0F0',
+            color: '#FFFFFF',
             fontSize: 'clamp(1rem, 0.95rem + 0.3vw, 1.22rem)',
             lineHeight: 1.7,
             maxWidth: '860px',
             margin: '0 auto 34px auto',
-            textShadow: '0 1px 10px rgba(0, 0, 0, 0.8)'
+            textShadow: '0 2px 14px rgba(0, 0, 0, 0.95), 0 1px 3px rgba(0, 0, 0, 0.9)'
           }}
         >
           Every space has the power to inspire, comfort, and tell a story. At <strong>SPACEWORA Design Studio</strong>, we create luxury interiors and architectural experiences that reflect your personality, celebrate your lifestyle, and elevate the way you live.

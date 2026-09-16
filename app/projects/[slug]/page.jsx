@@ -73,7 +73,7 @@ export default async function ProjectDetailPage({ params }) {
           style={{
             position: 'absolute',
             inset: 0,
-            background: 'linear-gradient(180deg, rgba(7, 7, 7, 0.75) 0%, rgba(7, 7, 7, 0.5) 40%, rgba(7, 7, 7, 0.96) 100%)',
+            background: 'linear-gradient(180deg, rgba(7, 7, 7, 0.65) 0%, rgba(7, 7, 7, 0.4) 40%, rgba(7, 7, 7, 0.92) 100%)',
             zIndex: 1
           }} 
         />

@@ -2,10 +2,10 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { getFeaturedProjects } from '@/lib/projectsData';
+import { ALL_PROJECTS } from '@/lib/projectsData';
 
 export default function FeaturedProjectsSection() {
-  const featuredProjects = getFeaturedProjects();
+  const featuredProjects = ALL_PROJECTS.slice(0, 6);
 
   return (
     <section 

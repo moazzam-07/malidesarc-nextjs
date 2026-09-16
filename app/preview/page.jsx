@@ -4,89 +4,91 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 export default function PreviewPage() {
-  const [deviceMode, setDeviceMode] = useState('desktop'); // desktop, tablet, mobile
+  const [deviceMode, setDeviceMode] = useState('desktop');
 
   return (
-    <div style={{ backgroundColor: '#F8F9FA', color: '#111111', minHeight: '100vh', paddingTop: '100px', paddingBottom: '80px', fontFamily: '"Quicksand", sans-serif' }}>
-      {/* Top Banner / Breadcrumb */}
-      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px', marginBottom: '32px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid #E5E7EB', paddingBottom: '20px' }}>
-          <div>
-            <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>
-              SPACEWORA Design Studio &bull; Preview Mode
-            </span>
-            <h1 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 700, color: '#111111', marginTop: '6px' }}>
-              Hero Section & Studio Showcase
-            </h1>
-          </div>
+    <div style={{ backgroundColor: '#F8F9FA', minHeight: '100vh', color: '#111111', fontFamily: '"Quicksand", sans-serif', paddingBottom: '80px' }}>
+      {/* Top Banner & Context */}
+      <div style={{ borderBottom: '1px solid #E5E7EB', padding: '32px 24px 24px 24px', backgroundColor: '#FFFFFF', marginBottom: '36px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid #E5E7EB', paddingBottom: '20px' }}>
+            <div>
+              <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>
+                SPACEWORA Design Studio &bull; Preview Mode
+              </span>
+              <h1 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 700, color: '#111111', marginTop: '6px' }}>
+                Hero Section & Studio Showcase
+              </h1>
+            </div>
 
-          {/* Quick Action Links */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
-            <Link 
-              href="/"
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px',
-                backgroundColor: '#0A0A0A',
-                color: '#FFFFFF',
-                fontWeight: 700,
-                fontSize: '13px',
-                letterSpacing: '1px',
-                textTransform: 'uppercase',
-                padding: '10px 22px',
-                borderRadius: '24px',
-                textDecoration: 'none',
-                transition: 'all 0.3s ease'
-              }}
-            >
-              <span>Visit Live Home</span>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
-            </Link>
+            {/* Quick Action Links */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+              <Link 
+                href="/"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  backgroundColor: '#0A0A0A',
+                  color: '#FFFFFF',
+                  fontWeight: 700,
+                  fontSize: '13px',
+                  letterSpacing: '1px',
+                  textTransform: 'uppercase',
+                  padding: '10px 22px',
+                  borderRadius: '24px',
+                  textDecoration: 'none',
+                  transition: 'all 0.3s ease'
+                }}
+              >
+                <span>Visit Live Home</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+              </Link>
 
-            <Link 
-              href="/our-project/"
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px',
-                backgroundColor: '#FFFFFF',
-                color: '#111111',
-                border: '1px solid #D1D5DB',
-                fontWeight: 700,
-                fontSize: '13px',
-                letterSpacing: '1px',
-                textTransform: 'uppercase',
-                padding: '10px 20px',
-                borderRadius: '24px',
-                textDecoration: 'none',
-                transition: 'all 0.3s ease'
-              }}
-            >
-              <span>Projects Grid</span>
-            </Link>
+              <Link 
+                href="/our-project/"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  backgroundColor: '#FFFFFF',
+                  color: '#111111',
+                  border: '1px solid #D1D5DB',
+                  fontWeight: 700,
+                  fontSize: '13px',
+                  letterSpacing: '1px',
+                  textTransform: 'uppercase',
+                  padding: '10px 20px',
+                  borderRadius: '24px',
+                  textDecoration: 'none',
+                  transition: 'all 0.3s ease'
+                }}
+              >
+                <span>Projects Grid</span>
+              </Link>
 
-            <Link 
-              href="/contact-us/"
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px',
-                backgroundColor: '#FFFFFF',
-                color: '#D49B00',
-                border: '1px solid #F4C600',
-                fontWeight: 700,
-                fontSize: '13px',
-                letterSpacing: '1px',
-                textTransform: 'uppercase',
-                padding: '10px 20px',
-                borderRadius: '24px',
-                textDecoration: 'none',
-                transition: 'all 0.3s ease'
-              }}
-            >
-              <span>Consultation</span>
-            </Link>
+              <Link 
+                href="/contact-us/"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  backgroundColor: '#FFFFFF',
+                  color: '#D49B00',
+                  border: '1px solid #F4C600',
+                  fontWeight: 700,
+                  fontSize: '13px',
+                  letterSpacing: '1px',
+                  textTransform: 'uppercase',
+                  padding: '10px 20px',
+                  borderRadius: '24px',
+                  textDecoration: 'none',
+                  transition: 'all 0.3s ease'
+                }}
+              >
+                <span>Consultation</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -160,10 +162,10 @@ export default function PreviewPage() {
             maxWidth: deviceMode === 'desktop' ? '1200px' : deviceMode === 'tablet' ? '768px' : '420px',
             margin: '0 auto',
             transition: 'max-width 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
-            backgroundColor: '#111111',
+            backgroundColor: '#FFFFFF',
             borderRadius: '16px',
-            border: '1px solid rgba(244, 198, 0, 0.35)',
-            boxShadow: '0 20px 60px rgba(0, 0, 0, 0.2), 0 0 30px rgba(244, 198, 0, 0.1)',
+            border: '1px solid #E5E7EB',
+            boxShadow: '0 20px 60px rgba(0, 0, 0, 0.12), 0 0 30px rgba(244, 198, 0, 0.1)',
             overflow: 'hidden'
           }}
         >
@@ -178,7 +180,7 @@ export default function PreviewPage() {
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#F4C600" strokeWidth="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
               <span>https://spacewora.vercel.app/</span>
             </div>
-            <div style={{ fontSize: '11px', color: '#666', fontWeight: 600 }}>
+            <div style={{ fontSize: '11px', color: '#888', fontWeight: 600 }}>
               HERO THUMBNAIL
             </div>
           </div>

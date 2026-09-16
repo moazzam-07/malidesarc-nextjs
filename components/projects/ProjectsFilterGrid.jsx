@@ -1,26 +1,19 @@
 'use client';
 
-import React, { useState, useEffect, useTransition } from 'react';
-import { useSearchParams } from 'next/navigation';
+import React, { useState, useTransition } from 'react';
 import Link from 'next/link';
-import { ALL_PROJECTS, CATEGORIES } from '@/lib/projectsData';
+import { ALL_PROJECTS } from '@/lib/projectsData';
+
+const CATEGORIES = [
+  { id: 'all', label: 'All Projects' },
+  { id: 'residential', label: 'Bespoke Residential' },
+  { id: 'commercial', label: 'Commercial & Retail' },
+  { id: 'hospitality', label: 'Luxury Hospitality' },
+];
 
 export default function ProjectsFilterGrid() {
-  const searchParams = useSearchParams();
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [isPending, startTransition] = useTransition();
-
-  useEffect(() => {
-    const cat = searchParams.get('category');
-    if (cat) {
-      const match = CATEGORIES.find(
-        (c) => c.id === cat.toLowerCase() || c.id === cat.toLowerCase().replace(/\s+/g, '-')
-      );
-      if (match) {
-        setSelectedCategory(match.id);
-      }
-    }
-  }, [searchParams]);
 
   const filteredProjects = selectedCategory === 'all'
     ? ALL_PROJECTS
@@ -33,15 +26,22 @@ export default function ProjectsFilterGrid() {
   };
 
   return (
-    <section style={{ backgroundColor: '#FFFFFF', padding: '40px 24px 100px 24px', maxWidth: '1440px', margin: '0 auto' }}>
-      {/* Interactive Filter Pills */}
+    <section 
+      style={{ 
+        backgroundColor: '#FFFFFF', 
+        padding: '60px 24px 100px 24px', 
+        maxWidth: '1440px', 
+        margin: '0 auto' 
+      }}
+    >
+      {/* Category Filter Pills */}
       <div 
         style={{ 
           display: 'flex', 
           justifyContent: 'center', 
           flexWrap: 'wrap', 
           gap: '12px', 
-          marginBottom: '50px' 
+          marginBottom: '40px' 
         }}
       >
         {CATEGORIES.map((cat) => {
@@ -272,6 +272,29 @@ export default function ProjectsFilterGrid() {
           </Link>
         ))}
       </div>
+
+      <style jsx>{`
+        @media (min-width: 1200px) {
+          .spacewora-projects-grid {
+            grid-template-columns: repeat(4, 1fr) !important;
+          }
+        }
+        @media (max-width: 1199px) and (min-width: 860px) {
+          .spacewora-projects-grid {
+            grid-template-columns: repeat(3, 1fr) !important;
+          }
+        }
+        @media (max-width: 859px) and (min-width: 580px) {
+          .spacewora-projects-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+          }
+        }
+        @media (max-width: 579px) {
+          .spacewora-projects-grid {
+            grid-template-columns: 1fr !important;
+          }
+        }
+      `}</style>
     </section>
   );
 }

@@ -10,20 +10,22 @@ export default function ProjectGallery({ images, projectTitle }) {
     document.body.style.overflow = 'hidden';
   };
 
-  const closeLightbox = useCallback(() => {
+  const closeLightbox = () => {
     setLightboxIndex(null);
-    document.body.style.overflow = 'auto';
-  }, []);
+    document.body.style.overflow = '';
+  };
 
-  const nextImage = useCallback((e) => {
-    if (e) e.stopPropagation();
-    setLightboxIndex((prev) => (prev + 1) % images.length);
-  }, [images.length]);
+  const nextImage = useCallback(() => {
+    if (lightboxIndex !== null) {
+      setLightboxIndex((prev) => (prev + 1) % images.length);
+    }
+  }, [lightboxIndex, images.length]);
 
-  const prevImage = useCallback((e) => {
-    if (e) e.stopPropagation();
-    setLightboxIndex((prev) => (prev - 1 + images.length) % images.length);
-  }, [images.length]);
+  const prevImage = useCallback(() => {
+    if (lightboxIndex !== null) {
+      setLightboxIndex((prev) => (prev - 1 + images.length) % images.length);
+    }
+  }, [lightboxIndex, images.length]);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -35,16 +37,20 @@ export default function ProjectGallery({ images, projectTitle }) {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [lightboxIndex, closeLightbox, nextImage, prevImage]);
+  }, [lightboxIndex, nextImage, prevImage]);
+
+  if (!images || images.length === 0) {
+    return null;
+  }
 
   return (
-    <div>
-      {/* Gallery Header Bar */}
+    <div style={{ marginTop: '50px' }}>
+      {/* Gallery Header */}
       <div 
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
+        style={{ 
+          display: 'flex', 
+          justifyContent: 'space-between', 
+          alignItems: 'flex-end', 
           marginBottom: '28px',
           paddingBottom: '16px',
           borderBottom: '1px solid #E5E7EB',
@@ -104,7 +110,6 @@ export default function ProjectGallery({ images, projectTitle }) {
               <img
                 src={img.src}
                 alt={img.alt || `${projectTitle} photo ${idx + 1}`}
-                loading="lazy"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -144,7 +149,7 @@ export default function ProjectGallery({ images, projectTitle }) {
         })}
       </div>
 
-      {/* Lightbox Modal */}
+      {/* Fullscreen Lightbox Modal */}
       {lightboxIndex !== null && (
         <div 
           onClick={closeLightbox}
@@ -155,6 +160,7 @@ export default function ProjectGallery({ images, projectTitle }) {
             backgroundColor: 'rgba(5, 5, 5, 0.94)',
             backdropFilter: 'blur(12px)',
             display: 'flex',
+            flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
             padding: '24px'
@@ -162,7 +168,6 @@ export default function ProjectGallery({ images, projectTitle }) {
         >
           {/* Top Bar with title & close button */}
           <div 
-            onClick={(e) => e.stopPropagation()}
             style={{
               position: 'absolute',
               top: 0,
@@ -174,6 +179,7 @@ export default function ProjectGallery({ images, projectTitle }) {
               padding: '20px 28px',
               zIndex: 10
             }}
+            onClick={(e) => e.stopPropagation()}
           >
             <div>
               <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase' }}>
@@ -191,15 +197,15 @@ export default function ProjectGallery({ images, projectTitle }) {
                 backgroundColor: 'rgba(255, 255, 255, 0.1)',
                 border: '1px solid rgba(255, 255, 255, 0.2)',
                 color: '#FFFFFF',
+                borderRadius: '50%',
                 width: '44px',
                 height: '44px',
-                borderRadius: '50%',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 cursor: 'pointer',
-                transition: 'all 0.2s ease',
-                fontSize: '18px'
+                fontSize: '18px',
+                transition: 'all 0.2s ease'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.backgroundColor = '#F4C600';
@@ -216,18 +222,23 @@ export default function ProjectGallery({ images, projectTitle }) {
 
           {/* Navigation Arrows */}
           <button
-            onClick={prevImage}
+            onClick={(e) => {
+              e.stopPropagation();
+              prevImage();
+            }}
             aria-label="Previous Image"
             style={{
               position: 'absolute',
               left: '24px',
+              top: '50%',
+              transform: 'translateY(-50%)',
               zIndex: 10,
               backgroundColor: 'rgba(20, 20, 20, 0.7)',
               border: '1px solid rgba(255, 255, 255, 0.2)',
               color: '#FFFFFF',
+              borderRadius: '50%',
               width: '50px',
               height: '50px',
-              borderRadius: '50%',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -248,18 +259,23 @@ export default function ProjectGallery({ images, projectTitle }) {
           </button>
 
           <button
-            onClick={nextImage}
+            onClick={(e) => {
+              e.stopPropagation();
+              nextImage();
+            }}
             aria-label="Next Image"
             style={{
               position: 'absolute',
               right: '24px',
+              top: '50%',
+              transform: 'translateY(-50%)',
               zIndex: 10,
               backgroundColor: 'rgba(20, 20, 20, 0.7)',
               border: '1px solid rgba(255, 255, 255, 0.2)',
               color: '#FFFFFF',
+              borderRadius: '50%',
               width: '50px',
               height: '50px',
-              borderRadius: '50%',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',

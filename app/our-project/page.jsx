@@ -27,12 +27,12 @@ export default function OurProjectPage() {
           overflow: 'hidden'
         }}
       >
-        {/* Dark Film Overlay for Luxury Contrast */}
+        {/* Film Overlay for Luxury Contrast */}
         <div 
           style={{
             position: 'absolute',
             inset: 0,
-            background: 'linear-gradient(180deg, rgba(10, 10, 10, 0.75) 0%, rgba(10, 10, 10, 0.55) 45%, rgba(10, 10, 10, 0.9) 100%)',
+            background: 'linear-gradient(180deg, rgba(10, 10, 10, 0.65) 0%, rgba(10, 10, 10, 0.40) 45%, rgba(10, 10, 10, 0.85) 100%)',
             backdropFilter: 'blur(2px)',
             WebkitBackdropFilter: 'blur(2px)',
             zIndex: 1
