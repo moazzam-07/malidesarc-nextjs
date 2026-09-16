@@ -6,7 +6,7 @@ export default function WhatsAppButton() {
   <div className="elementor-element elementor-element-7ea22f1a e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="7ea22f1a">
     <div className="e-con-inner">
       <div className="elementor-element elementor-element-4a0b6f3e animated-normal elementor-widget elementor-widget-contact-buttons-var-5" data-e-type="widget" data-element_type="widget" data-id="4a0b6f3e" data-settings="{&quot;style_button_color_hover_animation&quot;:&quot;grow&quot;}" data-widget_type="contact-buttons-var-5.default">
-        <div aria-role="dialog" className="e-contact-buttons e-contact-buttons-var-5 has-h-alignment-end has-v-alignment-bottom malidesarc-whatsapp has-platform-whatsapp" data-document-id="13403" id="">
+        <div aria-role="dialog" className="e-contact-buttons e-contact-buttons-var-5 has-h-alignment-end has-v-alignment-bottom spacewora-whatsapp has-platform-whatsapp" data-document-id="13403" id="">
           <div className="e-contact-buttons__chat-button-container">
             <a aria-label="Open Chat WhatsApp" className="e-contact-buttons__chat-button e-contact-buttons__chat-button-shadow has-size-small elementor-animation-grow" href="https://wa.me/918874135497" rel="noopener noreferrer" target="_blank">
               <svg aria-hidden="true" className="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">

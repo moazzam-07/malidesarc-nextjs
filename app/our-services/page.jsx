@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Our Services -",
-  description: "MaliDesarc provides end-to-end design, interior, and technical contracting solutions for commercial, hospitality, residential, and industrial projects.",
+  title: "Our Services - SPACEWORA Design Studio",
+  description: "SPACEWORA Design Studio provides end-to-end design, interior, and technical contracting solutions for commercial, hospitality, residential, and industrial projects.",
 };
 
 export default function OurServicesPage() {
@@ -28,9 +28,9 @@ export default function OurServicesPage() {
               </span>
             </h2>
           </div>
-          <div className="elementor-element elementor-element-72082e7 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="72082e7" data-widget_type="text-editor.default">
+          <div className="elementor-element elementor-element-72082e7 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="72082e7" data-widget_type="text-editor.default">
             <p>
-              MaliDesarc provides 
+              SPACEWORA provides 
               <strong data-end="88" data-start="20">
                 end-to-end design, interior, and technical contracting solutions
               </strong>
@@ -318,8 +318,7 @@ export default function OurServicesPage() {
               </div>
               <div className="elementor-element elementor-element-5290858 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5290858">
                 <div className="elementor-element elementor-element-41cea2b elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="41cea2b" data-widget_type="image.default">
-                  <img alt="" className="attachment-full size-full wp-image-11170" decoding="async" height="2560" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" src="/wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-scaled.webp" srcSet="/wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-scaled.webp 1920w, /wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-225x300.webp 225w, /wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-768x1024.webp 768w, /wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-1152x1536.webp 1152w, /wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-1536x2048.webp 1536w" width="1920" />
-                  <img alt="" className="attachment-full size-full wp-image-11170" decoding="async" height="2560" loading="eager" sizes="(max-width: 1920px) 100vw, 1920px" src="/wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-scaled.webp" srcSet="/wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-scaled.webp 1920w, /wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-225x300.webp 225w, /wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-768x1024.webp 768w, /wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-1152x1536.webp 1152w, /wp-content/uploads/2026/08/dtdc-commercial-office-reception-desk-1536x2048.webp 1536w" width="1920" />
+                  <img alt="SPACWORA Commercial Architecture" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-boardroom.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
                 </div>
               </div>
             </div>
@@ -341,7 +340,7 @@ export default function OurServicesPage() {
                   <div className="et_pb_module et_pb_text et_pb_text_3 et_pb_text_align_left et_pb_bg_layout_light">
                     <div className="et_pb_text_inner">
                       <p>
-                        Our hospitality interiors are designed around comfort, functionality, and a consistent guest experience. We bring practical design expertise to hotels and hospitality spaces, coordinating finishes, furniture, lighting, electricals, and interior details to create welcoming environments that perform effectively in daily operations.
+                        Our hospitality interiors are designed around comfort, functionality, and an extraordinary guest experience. We bring bespoke architectural expertise to luxury dining, boutique hotels, lounges, and event destinations, curating finishes, lighting, and bespoke spatial details that evoke elegance.
                       </p>
                     </div>
                   </div>
@@ -349,8 +348,7 @@ export default function OurServicesPage() {
               </div>
               <div className="elementor-element elementor-element-71059b5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="71059b5">
                 <div className="elementor-element elementor-element-89fdd36 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="89fdd36" data-widget_type="image.default">
-                  <img alt="" className="attachment-full size-full wp-image-11782" decoding="async" height="1280" loading="lazy" sizes="(max-width: 960px) 100vw, 960px" src="/wp-content/uploads/2026/08/hotel-karl-residency-modern-hospitality-interior-1.webp" srcSet="/wp-content/uploads/2026/08/hotel-karl-residency-modern-hospitality-interior-1.webp 960w, /wp-content/uploads/2026/08/hotel-karl-residency-modern-hospitality-interior-1-225x300.webp 225w, /wp-content/uploads/2026/08/hotel-karl-residency-modern-hospitality-interior-1-768x1024.webp 768w" width="960" />
-                  <img alt="" className="attachment-full size-full wp-image-11782" decoding="async" height="1280" loading="eager" sizes="(max-width: 960px) 100vw, 960px" src="/wp-content/uploads/2026/08/hotel-karl-residency-modern-hospitality-interior-1.webp" srcSet="/wp-content/uploads/2026/08/hotel-karl-residency-modern-hospitality-interior-1.webp 960w, /wp-content/uploads/2026/08/hotel-karl-residency-modern-hospitality-interior-1-225x300.webp 225w, /wp-content/uploads/2026/08/hotel-karl-residency-modern-hospitality-interior-1-768x1024.webp 768w" width="960" />
+                  <img alt="SPACWORA Hospitality Spaces" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-hospitality-grand-lobby.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
                 </div>
               </div>
             </div>

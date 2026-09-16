@@ -93,6 +93,7 @@ export default function FeaturedProjectsSection() {
                 <img
                   src={project.coverImage}
                   alt={project.title}
+                  loading="lazy"
                   style={{
                     position: 'absolute',
                     top: 0,

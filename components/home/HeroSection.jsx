@@ -16,7 +16,7 @@ const marqueeItems = [
 export default function HeroSection() {
   return (
     <div
-      className="elementor-element elementor-element-3d03374 e-con-full malidesarc-hero e-flex e-con e-parent"
+      className="elementor-element elementor-element-3d03374 e-con-full spacewora-hero e-flex e-con e-parent"
       data-e-type="container"
       data-element_type="container"
       data-id="3d03374"
@@ -57,6 +57,8 @@ export default function HeroSection() {
             marginBottom: '18px',
             padding: '6px 18px',
             borderRadius: '20px',
+            backgroundColor: 'rgba(0, 0, 0, 0.4)',
+            border: '1px solid rgba(244, 198, 0, 0.3)',
             backgroundColor: 'rgba(0, 0, 0, 0.28)',
             border: '1px solid rgba(244, 198, 0, 0.45)',
             backdropFilter: 'blur(8px)',
@@ -132,19 +134,19 @@ export default function HeroSection() {
         }}
       >
         <div className="elementor-element elementor-element-9c2bcb0 elementor-widget elementor-widget-html" style={{ width: '100%' }}>
-          <div className="malidesarc-marquee">
-            <div className="malidesarc-marquee-track">
+          <div className="spacewora-marquee">
+            <div className="spacewora-marquee-track">
               {/* Set 1 */}
               {marqueeItems.map((item, idx) => (
-                <span key={`m1-${idx}`} className="malidesarc-marquee-item">
-                  <span className="malidesarc-marquee-icon">✩</span>
+                <span key={`m1-${idx}`} className="spacewora-marquee-item">
+                  <span className="spacewora-marquee-icon">✩</span>
                   {item}
                 </span>
               ))}
               {/* Set 2 (Seamless loop) */}
               {marqueeItems.map((item, idx) => (
-                <span key={`m2-${idx}`} aria-hidden="true" className="malidesarc-marquee-item">
-                  <span className="malidesarc-marquee-icon">✩</span>
+                <span key={`m2-${idx}`} aria-hidden="true" className="spacewora-marquee-item">
+                  <span className="spacewora-marquee-icon">✩</span>
                   {item}
                 </span>
               ))}

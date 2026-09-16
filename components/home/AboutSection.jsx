@@ -77,46 +77,22 @@ export default function AboutSection() {
           </div>
 
           {/* Right Image Feature */}
-          <div className="elementor-element elementor-element-6e77d41 e-con-full e-flex e-con e-child" style={{ flex: '1 1 420px', position: 'relative' }}>
+          <div className="elementor-element elementor-element-6e77d41 e-con-full e-flex e-con e-child" style={{ flex: '1 1 480px', position: 'relative' }}>
             <div 
               style={{
                 borderRadius: '16px',
                 overflow: 'hidden',
-                boxShadow: '0 20px 40px rgba(0, 0, 0, 0.12)',
-                border: '1px solid rgba(0, 0, 0, 0.06)'
+                boxShadow: '0 20px 45px rgba(0, 0, 0, 0.14)',
+                border: '1px solid rgba(244, 198, 0, 0.2)'
               }}
             >
               <img 
-                alt="SPACEWORA Interior Architecture" 
+                alt="SPACEWORA Interior Architecture & Design Studio" 
                 className="attachment-large size-large" 
                 loading="lazy"
-                src="/wp-content/uploads/2026/08/Malidesarc-Receptions-image-768x1024.webp" 
+                src="/images/studio/spacwora-reception-main.webp" 
                 style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
               />
-            </div>
-            {/* Experience Badge */}
-            <div
-              style={{
-                position: 'absolute',
-                bottom: '30px',
-                left: '-20px',
-                backgroundColor: '#0A0A0A',
-                border: '1px solid #F4C600',
-                color: '#FFFFFF',
-                padding: '18px 26px',
-                borderRadius: '12px',
-                boxShadow: '0 10px 25px rgba(0,0,0,0.3)',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '14px'
-              }}
-            >
-              <span style={{ fontSize: '36px', fontWeight: 700, color: '#F4C600', fontFamily: '"Bai Jamjuree", sans-serif' }}>
-                7+
-              </span>
-              <span style={{ fontSize: '13px', fontWeight: 600, letterSpacing: '1px', textTransform: 'uppercase', lineHeight: 1.3 }}>
-                Years Of Dedicated<br />Excellence
-              </span>
             </div>
           </div>
         </div>

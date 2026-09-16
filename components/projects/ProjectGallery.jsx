@@ -10,10 +10,10 @@ export default function ProjectGallery({ images, projectTitle }) {
     document.body.style.overflow = 'hidden';
   };
 
-  const closeLightbox = () => {
+  const closeLightbox = useCallback(() => {
     setLightboxIndex(null);
     document.body.style.overflow = '';
-  };
+  }, []);
 
   const nextImage = useCallback(() => {
     if (lightboxIndex !== null) {
@@ -37,7 +37,7 @@ export default function ProjectGallery({ images, projectTitle }) {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [lightboxIndex, nextImage, prevImage]);
+  }, [lightboxIndex, closeLightbox, nextImage, prevImage]);
 
   if (!images || images.length === 0) {
     return null;
@@ -110,6 +110,7 @@ export default function ProjectGallery({ images, projectTitle }) {
               <img
                 src={img.src}
                 alt={img.alt || `${projectTitle} photo ${idx + 1}`}
+                loading="lazy"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -149,7 +150,7 @@ export default function ProjectGallery({ images, projectTitle }) {
         })}
       </div>
 
-      {/* Fullscreen Lightbox Modal */}
+      {/* Lightbox Modal */}
       {lightboxIndex !== null && (
         <div 
           onClick={closeLightbox}

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Hospitality Interior Design & Turnkey Space",
-  description: "Looking for hospitality interior designers in Mumbai? MaliDesarc delivers end-to-end design, MEP, civil, interiors and turnkey execution for hospitality spaces.",
+  description: "Looking for hospitality interior designers in Mumbai? SPACEWORA delivers end-to-end design, MEP, civil, interiors and turnkey execution for hospitality spaces.",
 };
 
 export default function HospitalityInteriorDesignPage() {
@@ -42,7 +42,7 @@ export default function HospitalityInteriorDesignPage() {
             <p>
               One Vision. One Team. Complete Execution.
               <br />
-              MalidesArc creating hospitality spaces where exceptional design meets disciplined execution.
+              SPACEWORA creating hospitality spaces where exceptional design meets disciplined execution.
             </p>
           </div>
           <div className="elementor-element elementor-element-cc772e8 google-rating animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="cc772e8" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="text-editor.default">
@@ -231,7 +231,7 @@ export default function HospitalityInteriorDesignPage() {
                   <input name="form_id" type="hidden" value="9710" />
                   <input name="page_id" type="hidden" value="11778" />
                   <input name="form_type" type="hidden" value="default" />
-                  <input name="current_url" type="hidden" value="https://malidesarc.com/hospitality-interior-design/" />
+                  <input name="current_url" type="hidden" value="https://spacewora.vercel.app/hospitality-interior-design/" />
                   <input name="render_id" type="hidden" value="0" />
                   <input name="action" type="hidden" value="forminator_submit_form_custom-forms" />
                 </form>
@@ -439,7 +439,7 @@ export default function HospitalityInteriorDesignPage() {
         <div className="elementor-element elementor-element-2e0b36a6 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2e0b36a6">
           <div className="elementor-element elementor-element-3d386542 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="3d386542" data-widget_type="text-editor.default">
             <p>
-              Why Hospitality Businesses Choose MaliDesarc
+              Why Hospitality Businesses Choose SPACEWORA
             </p>
           </div>
           <div className="elementor-element elementor-element-41d66236 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-e-type="widget" data-element_type="widget" data-id="41d66236" data-widget_type="divider.default">
@@ -511,32 +511,32 @@ export default function HospitalityInteriorDesignPage() {
               <div aria-live="off" className="elementor-image-carousel swiper-wrapper">
                 <div aria-label="1 of 6" aria-roledescription="slide" className="swiper-slide" role="group">
                   <figure className="swiper-slide-inner">
-                    <img alt="hotel-karl-residency-restaurant-seating.webp" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/2026/08/hotel-karl-residency-restaurant-seating-1-1024x853.webp" />
+                    <img alt="SPACWORA Hospitality Spaces Grand Lobby" className="swiper-slide-image" decoding="async" src="/images/studio/spacwora-hospitality-grand-lobby.webp" />
                   </figure>
                 </div>
                 <div aria-label="2 of 6" aria-roledescription="slide" className="swiper-slide" role="group">
                   <figure className="swiper-slide-inner">
-                    <img alt="taj-bandra-boutique-hospitality-img-3561" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/2026/08/taj-bandra-boutique-hospitality-img-3561-576x1024.webp" />
+                    <img alt="SPACWORA Hospitality Bar & Lounge" className="swiper-slide-image" decoding="async" src="/images/studio/spacwora-hospitality-bar.webp" />
                   </figure>
                 </div>
                 <div aria-label="3 of 6" aria-roledescription="slide" className="swiper-slide" role="group">
                   <figure className="swiper-slide-inner">
-                    <img alt="hotel-karl-residency-modern-bathroom" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/2026/08/hotel-karl-residency-modern-bathroom-1-1024x931.webp" />
+                    <img alt="SPACWORA Fine Dining & Hospitality" className="swiper-slide-image" decoding="async" src="/images/studio/spacwora-hospitality-dining.webp" />
                   </figure>
                 </div>
                 <div aria-label="4 of 6" aria-roledescription="slide" className="swiper-slide" role="group">
                   <figure className="swiper-slide-inner">
-                    <img alt="taj-bandra-boutique-hospitality-img-3526" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/2026/08/taj-bandra-boutique-hospitality-img-3526-576x1024.webp" />
+                    <img alt="Haldiram Hospitality Mumbai" className="swiper-slide-image" decoding="async" src="/images/projects/haldiram-hospitality/photo_01.webp" />
                   </figure>
                 </div>
                 <div aria-label="5 of 6" aria-roledescription="slide" className="swiper-slide" role="group">
                   <figure className="swiper-slide-inner">
-                    <img alt="hotel-karl-residency-guest-room" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/2026/08/hotel-karl-residency-guest-room-768x1024.webp" />
+                    <img alt="Haldiram Hospitality Interior" className="swiper-slide-image" decoding="async" src="/images/projects/haldiram-hospitality/photo_02.webp" />
                   </figure>
                 </div>
                 <div aria-label="6 of 6" aria-roledescription="slide" className="swiper-slide" role="group">
                   <figure className="swiper-slide-inner">
-                    <img alt="taj-bandra-boutique-hospitality-img-3535" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/2026/08/taj-bandra-boutique-hospitality-img-3535-576x1024.webp" />
+                    <img alt="SPACWORA Grand Reception" className="swiper-slide-image" decoding="async" src="/images/studio/spacwora-reception-main.webp" />
                   </figure>
                 </div>
               </div>
@@ -563,7 +563,7 @@ export default function HospitalityInteriorDesignPage() {
             Project what we delivered till now.
           </h2>
         </div>
-        <div className="elementor-element elementor-element-1f5865f elementor-arrows-position-outside elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-n-carousel" data-e-type="widget" data-element_type="widget" data-id="1f5865f" data-settings="{&quot;carousel_items&quot;:[{&quot;slide_title&quot;:&quot;Taj Boutique Bandra&quot;,&quot;_id&quot;:&quot;2409ba6&quot;},{&quot;slide_title&quot;:&quot;Hotel Karl&quot;,&quot;_id&quot;:&quot;70cf4ba&quot;},{&quot;slide_title&quot;:&quot;Vora&quot;,&quot;_id&quot;:&quot;9fada5b&quot;},{&quot;slide_title&quot;:&quot;DTDC&quot;,&quot;_id&quot;:&quot;9c2efde&quot;},{&quot;slide_title&quot;:&quot;Stratum&quot;,&quot;_id&quot;:&quot;7d76668&quot;},{&quot;slide_title&quot;:&quot;Hosteller&quot;,&quot;_id&quot;:&quot;ee87dbe&quot;},{&quot;slide_title&quot;:&quot;DGS Gurudarshan&quot;,&quot;_id&quot;:&quot;df406ff&quot;},{&quot;slide_title&quot;:&quot;Codeword Boss&quot;,&quot;_id&quot;:&quot;0ef5e8b&quot;},{&quot;slide_title&quot;:&quot;Baluwala Builders&quot;,&quot;_id&quot;:&quot;643844c&quot;},{&quot;slide_title&quot;:&quot;Bellisma&quot;,&quot;_id&quot;:&quot;3c78ad8&quot;},{&quot;slide_title&quot;:&quot;Rudra&quot;,&quot;_id&quot;:&quot;e87220b&quot;}],&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;image_spacing_custom_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="nested-carousel.default">
+        <div className="elementor-element elementor-element-1f5865f elementor-arrows-position-outside elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-n-carousel" data-e-type="widget" data-element_type="widget" data-id="1f5865f" data-settings="{&quot;carousel_items&quot;:[{&quot;slide_title&quot;:&quot;Taj Boutique Bandra&quot;,&quot;_id&quot;:&quot;2409ba6&quot;},{&quot;slide_title&quot;:&quot;Haldiram Fine Dining&quot;,&quot;_id&quot;:&quot;70cf4ba&quot;},{&quot;slide_title&quot;:&quot;Vora&quot;,&quot;_id&quot;:&quot;9fada5b&quot;},{&quot;slide_title&quot;:&quot;JKT Corporate Office&quot;,&quot;_id&quot;:&quot;9c2efde&quot;},{&quot;slide_title&quot;:&quot;Stratum&quot;,&quot;_id&quot;:&quot;7d76668&quot;},{&quot;slide_title&quot;:&quot;Hosteller&quot;,&quot;_id&quot;:&quot;ee87dbe&quot;},{&quot;slide_title&quot;:&quot;DGS Gurudarshan&quot;,&quot;_id&quot;:&quot;df406ff&quot;},{&quot;slide_title&quot;:&quot;Codeword Boss&quot;,&quot;_id&quot;:&quot;0ef5e8b&quot;},{&quot;slide_title&quot;:&quot;Baluwala Builders&quot;,&quot;_id&quot;:&quot;643844c&quot;},{&quot;slide_title&quot;:&quot;Bellisma&quot;,&quot;_id&quot;:&quot;3c78ad8&quot;},{&quot;slide_title&quot;:&quot;Rudra&quot;,&quot;_id&quot;:&quot;e87220b&quot;}],&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;image_spacing_custom_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="nested-carousel.default">
           <div aria-label="Carousel" aria-roledescription="carousel" className="e-n-carousel swiper" dir="ltr" role="region">
             <div aria-live="off" className="swiper-wrapper">
               <div aria-label="1 of 11" aria-roledescription="slide" className="swiper-slide" data-slide="1" role="group">
@@ -599,12 +599,12 @@ export default function HospitalityInteriorDesignPage() {
               <div aria-label="2 of 11" aria-roledescription="slide" className="swiper-slide" data-slide="2" role="group">
                 <div className="elementor-element elementor-element-d931c27 e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="d931c27">
                   <div className="e-con-inner">
-                    <a className="elementor-element elementor-element-5e3aec5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5e3aec5" data-project-url="../our-project/index.html?e-filter-e71893d-project-category=hospitality" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="/hotel-karl-residency/" target="_blank">
+                    <a className="elementor-element elementor-element-5e3aec5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5e3aec5" href="/projects/haldiram-hospitality">
                       <div className="elementor-element elementor-element-cbe4ca0 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="cbe4ca0">
                         <div className="elementor-element elementor-element-9df4bbf e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="9df4bbf">
                           <div className="elementor-element elementor-element-055c941 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="055c941" data-widget_type="heading.default">
                             <p className="elementor-heading-title elementor-size-default">
-                              Hotel Karl
+                              Haldiram Fine Dining
                             </p>
                           </div>
                           <div className="elementor-element elementor-element-616b685 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="616b685" data-widget_type="text-editor.default">
@@ -613,11 +613,11 @@ export default function HospitalityInteriorDesignPage() {
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               6000 sq. ft 
+                               Banquet & Dining 
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               Andheri, Mumbai
+                               Mumbai
                             </p>
                           </div>
                         </div>
@@ -629,25 +629,25 @@ export default function HospitalityInteriorDesignPage() {
               <div aria-label="3 of 11" aria-roledescription="slide" className="swiper-slide" data-slide="3" role="group">
                 <div className="elementor-element elementor-element-3a01b97 e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="3a01b97">
                   <div className="e-con-inner">
-                    <a className="elementor-element elementor-element-56a9e6e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="56a9e6e" data-project-url="../our-project/index.html?e-filter-e71893d-project-category=hospitality" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="/vora-skyline/" target="_blank">
+                    <a className="elementor-element elementor-element-56a9e6e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="56a9e6e" href="/projects/ghatkopar-penthouse">
                       <div className="elementor-element elementor-element-e094064 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="e094064">
                         <div className="elementor-element elementor-element-1a53792 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="1a53792">
                           <div className="elementor-element elementor-element-6189a8b elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="6189a8b" data-widget_type="heading.default">
                             <p className="elementor-heading-title elementor-size-default">
-                              Vora Skyline
+                              Ghatkopar Penthouse
                             </p>
                           </div>
                           <div className="elementor-element elementor-element-ae15daa elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="ae15daa" data-widget_type="text-editor.default">
                             <p>
-                              Commercial 
+                              Residential 
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               1170 sq. ft 
+                               Penthouse Suite 
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               Kandivali, Mumbai
+                               Ghatkopar, Mumbai
                             </p>
                           </div>
                         </div>
@@ -659,12 +659,12 @@ export default function HospitalityInteriorDesignPage() {
               <div aria-label="4 of 11" aria-roledescription="slide" className="swiper-slide" data-slide="4" role="group">
                 <div className="elementor-element elementor-element-40bd00d e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="40bd00d">
                   <div className="e-con-inner">
-                    <a className="elementor-element elementor-element-03537c9 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="03537c9" data-project-url="../our-project/index.html?e-filter-e71893d-project-category=commercial" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="/dtdc/">
+                    <a className="elementor-element elementor-element-03537c9 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="03537c9" href="/projects/jkt-corporate-office">
                       <div className="elementor-element elementor-element-4f38602 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="4f38602">
                         <div className="elementor-element elementor-element-ddefa7c e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="ddefa7c">
                           <div className="elementor-element elementor-element-c40ce15 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="c40ce15" data-widget_type="heading.default">
                             <p className="elementor-heading-title elementor-size-default">
-                              DTDC
+                              JKT Corporate Office
                             </p>
                           </div>
                           <div className="elementor-element elementor-element-0b03e45 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="0b03e45" data-widget_type="text-editor.default">
@@ -673,11 +673,11 @@ export default function HospitalityInteriorDesignPage() {
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               5050 sq. ft 
+                               Workplace & Boardroom 
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               Goregaon, Mumbai
+                               Navi Mumbai
                             </p>
                           </div>
                         </div>
@@ -957,7 +957,7 @@ export default function HospitalityInteriorDesignPage() {
               </h3>
               <p className="elementor-icon-box-description">
                 
-						Malidesarc delivers end-to-end turnkey hospitality design and execution solutions for high-value hotels, resorts, restaurants, luxury residences, clubs, and experiential hospitality spaces.					
+						SPACEWORA delivers end-to-end turnkey hospitality design and execution solutions for high-value hotels, resorts, restaurants, luxury residences, clubs, and experiential hospitality spaces.					
               </p>
             </div>
           </div>
@@ -1261,7 +1261,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-9780" aria-expanded="true" className="e-n-accordion-item-title" data-accordion-index="1" tabIndex="0">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       What types of hospitality interiors does MaliDesarc design? 
+                       What types of hospitality interiors does SPACEWORA design? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1280,7 +1280,7 @@ export default function HospitalityInteriorDesignPage() {
                 <div aria-labelledby="e-n-accordion-item-9780" className="elementor-element elementor-element-968edbf e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="968edbf" role="region">
                   <div className="elementor-element elementor-element-120188c elementor-widget__width-initial animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="120188c" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
                     <p>
-                      MaliDesarc designs and executes interiors for hotels, restaurants, resorts, cafés, clubs, boutique hospitality spaces and other guest-focused environments.
+                      SPACEWORA designs and executes interiors for hotels, restaurants, resorts, cafés, clubs, boutique hospitality spaces and other guest-focused environments.
                     </p>
                   </div>
                 </div>
@@ -1289,7 +1289,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-9781" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="2" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Does MaliDesarc provide turnkey hospitality interior execution? 
+                       Does SPACEWORA provide turnkey hospitality interior execution? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1308,7 +1308,7 @@ export default function HospitalityInteriorDesignPage() {
                 <div aria-labelledby="e-n-accordion-item-9781" className="elementor-element elementor-element-784fd57 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="784fd57" role="region">
                   <div className="elementor-element elementor-element-4e254cc elementor-widget__width-initial animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="4e254cc" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
                     <p>
-                      Yes. MaliDesarc manages the complete hospitality interior execution process, from design and planning to procurement, site execution, quality checks and final handover.
+                      Yes. SPACEWORA manages the complete hospitality interior execution process, from design and planning to procurement, site execution, quality checks and final handover.
                     </p>
                   </div>
                 </div>
@@ -1345,7 +1345,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-9783" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="4" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Can MaliDesarc work with an existing hotel or restaurant design concept? 
+                       Can SPACEWORA work with an existing hotel or restaurant design concept? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1407,7 +1407,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-3410" aria-expanded="true" className="e-n-accordion-item-title" data-accordion-index="1" tabIndex="0">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Where does MaliDesarc provide hospitality interior services? 
+                       Where does SPACEWORA provide hospitality interior services? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1426,7 +1426,7 @@ export default function HospitalityInteriorDesignPage() {
                 <div aria-labelledby="e-n-accordion-item-3410" className="elementor-element elementor-element-d24a064 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="d24a064" role="region">
                   <div className="elementor-element elementor-element-e2e0176 elementor-widget__width-initial animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="e2e0176" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
                     <p>
-                      MaliDesarc is based in Mumbai and undertakes hospitality interior design and turnkey execution projects across Mumbai and other locations in India.
+                      SPACEWORA is based in Mumbai and undertakes hospitality interior design and turnkey execution projects across Mumbai and other locations in India.
                     </p>
                   </div>
                 </div>
@@ -1435,7 +1435,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-3411" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="2" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       What is included in MaliDesarc's hospitality interior design services? 
+                       What is included in SPACEWORA's hospitality interior design services? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1463,7 +1463,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-3412" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="3" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Can MaliDesarc handle complete hotel or restaurant fit-out projects? 
+                       Can SPACEWORA handle complete hotel or restaurant fit-out projects? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1519,7 +1519,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-3414" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="5" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       How can I start my hospitality interior project with MaliDesarc? 
+                       How can I start my hospitality interior project with SPACEWORA? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1577,7 +1577,7 @@ export default function HospitalityInteriorDesignPage() {
 
                     <br />
                     <br />
-                    MaliDesarc team started their work with gusto and completed the project within 4 months. The entire team comprising of Principal Designer, Rachana along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
+                    SPACEWORA team started their work with gusto and completed the project within 4 months. The entire team comprising of Principal Designer, Rachana along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1625,7 +1625,7 @@ export default function HospitalityInteriorDesignPage() {
 
                     <br />
                     <br />
-                    The MaliDesarc team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by MaliDesarc Interior Division is fantastic and I highly recommend Rachana & her team, who immediately began collaborating on our office space.					
+                    The SPACEWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACEWORA Interior Division is fantastic and I highly recommend Rachana & her team, who immediately began collaborating on our office space.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1649,7 +1649,7 @@ export default function HospitalityInteriorDesignPage() {
 
                     <br />
                     <br />
-                    Our experience with MaliDesarc was pleasurable because of the project managers and I highly recommend Rachana & her team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
+                    Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend Rachana & her team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1673,7 +1673,7 @@ export default function HospitalityInteriorDesignPage() {
 
                     <br />
                     <br />
-                    I recently worked with Malidesarc Pvt Ltd on a hospitality project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
+                    I recently worked with SPACEWORA Design Studio on a hospitality project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">

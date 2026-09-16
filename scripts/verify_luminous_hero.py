@@ -52,3 +52,4 @@ async def run_hero_verification():
 
 if __name__ == '__main__':
     asyncio.run(run_hero_verification())
+

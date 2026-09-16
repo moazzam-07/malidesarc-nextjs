@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Privacy Policy -",
-  description: "Suggested text: Our website address is: https://malidesarc.com.",
+  title: "Privacy Policy - SPACEWORA Design Studio",
+  description: "Privacy Policy of SPACEWORA Design Studio. Our website address is: https://spacewora.vercel.app.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -25,10 +25,7 @@ export default function PrivacyPolicyPage() {
       Who we are
     </h2>
     <p className="wp-block-paragraph">
-      <strong className="privacy-policy-tutorial">
-        Suggested text: 
-      </strong>
-      Our website address is: https://malidesarc.com.
+      Our website address is: https://spacewora.vercel.app.
     </p>
     <h2 className="wp-block-heading">
       Comments

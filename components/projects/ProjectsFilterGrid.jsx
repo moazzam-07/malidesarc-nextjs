@@ -1,19 +1,26 @@
 'use client';
 
-import React, { useState, useTransition } from 'react';
+import React, { useState, useEffect, useTransition } from 'react';
+import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
-import { ALL_PROJECTS } from '@/lib/projectsData';
-
-const CATEGORIES = [
-  { id: 'all', label: 'All Projects' },
-  { id: 'residential', label: 'Bespoke Residential' },
-  { id: 'commercial', label: 'Commercial & Retail' },
-  { id: 'hospitality', label: 'Luxury Hospitality' },
-];
+import { ALL_PROJECTS, CATEGORIES } from '@/lib/projectsData';
 
 export default function ProjectsFilterGrid() {
+  const searchParams = useSearchParams();
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [isPending, startTransition] = useTransition();
+
+  useEffect(() => {
+    const cat = searchParams.get('category');
+    if (cat) {
+      const match = CATEGORIES.find(
+        (c) => c.id === cat.toLowerCase() || c.id === cat.toLowerCase().replace(/\s+/g, '-')
+      );
+      if (match) {
+        setSelectedCategory(match.id);
+      }
+    }
+  }, [searchParams]);
 
   const filteredProjects = selectedCategory === 'all'
     ? ALL_PROJECTS
@@ -135,6 +142,7 @@ export default function ProjectsFilterGrid() {
               <img
                 src={project.coverImage}
                 alt={project.title}
+                loading="lazy"
                 style={{
                   position: 'absolute',
                   top: 0,

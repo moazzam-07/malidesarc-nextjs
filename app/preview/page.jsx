@@ -4,14 +4,14 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 export default function PreviewPage() {
-  const [deviceMode, setDeviceMode] = useState('desktop');
+  const [deviceMode, setDeviceMode] = useState('desktop'); // desktop, tablet, mobile
 
   return (
     <div style={{ backgroundColor: '#F8F9FA', minHeight: '100vh', color: '#111111', fontFamily: '"Quicksand", sans-serif', paddingBottom: '80px' }}>
       {/* Top Banner & Context */}
       <div style={{ borderBottom: '1px solid #E5E7EB', padding: '32px 24px 24px 24px', backgroundColor: '#FFFFFF', marginBottom: '36px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid #E5E7EB', paddingBottom: '20px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px' }}>
             <div>
               <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>
                 SPACEWORA Design Studio &bull; Preview Mode

@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "About -",
-  description: "At MaliDesarc, we are not just interior designers we are architects of unique narratives, weaving stories through design.",
+  title: "About Us - SPACEWORA Design Studio",
+  description: "At SPACEWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design.",
 };
 
 export default function AboutPage() {
@@ -40,9 +40,9 @@ export default function AboutPage() {
               </span>
             </h2>
           </div>
-          <div className="elementor-element elementor-element-fd29a55 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="fd29a55" data-widget_type="text-editor.default">
+          <div className="elementor-element elementor-element-fd29a55 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="fd29a55" data-widget_type="text-editor.default">
             <p>
-              At MaliDesarc, we are not just interior designers we are architects of unique narratives, weaving stories through design.
+              At SPACEWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design.
             </p>
           </div>
         </div>
@@ -105,15 +105,15 @@ export default function AboutPage() {
           <div className="elementor-element elementor-element-2672510d e-con-full read-more-section e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2672510d">
             <div className="elementor-element elementor-element-16a143a9 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="16a143a9" data-widget_type="heading.default">
               <h2 className="elementor-heading-title elementor-size-default">
-                Explore MD
+                Explore SPACEWORA
               </h2>
             </div>
             <div className="elementor-element elementor-element-40628758 read-more-text elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="40628758" data-widget_type="text-editor.default">
               <p>
-                At MaliDesarc, we are not just interior designers; we are architects of unique narratives, weaving stories through design. Our team, driven by an unwavering commitment to trust and transparency, stands as your local house designers and turnkey interior contractor. With a culture deeply rooted in embracing the extraordinary, we recognise that every client’s journey is a distinctive tale. Understanding the exceptional paths our clients have traversed, MaliDesarc becomes more than a name; it becomes a reflection of their individual stories. As interior designers near you, we prioritise collaboration, working diligently to deliver creative assets that embody the essence of each unique journey.
+                At SPACEWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design. Our team, driven by an unwavering commitment to excellence and transparent execution, delivers bespoke residential, commercial, and hospitality spaces. With a culture deeply rooted in creating timeless environments, we recognize that every client’s journey is distinct.
               </p>
               <p>
-                Our commitment extends beyond ordinary design. We are strategic problem-solvers, leaving no stone unturned in crafting masterpieces. MaliDesarc is where creativity meets dedication, offering a seamless fusion of trust, transparency, and exceptional design. Choose us to be a part of your extraordinary narrative and let MaliDesarc transform spaces into living expressions of your unique journey.
+                Our commitment extends beyond surface beauty. We are strategic problem-solvers, ensuring structural precision, meticulous craftsmanship, and flawless execution. SPACEWORA is where visionary creativity meets precision engineering, delivering exceptional design that stands the test of time.
               </p>
             </div>
             <div className="elementor-element elementor-element-bf5dd52 read-more-btn elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="bf5dd52" data-widget_type="html.default">
@@ -124,7 +124,7 @@ export default function AboutPage() {
           </div>
           <div className="elementor-element elementor-element-2d7f79e4 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2d7f79e4">
             <div className="elementor-element elementor-element-4f95b0a3 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="4f95b0a3" data-widget_type="image.default">
-              <img alt="" className="attachment-full size-full wp-image-10371" decoding="async" height="1207" sizes="(max-width: 1814px) 100vw, 1814px" src="/wp-content/uploads/2026/08/DAR_0149_01.webp" srcSet="/wp-content/uploads/2026/08/DAR_0149_01.webp 1814w, /wp-content/uploads/2026/08/DAR_0149_01-300x200.webp 300w, /wp-content/uploads/2026/08/DAR_0149_01-1024x681.webp 1024w, /wp-content/uploads/2026/08/DAR_0149_01-768x511.webp 768w, /wp-content/uploads/2026/08/DAR_0149_01-1536x1022.webp 1536w" width="1814" />
+              <img alt="SPACEWORA Design Studio" className="attachment-full size-full wp-image-10371" decoding="async" height="1207" sizes="(max-width: 1814px) 100vw, 1814px" src="/wp-content/uploads/2026/08/DAR_0149_01.webp" width="1814" />
             </div>
           </div>
         </div>
@@ -134,19 +134,18 @@ export default function AboutPage() {
           <div className="elementor-element elementor-element-9dfb783 e-con-full read-more-section e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="9dfb783">
             <div className="elementor-element elementor-element-4ee248e elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="4ee248e" data-widget_type="heading.default">
               <h2 className="elementor-heading-title elementor-size-default">
-                MD History
-
+                Studio Journey
               </h2>
             </div>
             <div className="elementor-element elementor-element-4f6dc9e read-more-text elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="4f6dc9e" data-widget_type="text-editor.default">
               <p>
-                MaliDesarc Pvt. Ltd. is a premier turnkey interior contracting company founded in 2007 by a visionary entrepreneur blending Engineering and Marketing expertise. Specialising in innovative designs and top-tier fabrication for events, exhibitions and commercial interiors, we have successfully completed 250+ projects, including our largest commercial endeavour in 2017.
+                SPACEWORA Design Studio is a premier turnkey interior architecture and contracting practice. Specialising in bespoke luxury residences, commercial workspaces, and high-end hospitality environments, we deliver end-to-end design solutions from initial concept to complete project delivery.
               </p>
               <p>
-                In 2020, amidst the challenges of Covid-19, the company stood resilient, avoiding layoffs and reinforcing the strong ethical values. Today, with over 20 ongoing projects, 200+ satisfied clients and a reputation as trusted interior designers, we offer end-to-end solutions from ideation to implementation.
+                With an extensive track record of delivering successful high-profile spaces across Mumbai and beyond, we partner closely with discerning homeowners and leading enterprises to create timeless destinations where luxury meets functionality.
               </p>
               <p>
-                Explore our diverse portfolio and experience the creativity and quality that sets MaliDesarc apart. Our team is dedicated to exceeding your expectations. Join us on our remarkable 18+ years journey, where passion meets precision in every project.
+                Explore our portfolio and experience the craftsmanship and design distinction that defines SPACEWORA. Our team is dedicated to exceeding your expectations at every step of the architectural and interior journey.
               </p>
             </div>
             <div className="elementor-element elementor-element-efacec5 read-more-btn elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="efacec5" data-widget_type="html.default">
@@ -157,7 +156,7 @@ export default function AboutPage() {
           </div>
           <div className="elementor-element elementor-element-33fc09d e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="33fc09d">
             <div className="elementor-element elementor-element-116ed67 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="116ed67" data-widget_type="image.default">
-              <img alt="" className="attachment-full size-full wp-image-13184" decoding="async" height="1448" loading="lazy" sizes="(max-width: 1086px) 100vw, 1086px" src="/wp-content/uploads/2026/08/Malidesarc-Receptions-image.webp" srcSet="/wp-content/uploads/2026/08/Malidesarc-Receptions-image.webp 1086w, /wp-content/uploads/2026/08/Malidesarc-Receptions-image-225x300.webp 225w, /wp-content/uploads/2026/08/Malidesarc-Receptions-image-768x1024.webp 768w" width="1086" />
+              <img alt="SPACEWORA Studio Reception" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-reception-main.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
             </div>
           </div>
         </div>
@@ -167,33 +166,32 @@ export default function AboutPage() {
           <div className="elementor-element elementor-element-1ccff87 e-con-full read-more-section e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="1ccff87">
             <div className="elementor-element elementor-element-90399ac elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="90399ac" data-widget_type="heading.default">
               <h2 className="elementor-heading-title elementor-size-default">
-                Ethos MaliDesarc
-
+                The SPACEWORA Ethos
               </h2>
             </div>
             <div className="elementor-element elementor-element-39ebfb7 read-more-text elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="39ebfb7" data-widget_type="text-editor.default">
               <p>
-                At our organisation, we recognise that construction is more than just following drawings. It’s about bringing the client’s vision to life, where every detail is as crucial as the bigger picture. Our approach to each project is marked by a cooperative mindset, collaborating with clients, agencies, architects, and interior designers to achieve the common goal of successful project delivery. Renowned as one of the most trusted names in the industry, we pride ourselves in our commitment to on-time delivery, superior quality and budget-friendly services.
+                At SPACEWORA, we recognise that architecture and interior design are far more than executing drawings. It is about bringing the client’s aspiration to life, where every material choice and lighting nuance is as critical as the overall spatial flow. We collaborate seamlessly with clients, project managers, and artisans to achieve flawless delivery.
               </p>
               <p>
                 We are known for:
               </p>
               <ul>
                 <li>
-                  Quality & precision of execution
+                  Bespoke luxury & precision execution
                 </li>
                 <li>
-                  On-time delivery
+                  On-time, turnkey project handover
                 </li>
                 <li>
-                  Cost-effective services
+                  Transparent budgets & cost efficiency
                 </li>
                 <li>
-                  Most renowned & trusted name in the industry
+                  Uncompromising quality and curated materials
                 </li>
               </ul>
               <p>
-                In addition to our core strengths, our expertise extends to collaboration with interior designers and architects, offering comprehensive turnkey interior contracting services. Whether you are seeking interior designers, house designers nearby or a turnkey interior contractor, we are your go-to partner.
+                From private residences and penthouses to corporate offices and fine-dining spaces, SPACEWORA is your trusted design and execution partner.
               </p>
             </div>
             <div className="elementor-element elementor-element-942ba30 read-more-btn elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="942ba30" data-widget_type="html.default">
@@ -204,7 +202,7 @@ export default function AboutPage() {
           </div>
           <div className="elementor-element elementor-element-0d1d46d e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="0d1d46d">
             <div className="elementor-element elementor-element-ac347ae elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="ac347ae" data-widget_type="image.default">
-              <img alt="" className="attachment-full size-full wp-image-10777" decoding="async" height="1350" loading="lazy" sizes="(max-width: 1201px) 100vw, 1201px" src="/wp-content/uploads/2026/08/Ethos-MaliDesarc-Img.webp" srcSet="/wp-content/uploads/2026/08/Ethos-MaliDesarc-Img.webp 1201w, /wp-content/uploads/2026/08/Ethos-MaliDesarc-Img-267x300.webp 267w, /wp-content/uploads/2026/08/Ethos-MaliDesarc-Img-911x1024.webp 911w, /wp-content/uploads/2026/08/Ethos-MaliDesarc-Img-768x863.webp 768w" width="1201" />
+              <img alt="SPACEWORA Executive Boardroom" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-boardroom.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
             </div>
           </div>
         </div>

@@ -88,7 +88,7 @@ export default function MobileMenuPopup() {
         <div className="elementor-element elementor-element-3074b0f elementor-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-e-type="widget" data-element_type="widget" data-id="3074b0f" data-widget_type="icon-list.default">
           <ul className="elementor-icon-list-items">
             <li className="elementor-icon-list-item">
-              <a href="/">
+              <a href="/" onClick={closeMenu}>
                 <span className="elementor-icon-list-icon">
                   <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
                 </span>
@@ -98,17 +98,27 @@ export default function MobileMenuPopup() {
               </a>
             </li>
             <li className="elementor-icon-list-item">
-              <a href="/teams/">
+              <a href="/our-project/" onClick={closeMenu}>
                 <span className="elementor-icon-list-icon">
                   <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
                 </span>
-                <span className="elementor-icon-list-text">
-                  Team
+                <span className="elementor-icon-list-text" style={{ color: '#F4C600', fontWeight: 600 }}>
+                  Our Projects
                 </span>
               </a>
             </li>
             <li className="elementor-icon-list-item">
-              <a href="/about/">
+              <a href="/our-services/" onClick={closeMenu}>
+                <span className="elementor-icon-list-icon">
+                  <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
+                </span>
+                <span className="elementor-icon-list-text">
+                  Our Services
+                </span>
+              </a>
+            </li>
+            <li className="elementor-icon-list-item">
+              <a href="/about/" onClick={closeMenu}>
                 <span className="elementor-icon-list-icon">
                   <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
                 </span>
@@ -118,7 +128,17 @@ export default function MobileMenuPopup() {
               </a>
             </li>
             <li className="elementor-icon-list-item">
-              <a href="/contact-2/">
+              <a href="/teams/" onClick={closeMenu}>
+                <span className="elementor-icon-list-icon">
+                  <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
+                </span>
+                <span className="elementor-icon-list-text">
+                  Team
+                </span>
+              </a>
+            </li>
+            <li className="elementor-icon-list-item">
+              <a href="/contact/" onClick={closeMenu}>
                 <span className="elementor-icon-list-icon">
                   <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
                 </span>
@@ -129,9 +149,30 @@ export default function MobileMenuPopup() {
             </li>
           </ul>
         </div>
-        <div className="elementor-element elementor-element-b298139 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="b298139" data-widget_type="heading.default">
-          <span className="elementor-heading-title elementor-size-default">
-            Copyright © 2026 Malidesarc, 
+        <div style={{ marginTop: '20px', padding: '0 10px' }}>
+          <a 
+            href="/contact/" 
+            onClick={closeMenu}
+            style={{
+              display: 'block',
+              textAlign: 'center',
+              backgroundColor: '#F4C600',
+              color: '#0A0A0A',
+              fontWeight: 700,
+              fontSize: '14px',
+              letterSpacing: '1px',
+              textTransform: 'uppercase',
+              padding: '12px 24px',
+              borderRadius: '8px',
+              textDecoration: 'none'
+            }}
+          >
+            Book Consultation
+          </a>
+        </div>
+        <div className="elementor-element elementor-element-b298139 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="b298139" data-widget_type="heading.default" style={{ marginTop: '25px' }}>
+          <span className="elementor-heading-title elementor-size-default" style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '13px' }}>
+            Copyright © 2026 SPACEWORA Design Studio.
             <br />
             All rights reserved.
           </span>

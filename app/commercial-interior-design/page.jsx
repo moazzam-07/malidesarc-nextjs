@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Commercial Interior Design & Turnkey Spaces",
-  description: "Premium Commercial Interiors by Malidesarc Every new office carries an ambition. Every commercial space carries a promise, And represents an investment in the future.",
+  title: "Commercial Interior Design & Turnkey Spaces - SPACEWORA",
+  description: "Premium Commercial Interiors by SPACEWORA Design Studio. Every new office carries an ambition. Every commercial space carries a promise, and represents an investment in the future.",
 };
 
 export default function CommercialInteriorDesignPage() {
@@ -223,7 +223,7 @@ export default function CommercialInteriorDesignPage() {
                   <input name="form_id" type="hidden" value="14786" />
                   <input name="page_id" type="hidden" value="14776" />
                   <input name="form_type" type="hidden" value="default" />
-                  <input name="current_url" type="hidden" value="https://malidesarc.com/commercial-interior-design/" />
+                  <input name="current_url" type="hidden" value="https://spacewora.vercel.app/commercial-interior-design/" />
                   <input name="render_id" type="hidden" value="0" />
                   <input name="action" type="hidden" value="forminator_submit_form_custom-forms" />
                 </form>
@@ -406,7 +406,7 @@ export default function CommercialInteriorDesignPage() {
           </div>
           <div className="elementor-element elementor-element-d4f3005 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="d4f3005" data-widget_type="text-editor.default">
             <p>
-              At Malidesarc, we transform that vision into sophisticated, high-performing spaces through complete turnkey design and execution.
+              At SPACEWORA, we transform that vision into sophisticated, high-performing spaces through complete turnkey design and execution.
               <br />
               From concept to handover, we manage design, planning, procurement and execution so you have one trusted partner and complete peace of mind.
               <br />
@@ -438,7 +438,7 @@ export default function CommercialInteriorDesignPage() {
         </div>
         <div className="elementor-element elementor-element-b682737 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b682737">
           <div className="elementor-element elementor-element-9c8a93a elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="9c8a93a" data-widget_type="image.default">
-            <img alt="" className="attachment-large size-large wp-image-13184" decoding="async" height="1024" sizes="(max-width: 768px) 100vw, 768px" src="/wp-content/uploads/2026/08/Malidesarc-Receptions-image-768x1024.webp" srcSet="/wp-content/uploads/2026/08/Malidesarc-Receptions-image-768x1024.webp 768w, /wp-content/uploads/2026/08/Malidesarc-Receptions-image-225x300.webp 225w, /wp-content/uploads/2026/08/Malidesarc-Receptions-image.webp 1086w" width="768" />
+            <img alt="SPACWORA Executive Boardroom & Workplace" className="attachment-large size-large" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-boardroom.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
           </div>
         </div>
       </div>
@@ -447,7 +447,7 @@ export default function CommercialInteriorDesignPage() {
       <div className="e-con-inner">
         <div className="elementor-element elementor-element-ba9944f elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="ba9944f" data-widget_type="heading.default">
           <h2 className="elementor-heading-title elementor-size-default">
-            Why Choose MaliDesarc
+            Why Choose SPACEWORA
           </h2>
         </div>
       </div>
@@ -649,7 +649,7 @@ export default function CommercialInteriorDesignPage() {
               <div aria-live="off" className="elementor-image-carousel swiper-wrapper">
                 <div aria-label="1 of 5" aria-roledescription="slide" className="swiper-slide" role="group">
                   <figure className="swiper-slide-inner">
-                    <img alt="dtdc-commercial-office-cafeteria-150kb" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/2026/09/dtdc-commercial-office-cafeteria-150kb-768x1024.webp" />
+                    <img alt="SPACWORA Commercial Executive Boardroom" className="swiper-slide-image" decoding="async" src="/images/studio/spacwora-boardroom.webp" />
                   </figure>
                 </div>
                 <div aria-label="2 of 5" aria-roledescription="slide" className="swiper-slide" role="group">
@@ -696,7 +696,7 @@ export default function CommercialInteriorDesignPage() {
             Our Projects
           </h2>
         </div>
-        <div className="elementor-element elementor-element-0837251 elementor-arrows-position-outside elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-n-carousel" data-e-type="widget" data-element_type="widget" data-id="0837251" data-settings="{&quot;carousel_items&quot;:[{&quot;slide_title&quot;:&quot;Vora&quot;,&quot;_id&quot;:&quot;2409ba6&quot;},{&quot;slide_title&quot;:&quot;DTDC&quot;,&quot;_id&quot;:&quot;9c2efde&quot;},{&quot;slide_title&quot;:&quot;Stratum&quot;,&quot;_id&quot;:&quot;7d76668&quot;},{&quot;slide_title&quot;:&quot;Hosteller&quot;,&quot;_id&quot;:&quot;ee87dbe&quot;},{&quot;slide_title&quot;:&quot;DGS Gurudarshan&quot;,&quot;_id&quot;:&quot;df406ff&quot;},{&quot;slide_title&quot;:&quot;Codeword Boss&quot;,&quot;_id&quot;:&quot;0ef5e8b&quot;},{&quot;slide_title&quot;:&quot;Baluwala Builders&quot;,&quot;_id&quot;:&quot;643844c&quot;},{&quot;slide_title&quot;:&quot;Bellisma&quot;,&quot;_id&quot;:&quot;3c78ad8&quot;},{&quot;slide_title&quot;:&quot;Rudra&quot;,&quot;_id&quot;:&quot;e87220b&quot;}],&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;image_spacing_custom_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="nested-carousel.default">
+        <div className="elementor-element elementor-element-0837251 elementor-arrows-position-outside elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-n-carousel" data-e-type="widget" data-element_type="widget" data-id="0837251" data-settings="{&quot;carousel_items&quot;:[{&quot;slide_title&quot;:&quot;Vora&quot;,&quot;_id&quot;:&quot;2409ba6&quot;},{&quot;slide_title&quot;:&quot;JKT Corporate Office&quot;,&quot;_id&quot;:&quot;9c2efde&quot;},{&quot;slide_title&quot;:&quot;Stratum&quot;,&quot;_id&quot;:&quot;7d76668&quot;},{&quot;slide_title&quot;:&quot;Hosteller&quot;,&quot;_id&quot;:&quot;ee87dbe&quot;},{&quot;slide_title&quot;:&quot;DGS Gurudarshan&quot;,&quot;_id&quot;:&quot;df406ff&quot;},{&quot;slide_title&quot;:&quot;Codeword Boss&quot;,&quot;_id&quot;:&quot;0ef5e8b&quot;},{&quot;slide_title&quot;:&quot;Baluwala Builders&quot;,&quot;_id&quot;:&quot;643844c&quot;},{&quot;slide_title&quot;:&quot;Bellisma&quot;,&quot;_id&quot;:&quot;3c78ad8&quot;},{&quot;slide_title&quot;:&quot;Rudra&quot;,&quot;_id&quot;:&quot;e87220b&quot;}],&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;image_spacing_custom_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="nested-carousel.default">
           <div aria-label="Carousel" aria-roledescription="carousel" className="e-n-carousel swiper" dir="ltr" role="region">
             <div aria-live="off" className="swiper-wrapper">
               <div aria-label="1 of 9" aria-roledescription="slide" className="swiper-slide" data-slide="1" role="group">
@@ -732,12 +732,12 @@ export default function CommercialInteriorDesignPage() {
               <div aria-label="2 of 9" aria-roledescription="slide" className="swiper-slide" data-slide="2" role="group">
                 <div className="elementor-element elementor-element-90aed53 e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="90aed53">
                   <div className="e-con-inner">
-                    <a className="elementor-element elementor-element-bbec2fa e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="bbec2fa" data-project-url="../our-project/index.html?e-filter-e71893d-project-category=commercial" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" href="/dtdc/">
+                    <a className="elementor-element elementor-element-bbec2fa e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="bbec2fa" href="/projects/jkt-corporate-office">
                       <div className="elementor-element elementor-element-8c7dfdd e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="8c7dfdd">
                         <div className="elementor-element elementor-element-f747f2a e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="f747f2a">
                           <div className="elementor-element elementor-element-dc3dab5 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="dc3dab5" data-widget_type="heading.default">
                             <p className="elementor-heading-title elementor-size-default">
-                              DTDC
+                              JKT Corporate Office
                             </p>
                           </div>
                           <div className="elementor-element elementor-element-39c3023 elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="39c3023" data-widget_type="text-editor.default">
@@ -746,11 +746,11 @@ export default function CommercialInteriorDesignPage() {
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               5050 sq. ft 
+                               Executive Workspace & Boardroom 
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               Goregaon, Mumbai
+                               Kopar Khairane, Navi Mumbai
                             </p>
                           </div>
                         </div>
@@ -1108,7 +1108,7 @@ export default function CommercialInteriorDesignPage() {
           <div className="elementor-element elementor-element-9030074 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="9030074" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:305}" data-widget_type="text-editor.default">
             <div className="cl-hd">
               <p className="sub rv d2 in">
-                Whether you’re creating a corporate headquarters, premium sales office, experience centre or high-value commercial space, Malidesarc brings together design expertise and turnkey execution to make it happen.
+                Whether you’re creating a corporate headquarters, premium sales office, experience centre or high-value commercial space, SPACEWORA brings together design expertise and turnkey execution to make it happen.
                 <br />
                 Because we don’t just create interiors.
                 <br />
@@ -1293,7 +1293,7 @@ export default function CommercialInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-2081" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="2" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Does MaliDesarc provide turnkey commercial interior solutions? 
+                       Does SPACEWORA provide turnkey commercial interior solutions? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1411,7 +1411,7 @@ export default function CommercialInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-2390" aria-expanded="true" className="e-n-accordion-item-title" data-accordion-index="1" tabIndex="0">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Can MaliDesarc handle the complete project from design to handover? 
+                       Can SPACEWORA handle the complete project from design to handover? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1523,7 +1523,7 @@ export default function CommercialInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-2394" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="5" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       How can I discuss my commercial interior project with MaliDesarc? 
+                       How can I discuss my commercial interior project with SPACEWORA? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1581,7 +1581,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    MaliDesarc team started their work with gusto and completed the project within 4 months. The entire team comprising of Principal Designer, Rachana along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
+                    SPACEWORA team started their work with gusto and completed the project within 4 months. The entire team comprising of Principal Designer, Rachana along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1629,7 +1629,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    The MaliDesarc team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by MaliDesarc Interior Division is fantastic and I highly recommend Rachana & her team, who immediately began collaborating on our office space.					
+                    The SPACEWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACEWORA Interior Division is fantastic and I highly recommend Rachana & her team, who immediately began collaborating on our office space.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1653,7 +1653,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    Our experience with MaliDesarc was pleasurable because of the project managers and I highly recommend Rachana & her team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
+                    Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend Rachana & her team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1677,7 +1677,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    I recently worked with Malidesarc Pvt Ltd on a hospitality project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
+                    I recently worked with SPACEWORA Design Studio on an interior project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">

@@ -1,4 +1,4 @@
-/* MaliDesarc Next.js Global Styles */
+/* SPACEWORA Design Studio Global Styles */
 
 /* =========================================
    LENIS SMOOTH SCROLLING
@@ -58,6 +58,7 @@ html.lenis, html.lenis body {
 /* =========================================
    MARQUEE
 ========================================= */
+.spacewora-marquee,
 .malidesarc-marquee {
   position: relative !important;
   display: block !important;
@@ -77,6 +78,7 @@ html.lenis, html.lenis body {
   z-index: 10;
 }
 
+.spacewora-marquee-track,
 .malidesarc-marquee-track {
   display: flex !important;
   width: max-content !important;
@@ -84,10 +86,11 @@ html.lenis, html.lenis body {
   flex-wrap: nowrap !important;
   align-items: center !important;
   white-space: nowrap !important;
-  animation: malidesarcMarquee 32s linear infinite;
+  animation: spaceworaMarquee 32s linear infinite;
   will-change: transform;
 }
 
+.spacewora-marquee-item,
 .malidesarc-marquee-item {
   display: inline-flex !important;
   align-items: center !important;
@@ -105,6 +108,7 @@ html.lenis, html.lenis body {
   color: #ffffff !important;
 }
 
+.spacewora-marquee-icon,
 .malidesarc-marquee-icon {
   display: inline-flex !important;
   align-items: center !important;
@@ -117,7 +121,7 @@ html.lenis, html.lenis body {
   line-height: 1 !important;
 }
 
-@keyframes malidesarcMarquee {
+@keyframes spaceworaMarquee {
   from {
     transform: translateX(0);
   }
@@ -127,14 +131,17 @@ html.lenis, html.lenis body {
 }
 
 @media (max-width: 1024px) {
+  .spacewora-marquee,
   .malidesarc-marquee {
     padding: 9px 0 !important;
   }
+  .spacewora-marquee-item,
   .malidesarc-marquee-item {
     padding-left: 22px !important;
     padding-right: 22px !important;
     font-size: 14px !important;
   }
+  .spacewora-marquee-icon,
   .malidesarc-marquee-icon {
     margin-right: 14px !important;
     font-size: 17px !important;
@@ -142,14 +149,17 @@ html.lenis, html.lenis body {
 }
 
 @media (max-width: 767px) {
+  .spacewora-marquee,
   .malidesarc-marquee {
     padding: 15px 0 !important;
   }
+  .spacewora-marquee-item,
   .malidesarc-marquee-item {
     padding-left: 18px !important;
     padding-right: 18px !important;
     font-size: 13px !important;
   }
+  .spacewora-marquee-icon,
   .malidesarc-marquee-icon {
     margin-right: 11px !important;
     font-size: 16px !important;
@@ -157,6 +167,7 @@ html.lenis, html.lenis body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .spacewora-marquee-track,
   .malidesarc-marquee-track {
     animation: none !important;
   }
@@ -396,6 +407,7 @@ html.lenis, html.lenis body {
 ========================================= */
 
 /* Scrolled & Mobile Header */
+.dynamic-header {
 .dynamic-header,
 .elementor-6886 .elementor-element.elementor-element-a2436b7,
 .elementor-6886 .elementor-element.elementor-element-a2436b7:not(.elementor-motion-effects-element-type-background),
@@ -403,6 +415,10 @@ html.lenis, html.lenis body {
   padding-left: clamp(24px, 4vw, 56px) !important;
   padding-right: clamp(24px, 4vw, 56px) !important;
   box-sizing: border-box !important;
+  background-color: rgba(10, 10, 10, 0.95) !important;
+  backdrop-filter: blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  background-color: #0A0A0A !important;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.18) 60%, transparent 100%) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
@@ -410,25 +426,32 @@ html.lenis, html.lenis body {
   transition: all 0.35s ease-in-out !important;
 }
 
+.dynamic-header.scrolled {
+  background-color: #0A0A0A !important;
 .dynamic-header.scrolled,
 .elementor-6886 .elementor-element.elementor-element-a2436b7.scrolled {
   background: rgba(10, 10, 10, 0.96) !important;
   backdrop-filter: blur(14px) !important;
   -webkit-backdrop-filter: blur(14px) !important;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6) !important;
+  border-bottom: 1px solid rgba(244, 198, 0, 0.2) !important;
   border-bottom: 1px solid rgba(244, 198, 0, 0.25) !important;
 }
 
 @media (max-width: 768px) {
+  .dynamic-header {
   .dynamic-header,
   .elementor-6886 .elementor-element.elementor-element-a2436b7 {
     padding-left: 20px !important;
     padding-right: 20px !important;
+    background-color: rgba(10, 10, 10, 0.92) !important;
     background: rgba(10, 10, 10, 0.92) !important;
     backdrop-filter: blur(14px) !important;
     -webkit-backdrop-filter: blur(14px) !important;
     border-bottom: 1px solid rgba(244, 198, 0, 0.15) !important;
   }
+  .dynamic-header.scrolled {
+    background-color: #0A0A0A !important;
   .dynamic-header.scrolled,
   .elementor-6886 .elementor-element.elementor-element-a2436b7.scrolled {
     background: #0A0A0A !important;
