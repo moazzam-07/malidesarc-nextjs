@@ -1,12 +1,15 @@
 'use client';
 
 import { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Swiper from 'swiper';
 import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper/modules';
 
 export default function ClientAnimationManager() {
+  const pathname = usePathname();
+
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -140,40 +143,57 @@ export default function ClientAnimationManager() {
       const delimiter = el.getAttribute('data-delimiter') || ',';
 
       const formatVal = (val) => (delimiter ? Math.round(val).toLocaleString() : Math.round(val).toString());
-      el.textContent = formatVal(fromVal);
 
-      const obs = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              let startTime = null;
+      const animateCounter = () => {
+        let startTime = null;
 
-              function step(timestamp) {
-                if (!startTime) startTime = timestamp;
-                const progress = Math.min((timestamp - startTime) / duration, 1);
-                const easeOutQuad = 1 - (1 - progress) * (1 - progress);
-                const currentVal = fromVal + (toVal - fromVal) * easeOutQuad;
+        function step(timestamp) {
+          if (!startTime) startTime = timestamp;
+          const progress = Math.min((timestamp - startTime) / duration, 1);
+          const easeOutQuad = 1 - (1 - progress) * (1 - progress);
+          const currentVal = fromVal + (toVal - fromVal) * easeOutQuad;
 
-                el.textContent = formatVal(currentVal);
+          el.textContent = formatVal(currentVal);
 
-                if (progress < 1) {
-                  requestAnimationFrame(step);
-                } else {
-                  el.textContent = formatVal(toVal);
-                }
+          if (progress < 1) {
+            requestAnimationFrame(step);
+          } else {
+            el.textContent = formatVal(toVal);
+          }
+        }
+
+        requestAnimationFrame(step);
+      };
+
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight + 100 && rect.bottom > -100) {
+        animateCounter();
+      } else {
+        const obs = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                animateCounter();
+                obs.unobserve(el);
               }
-
-              requestAnimationFrame(step);
-              obs.unobserve(el);
-            }
-          });
-        },
-        { threshold: 0.2 }
-      );
-
-      obs.observe(el);
-      counterObservers.push(obs);
+            });
+          },
+          { rootMargin: '80px 0px 80px 0px', threshold: 0.05 }
+        );
+        obs.observe(el);
+        counterObservers.push(obs);
+      }
     });
+
+    const safeguardCounterTimer = setTimeout(() => {
+      document.querySelectorAll('.elementor-counter-number').forEach((el) => {
+        const toVal = parseFloat(el.getAttribute('data-to-value') || '0');
+        if (toVal > 0) {
+          const delimiter = el.getAttribute('data-delimiter') || ',';
+          el.textContent = delimiter ? Math.round(toVal).toLocaleString() : Math.round(toVal).toString();
+        }
+      });
+    }, 2500);
 
     // 6. Swiper Carousels Initialization
     const swiperInstances = [];
@@ -301,16 +321,21 @@ export default function ClientAnimationManager() {
       swiperInstances.push(s);
     });
 
-    // Cleanup on unmount
+    // Cleanup on unmount or route change
     return () => {
       if (rotateInterval) clearInterval(rotateInterval);
       clearTimeout(safeguardTimer);
+      clearTimeout(safeguardCounterTimer);
       animObservers.forEach((obs) => obs.disconnect());
       counterObservers.forEach((obs) => obs.disconnect());
-      triggers.forEach((trig) => trig.kill());
-      swiperInstances.forEach((s) => s.destroy(true, true));
+      triggers.forEach((trig) => {
+        try { trig.kill(); } catch (e) {}
+      });
+      swiperInstances.forEach((s) => {
+        try { s.destroy(true, true); } catch (e) {}
+      });
     };
-  }, []);
+  }, [pathname]);
 
   return null;
 }

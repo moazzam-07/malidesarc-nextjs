@@ -297,7 +297,7 @@ export default function AboutPage() {
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
                   <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="5" data-to-value="250">
-                    5
+                    250
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -317,7 +317,7 @@ export default function AboutPage() {
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
                   <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="4" data-to-value="8">
-                    4
+                    8
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -337,7 +337,7 @@ export default function AboutPage() {
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
                   <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="4" data-to-value="18">
-                    4
+                    18
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -357,7 +357,7 @@ export default function AboutPage() {
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
                   <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="5" data-to-value="96">
-                    5
+                    96
                   </span>
                   <span className="elementor-counter-number-suffix">
                     %
@@ -381,7 +381,7 @@ export default function AboutPage() {
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
                   <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="3" data-to-value="250">
-                    3
+                    250
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -401,7 +401,7 @@ export default function AboutPage() {
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
                   <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="3" data-to-value="8">
-                    3
+                    8
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -421,7 +421,7 @@ export default function AboutPage() {
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
                   <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="18">
-                    0
+                    18
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -441,7 +441,7 @@ export default function AboutPage() {
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
                   <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="1" data-to-value="96">
-                    1
+                    96
                   </span>
                   <span className="elementor-counter-number-suffix">
                     %
@@ -452,6 +452,9 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+      {/* Our Team section hidden per client request */}
+      {false && (
+      <>
       <div className="elementor-element elementor-element-514681e e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="514681e" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div className="e-con-inner">
           <div className="elementor-element elementor-element-48eb4152 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="48eb4152" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:350}" data-widget_type="heading.default">
@@ -711,6 +714,8 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+      </>
+      )}
     </div>
   </div>
 </main>
