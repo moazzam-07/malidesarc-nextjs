@@ -479,6 +479,14 @@ svg.e-font-icon-svg {
   display: inline-block !important;
 }
 
+/* Services Hero Banner - Pure White Canvas */
+.services-hero-banner,
+.elementor-10816 .elementor-element.elementor-element-a622f89 {
+  background: #FFFFFF !important;
+  background-image: none !important;
+  background-color: #FFFFFF !important;
+}
+
 /* Stats Counter Container (Desktop & Mobile) */
 .elementor-13403 .elementor-element.elementor-element-b5ba00c,
 .elementor-13403 .elementor-element.elementor-element-909a3ae,

@@ -72,14 +72,36 @@ export default function OurServicesPage() {
           <div className="elementor elementor-10816" data-elementor-id="10816" data-elementor-post-type="page" data-elementor-type="wp-page">
             
             {/* Hero Banner */}
-            <div className="elementor-element elementor-element-a622f89 e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="a622f89" data-settings='{"background_background":"classic"}' style={{ padding: '80px 20px 40px 20px' }}>
+            <div 
+              className="elementor-element services-hero-banner e-flex e-con-boxed e-con e-parent" 
+              style={{ 
+                padding: '120px 20px 50px 20px',
+                background: '#FFFFFF',
+                backgroundColor: '#FFFFFF',
+                backgroundImage: 'none'
+              }}
+            >
               <div className="e-con-inner" style={{ maxWidth: '1100px', margin: '0 auto', textAlign: 'center' }}>
-                <div className="elementor-element elementor-element-bebbcd9 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="bebbcd9" data-widget_type="heading.default">
-                  <h1 className="elementor-heading-title elementor-size-default" style={{ fontSize: 'clamp(2.4rem, 2.2rem + 2vw, 3.8rem)', fontWeight: 600, color: '#111111', lineHeight: 1.2 }}>
+                <span 
+                  style={{
+                    color: '#F4C600',
+                    textTransform: 'uppercase',
+                    letterSpacing: '3px',
+                    fontSize: '13px',
+                    fontWeight: 700,
+                    display: 'inline-block',
+                    marginBottom: '14px'
+                  }}
+                >
+                  STUDIO DISCIPLINES
+                </span>
+                <div className="elementor-element elementor-widget elementor-widget-heading">
+                  <h1 className="elementor-heading-title elementor-size-default" style={{ fontSize: 'clamp(2.4rem, 2.2rem + 2vw, 3.8rem)', fontWeight: 600, color: '#111111', lineHeight: 1.2, margin: 0 }}>
                     Our <span className="custom-amp" style={{ color: '#F4C600' }}>Services</span>
                   </h1>
                 </div>
-                <div className="elementor-element elementor-element-72082e7 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="72082e7" data-widget_type="text-editor.default" style={{ maxWidth: '750px', margin: '20px auto 0 auto' }}>
+                <div style={{ width: '60px', height: '2px', backgroundColor: '#F4C600', margin: '18px auto' }} />
+                <div className="elementor-element elementor-widget elementor-widget-text-editor" style={{ maxWidth: '750px', margin: '0 auto' }}>
                   <p style={{ fontSize: '17px', lineHeight: 1.7, color: '#555555' }}>
                     SPACEWORA delivers bespoke architecture, interior curation, and end-to-end turnkey execution across luxury residential, commercial, hospitality, penthouse, and exhibition projects.
                   </p>
