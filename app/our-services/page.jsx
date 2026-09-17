@@ -67,21 +67,20 @@ export default function OurServicesPage() {
       <link rel="stylesheet" href="/wp-content/uploads/elementor/css/post-9770.css" />
       <link rel="stylesheet" href="/wp-content/uploads/elementor/css/post-11543.css" />
 
-      <main className="site-main post-10816 page type-page status-publish hentry" id="content">
+      <main className="site-main post-10816 page type-page status-publish hentry" id="content" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="page-content">
           <div className="elementor elementor-10816" data-elementor-id="10816" data-elementor-post-type="page" data-elementor-type="wp-page">
             
-            {/* Hero Banner */}
-            <div 
-              className="elementor-element services-hero-banner e-flex e-con-boxed e-con e-parent" 
+            {/* Hero Banner with Adequate Breathing Room Below Fixed Navbar */}
+            <section 
+              className="services-hero-banner" 
               style={{ 
-                padding: '120px 20px 50px 20px',
-                background: '#FFFFFF',
+                padding: '160px 20px 50px 20px',
                 backgroundColor: '#FFFFFF',
-                backgroundImage: 'none'
+                textAlign: 'center'
               }}
             >
-              <div className="e-con-inner" style={{ maxWidth: '1100px', margin: '0 auto', textAlign: 'center' }}>
+              <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
                 <span 
                   style={{
                     color: '#F4C600',
@@ -90,28 +89,34 @@ export default function OurServicesPage() {
                     fontSize: '13px',
                     fontWeight: 700,
                     display: 'inline-block',
-                    marginBottom: '14px'
+                    marginBottom: '16px'
                   }}
                 >
                   STUDIO DISCIPLINES
                 </span>
-                <div className="elementor-element elementor-widget elementor-widget-heading">
-                  <h1 className="elementor-heading-title elementor-size-default" style={{ fontSize: 'clamp(2.4rem, 2.2rem + 2vw, 3.8rem)', fontWeight: 600, color: '#111111', lineHeight: 1.2, margin: 0 }}>
-                    Our <span className="custom-amp" style={{ color: '#F4C600' }}>Services</span>
-                  </h1>
-                </div>
-                <div style={{ width: '60px', height: '2px', backgroundColor: '#F4C600', margin: '18px auto' }} />
-                <div className="elementor-element elementor-widget elementor-widget-text-editor" style={{ maxWidth: '750px', margin: '0 auto' }}>
-                  <p style={{ fontSize: '17px', lineHeight: 1.7, color: '#555555' }}>
+                <h1 
+                  style={{ 
+                    fontSize: 'clamp(2.4rem, 2.2rem + 2vw, 3.8rem)', 
+                    fontWeight: 600, 
+                    color: '#111111', 
+                    lineHeight: 1.2, 
+                    margin: 0 
+                  }}
+                >
+                  Our <span style={{ color: '#F4C600' }}>Services</span>
+                </h1>
+                <div style={{ width: '60px', height: '2px', backgroundColor: '#F4C600', margin: '20px auto' }} />
+                <div style={{ maxWidth: '750px', margin: '0 auto' }}>
+                  <p style={{ fontSize: '17px', lineHeight: 1.75, color: '#555555', margin: 0 }}>
                     SPACEWORA delivers bespoke architecture, interior curation, and end-to-end turnkey execution across luxury residential, commercial, hospitality, penthouse, and exhibition projects.
                   </p>
                 </div>
               </div>
-            </div>
+            </section>
 
             {/* 6 Studio Services Cards */}
-            <div className="elementor-element elementor-element-f782cf2 all-cards e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="f782cf2" style={{ padding: '20px 20px 80px 20px' }}>
-              <div className="e-con-inner" style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '50px' }}>
+            <div className="all-cards" style={{ padding: '20px 20px 90px 20px', backgroundColor: '#FFFFFF' }}>
+              <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '50px' }}>
                 
                 {studioServices.map((service, index) => {
                   const isEven = index % 2 === 1;
@@ -119,9 +124,6 @@ export default function OurServicesPage() {
                     <div 
                       key={service.id}
                       id={service.id}
-                      className="elementor-element e-flex e-con-boxed e-con e-child" 
-                      data-e-type="container" 
-                      data-element_type="container" 
                       style={{ 
                         backgroundColor: '#FFFFFF',
                         border: '1px solid rgba(0, 0, 0, 0.08)',
@@ -134,7 +136,6 @@ export default function OurServicesPage() {
                       }}
                     >
                       <div 
-                        className="e-con-inner"
                         style={{ 
                           display: 'flex', 
                           flexDirection: isEven ? 'row-reverse' : 'row',
@@ -145,9 +146,6 @@ export default function OurServicesPage() {
                       >
                         {/* Text Column */}
                         <div 
-                          className="elementor-element e-con-full e-flex e-con e-child" 
-                          data-e-type="container" 
-                          data-element_type="container"
                           style={{
                             flex: '1 1 450px',
                             padding: 'clamp(28px, 4vw, 48px)',
@@ -175,7 +173,6 @@ export default function OurServicesPage() {
                           </div>
 
                           <h2 
-                            className="elementor-heading-title elementor-size-default"
                             style={{ 
                               fontSize: 'clamp(1.8rem, 1.6rem + 1vw, 2.4rem)',
                               fontWeight: 600,
@@ -247,9 +244,6 @@ export default function OurServicesPage() {
 
                         {/* Image Column */}
                         <div 
-                          className="elementor-element e-con-full e-flex e-con e-child" 
-                          data-e-type="container" 
-                          data-element_type="container"
                           style={{
                             flex: '1 1 450px',
                             minHeight: '340px',
@@ -278,7 +272,7 @@ export default function OurServicesPage() {
             </div>
 
             {/* Bottom Call To Action */}
-            <div 
+            <section 
               style={{ 
                 backgroundColor: '#0A0A0A', 
                 color: '#FFFFFF', 
@@ -339,7 +333,7 @@ export default function OurServicesPage() {
                   Book Private Consultation
                 </Link>
               </div>
-            </div>
+            </section>
 
           </div>
         </div>

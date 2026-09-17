@@ -127,6 +127,7 @@ export default function MobileMenuPopup() {
                 </span>
               </a>
             </li>
+            {/* Temporarily hidden per client request:
             <li className="elementor-icon-list-item">
               <a href="/teams/" onClick={closeMenu}>
                 <span className="elementor-icon-list-icon">
@@ -137,6 +138,7 @@ export default function MobileMenuPopup() {
                 </span>
               </a>
             </li>
+            */}
             <li className="elementor-icon-list-item">
               <a href="/contact/" onClick={closeMenu}>
                 <span className="elementor-icon-list-icon">
@@ -168,6 +170,29 @@ export default function MobileMenuPopup() {
             }}
           >
             Book Consultation
+          </a>
+        </div>
+        <div style={{ marginTop: '16px', textAlign: 'center' }}>
+          <a 
+            href="https://www.instagram.com/spacwora" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              color: '#F4C600',
+              textDecoration: 'none',
+              fontSize: '14px',
+              fontWeight: 600
+            }}
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F4C600" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            Follow @spacwora
           </a>
         </div>
         <div className="elementor-element elementor-element-b298139 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="b298139" data-widget_type="heading.default" style={{ marginTop: '25px' }}>

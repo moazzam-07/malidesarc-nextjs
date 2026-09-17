@@ -49,6 +49,36 @@ export default function Footer() {
           <p style={{ color: '#CCCCCC', fontSize: '14.5px', lineHeight: 1.7, fontFamily: '"Quicksand", sans-serif', margin: 0 }}>
             Creating timeless spaces through thoughtful design, refined craftsmanship, and meaningful experiences.
           </p>
+
+          <div style={{ marginTop: '18px' }}>
+            <a 
+              href="https://www.instagram.com/spacwora" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="spacewora-insta-btn"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '8px 16px',
+                borderRadius: '20px',
+                border: '1px solid rgba(244, 198, 0, 0.4)',
+                backgroundColor: 'rgba(244, 198, 0, 0.08)',
+                color: '#F4C600',
+                textDecoration: 'none',
+                fontSize: '13px',
+                fontWeight: 600,
+                transition: 'all 0.2s ease'
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              Follow @spacwora
+            </a>
+          </div>
         </div>
 
         {/* Col 2: Reach Us */}
@@ -67,6 +97,16 @@ export default function Footer() {
           <div style={{ width: '40px', height: '2px', backgroundColor: '#F4C600', marginBottom: '20px' }} />
           
           <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <li>
+              <a href="https://www.instagram.com/spacwora" target="_blank" rel="noopener noreferrer" style={{ color: '#E0E0E0', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '10px', fontSize: '14.5px', fontFamily: '"Quicksand", sans-serif', transition: 'color 0.2s ease' }} className="spacewora-footer-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#F4C600" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                Instagram: @spacwora
+              </a>
+            </li>
             <li>
               <a href="tel:+918874135497" style={{ color: '#E0E0E0', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '10px', fontSize: '14.5px', fontFamily: '"Quicksand", sans-serif', transition: 'color 0.2s ease' }} className="spacewora-footer-link">
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#F4C600" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
@@ -164,12 +204,12 @@ export default function Footer() {
 
           <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
             {[
-              { label: 'Turnkey Interior Projects', href: '/our-services#turnkey' },
-              { label: 'Design Consultation', href: '/our-services#consultation' },
-              { label: 'Landscape Design', href: '/our-services#landscape' },
-              { label: 'Commercial Interiors', href: '/our-services#Commercial' },
-              { label: 'Hospitality Design', href: '/our-services#Hospitality' },
-              { label: 'Luxury Residences', href: '/our-services#Residentials' },
+              { label: 'Residential', href: '/our-services#residential' },
+              { label: 'Commercial', href: '/our-services#commercial' },
+              { label: 'Hospitality', href: '/our-services#hospitality' },
+              { label: 'Penthouse', href: '/our-services#penthouse' },
+              { label: 'Turnkey Project', href: '/our-services#turnkey-project' },
+              { label: 'Exhibition', href: '/our-services#exhibition' },
             ].map(item => (
               <li key={item.label}>
                 <Link 
