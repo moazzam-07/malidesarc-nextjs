@@ -155,135 +155,8 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="elementor-element elementor-element-127a1e4 e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="127a1e4" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div className="e-con-inner">
-          <div className="elementor-element elementor-element-b6845b9 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6845b9">
-            <div className="elementor-element elementor-element-8176255 elementor-widget-divider--view-line_text elementor-widget-divider--element-align-left elementor-widget elementor-widget-divider" data-e-type="widget" data-element_type="widget" data-id="8176255" data-widget_type="divider.default">
-              <div className="elementor-divider">
-                <span className="elementor-divider-separator">
-                  <span className="elementor-divider__text elementor-divider__element">
-                    
-				Our Design Process				
-                  </span>
-                </span>
-              </div>
-            </div>
-            <div className="elementor-element elementor-element-cbf9194 text-reveal elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="cbf9194" data-widget_type="text-editor.default">
-              <p>
-                We create innovative, modern architectural designs that blend luxury, functionality, and timeless aesthetics. Every structure is meticulously planned to harmonize with its surroundings while delivering exceptional quality and sophistication.
-              </p>
-            </div>
-            <div className="elementor-element elementor-element-144f20c e-grid e-con-full e-con e-child" data-e-type="container" data-element_type="container" data-id="144f20c">
-              <div className="elementor-element elementor-element-b2092f1 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="b2092f1" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="button.default">
-                <a className="elementor-button elementor-size-sm" role="button">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-icon">
-                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
-                      </svg>
-                    </span>
-                    <span className="elementor-button-text">
-                      Discover
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="elementor-element elementor-element-fd1033b animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="fd1033b" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="button.default">
-                <a className="elementor-button elementor-size-sm" role="button">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-icon">
-                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
-                      </svg>
-                    </span>
-                    <span className="elementor-button-text">
-                      Design
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="elementor-element elementor-element-dc7e8c3 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="dc7e8c3" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="button.default">
-                <a className="elementor-button elementor-size-sm" role="button">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-icon">
-                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
-                      </svg>
-                    </span>
-                    <span className="elementor-button-text">
-                      Execute
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="elementor-element elementor-element-103a9a1 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="103a9a1" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
-                <a className="elementor-button elementor-size-sm" role="button">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-text">
-                      Deliver
-                    </span>
-                  </span>
-                </a>
-              </div>
-            </div>
-            <div className="elementor-element elementor-element-8fa52d6 elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="8fa52d6" data-widget_type="html.default"></div>
-          </div>
-          <div className="elementor-element elementor-element-b6a0b87 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6a0b87">
-            <div className="elementor-element elementor-element-a54da87 elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-e-type="widget" data-element_type="widget" data-id="a54da87" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
-              <div aria-label="Image Carousel" aria-roledescription="carousel" className="elementor-image-carousel-wrapper swiper" dir="ltr" role="region">
-                <div aria-live="off" className="elementor-image-carousel swiper-wrapper">
-                  <div aria-label="1 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="vora-icon-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vora-icon-feature-wall-design-scaled-rst3yn1vaqz79g7ttbvdv2eejrq6t03gxv74m1out8.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="2 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="stratum-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/stratum-feature-wall-design-rst3zy1ssgrjdybk6w6qbqjg91ajhva1sbtelvr664.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="3 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="hostellar-hostel-bedroom-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/hostellar-hostel-bedroom-design-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="4 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="vensco-sample-flat-tv-wall-living-room" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vensco-sample-flat-tv-wall-living-room-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="5 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="eurogrip-tyre-display-interior" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/eurogrip-tyre-display-interior-rsh3nmf4sgdokkd9wmo8qu8k4duykozu82xtt74qnw.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="6 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="Slide-1.webp" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/Slide-1-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="7 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="baluwala-sample-flat-modern-living-room-tv-unit" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/baluwala-sample-flat-modern-living-room-tv-unit-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="8 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="dgs-gurudarshan-sales-office-front-reception-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/dgs-gurudarshan-sales-office-front-reception-design-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="9 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="codeword-boss-sales-office-branded-wall-seating" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/codeword-boss-sales-office-branded-wall-seating-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
-                    </figure>
-                  </div>
-                </div>
-                <div className="swiper-pagination"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      {/* Metrics / Statistics Section (Obsidian & Gold Credibility Banner) */}
       <div className="elementor-element elementor-element-1edfdfc elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="1edfdfc" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div className="e-con-inner">
           <div className="elementor-element elementor-element-56d26c4 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="56d26c4" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -447,6 +320,136 @@ export default function AboutPage() {
                     %
                   </span>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="elementor-element elementor-element-127a1e4 e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="127a1e4" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div className="e-con-inner">
+          <div className="elementor-element elementor-element-b6845b9 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6845b9">
+            <div className="elementor-element elementor-element-8176255 elementor-widget-divider--view-line_text elementor-widget-divider--element-align-left elementor-widget elementor-widget-divider" data-e-type="widget" data-element_type="widget" data-id="8176255" data-widget_type="divider.default">
+              <div className="elementor-divider">
+                <span className="elementor-divider-separator">
+                  <span className="elementor-divider__text elementor-divider__element">
+                    
+				Our Design Process				
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div className="elementor-element elementor-element-cbf9194 text-reveal elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="cbf9194" data-widget_type="text-editor.default">
+              <p>
+                We create innovative, modern architectural designs that blend luxury, functionality, and timeless aesthetics. Every structure is meticulously planned to harmonize with its surroundings while delivering exceptional quality and sophistication.
+              </p>
+            </div>
+            <div className="elementor-element elementor-element-144f20c e-grid e-con-full e-con e-child" data-e-type="container" data-element_type="container" data-id="144f20c">
+              <div className="elementor-element elementor-element-b2092f1 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="b2092f1" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="button.default">
+                <a className="elementor-button elementor-size-sm" role="button">
+                  <span className="elementor-button-content-wrapper">
+                    <span className="elementor-button-icon">
+                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+                      </svg>
+                    </span>
+                    <span className="elementor-button-text">
+                      Discover
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="elementor-element elementor-element-fd1033b animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="fd1033b" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="button.default">
+                <a className="elementor-button elementor-size-sm" role="button">
+                  <span className="elementor-button-content-wrapper">
+                    <span className="elementor-button-icon">
+                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+                      </svg>
+                    </span>
+                    <span className="elementor-button-text">
+                      Design
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="elementor-element elementor-element-dc7e8c3 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="dc7e8c3" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="button.default">
+                <a className="elementor-button elementor-size-sm" role="button">
+                  <span className="elementor-button-content-wrapper">
+                    <span className="elementor-button-icon">
+                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+                      </svg>
+                    </span>
+                    <span className="elementor-button-text">
+                      Execute
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="elementor-element elementor-element-103a9a1 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="103a9a1" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+                <a className="elementor-button elementor-size-sm" role="button">
+                  <span className="elementor-button-content-wrapper">
+                    <span className="elementor-button-text">
+                      Deliver
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div className="elementor-element elementor-element-8fa52d6 elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="8fa52d6" data-widget_type="html.default"></div>
+          </div>
+          <div className="elementor-element elementor-element-b6a0b87 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6a0b87">
+            <div className="elementor-element elementor-element-a54da87 elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-e-type="widget" data-element_type="widget" data-id="a54da87" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+              <div aria-label="Image Carousel" aria-roledescription="carousel" className="elementor-image-carousel-wrapper swiper" dir="ltr" role="region">
+                <div aria-live="off" className="elementor-image-carousel swiper-wrapper">
+                  <div aria-label="1 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="vora-icon-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vora-icon-feature-wall-design-scaled-rst3yn1vaqz79g7ttbvdv2eejrq6t03gxv74m1out8.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="2 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="stratum-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/stratum-feature-wall-design-rst3zy1ssgrjdybk6w6qbqjg91ajhva1sbtelvr664.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="3 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="hostellar-hostel-bedroom-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/hostellar-hostel-bedroom-design-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="4 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="vensco-sample-flat-tv-wall-living-room" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vensco-sample-flat-tv-wall-living-room-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="5 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="eurogrip-tyre-display-interior" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/eurogrip-tyre-display-interior-rsh3nmf4sgdokkd9wmo8qu8k4duykozu82xtt74qnw.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="6 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="Slide-1.webp" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/Slide-1-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="7 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="baluwala-sample-flat-modern-living-room-tv-unit" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/baluwala-sample-flat-modern-living-room-tv-unit-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="8 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="dgs-gurudarshan-sales-office-front-reception-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/dgs-gurudarshan-sales-office-front-reception-design-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="9 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="codeword-boss-sales-office-branded-wall-seating" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/codeword-boss-sales-office-branded-wall-seating-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
+                    </figure>
+                  </div>
+                </div>
+                <div className="swiper-pagination"></div>
               </div>
             </div>
           </div>

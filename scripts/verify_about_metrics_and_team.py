@@ -40,6 +40,14 @@ def verify():
         print(f"Number of 'Our Team' elements found: {team_count}", flush=True)
         assert team_count == 0, f"Expected 0 'Our Team' elements, but found {team_count}"
         
+        # Verify order in page: Ethos < Metrics < Design Process
+        ethos_y = page.locator('.elementor-element-27724ac').bounding_box()['y']
+        stats_box = page.locator('.stats-section, .elementor-element-d292406').bounding_box()
+        stats_y = stats_box['y']
+        process_y = page.locator('.elementor-element-127a1e4').bounding_box()['y']
+        print(f"Order verification: Ethos Y={ethos_y}px < Metrics Y={stats_y}px < Process Y={process_y}px", flush=True)
+        assert ethos_y < stats_y < process_y, f"Expected Ethos < Metrics < Process, got {ethos_y}, {stats_y}, {process_y}"
+
         # Scroll to stats section
         print("4. Scrolling to stats/metrics section ...", flush=True)
         stats = page.locator('.stats-section, .elementor-element-d292406').first
