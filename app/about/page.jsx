@@ -47,59 +47,6 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="elementor-element elementor-element-06b610a e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="06b610a" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div className="e-con-inner">
-          <div className="elementor-element elementor-element-5713bff e-con-full founders-sticky-parent e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="5713bff">
-            <div className="elementor-element elementor-element-2e72220 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="2e72220" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:350,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;widescreen&quot;,&quot;desktop&quot;,&quot;laptop&quot;],&quot;sticky_offset_laptop&quot;:100,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}" data-widget_type="heading.default">
-              <h2 className="elementor-heading-title elementor-size-default">
-                Meet our founders
-              </h2>
-            </div>
-          </div>
-          <div className="elementor-element elementor-element-2ba35f6 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2ba35f6">
-            <div className="elementor-element elementor-element-db294c5 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="db294c5">
-              <div className="elementor-element elementor-element-86e2f99 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit team-readmore left-desc team-member elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="86e2f99" data-widget_type="image-box.default">
-                <div className="elementor-image-box-wrapper">
-                  <figure className="elementor-image-box-img">
-                    <img alt="" className="elementor-animation-grow attachment-2048x2048 size-2048x2048 wp-image-10326" decoding="async" height="1080" sizes="(max-width: 1080px) 100vw, 1080px" src="/wp-content/uploads/2026/08/Aniket-mali-1.webp" srcSet="/wp-content/uploads/2026/08/Aniket-mali-1.webp 1080w, /wp-content/uploads/2026/08/Aniket-mali-1-300x300.webp 300w, /wp-content/uploads/2026/08/Aniket-mali-1-1024x1024.webp 1024w, /wp-content/uploads/2026/08/Aniket-mali-1-150x150.webp 150w, /wp-content/uploads/2026/08/Aniket-mali-1-768x768.webp 768w, /wp-content/uploads/2026/08/elementor/thumbs/Aniket-mali-1-rrvs249b1am6fb99c2i7twf4pbgn1zgwjcffeynay4.webp 350w" width="1080" />
-                  </figure>
-                  <div className="elementor-image-box-content">
-                    <h4 className="elementor-image-box-title">
-                      Aniket Mali 
-                      <br />
-                      Founder & Director
-                    </h4>
-                    <p className="elementor-image-box-description">
-                      
-15 years into business, a First Generation Entrepreneur, Aniket is a leader, designer, innovator and a fast learner, usually all at once. Aniket has established a reputation for building relationships across the industry with not only the top management of his clientele brands but across multiple businesses enabling him to adapt diverse ideologies & incorporate those for self growth. A philanthropist by nature, Aniket truly believes in giving back to those who make our lives easier.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="elementor-element elementor-element-0ea24a1 elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="0ea24a1" data-widget_type="html.default"></div>
-            </div>
-            <div className="elementor-element elementor-element-ba17ec8 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="ba17ec8">
-              <div className="elementor-element elementor-element-2226e68 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit team-readmore left-desc team-member elementor-position-top elementor-widget elementor-widget-image-box" data-e-type="widget" data-element_type="widget" data-id="2226e68" data-widget_type="image-box.default">
-                <div className="elementor-image-box-wrapper">
-                  <figure className="elementor-image-box-img">
-                    <img alt="Rachana Mali" className="elementor-animation-grow" decoding="async" loading="lazy" src="/wp-content/uploads/elementor/thumbs/Rachana-Mali-1-rsh3nmf2cqstck1t2sxwioju1pfp96keghrhie6alo.webp" title="Rachana Mali" />
-                  </figure>
-                  <div className="elementor-image-box-content">
-                    <h4 className="elementor-image-box-title">
-                      Rachna Mali
-                      <br />
-                      Principal Designer
-                    </h4>
-                    <p className="elementor-image-box-description">
-                      A Design Graduate from Sir J.J. Institute of Applied Art, Rachana has passionately been designing spaces for over a decade. A people’s person, Design is an intrinsic part of her daily life & she finds inspiration in everything from her immediate surrounding or her travels. However, what ultimately inspires her artistry is her clients & their needs, their aesthetics & their life stories. Which is why no two designs are alike & yet each one has a unique stamp of craftsmanship & flair which is all her own.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="elementor-element elementor-element-4bafd2c e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="4bafd2c" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div className="e-con-inner">
           <div className="elementor-element elementor-element-2672510d e-con-full read-more-section e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2672510d">

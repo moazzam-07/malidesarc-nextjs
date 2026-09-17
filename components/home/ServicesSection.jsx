@@ -136,6 +136,26 @@ export default function ServicesSection() {
                   <div className="elementor-testimonial">
                     <div className="elementor-testimonial__content">
                       <div className="elementor-testimonial__text">
+                        <div className="elementor elementor-6980" data-elementor-id="6980" data-elementor-post-type="elementor_library" data-elementor-type="section">
+                          <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings='{"background_background":"classic"}'></div>
+                          <div className="elementor-element elementor-element-a26b559 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="a26b559">
+                            <div className="elementor-element elementor-element-227b973 animated-slow elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="227b973" data-settings='{"_animation":"none","_animation_delay":300}' data-widget_type="heading.default">
+                              <h2 className="elementor-heading-title elementor-size-default">Residential</h2>
+                            </div>
+                            <div className="elementor-element elementor-element-1c9f5b1 animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="1c9f5b1" data-settings='{"_animation":"none","_animation_delay":305}' data-widget_type="text-editor.default">
+                              <p>Bespoke luxury residences, private villas, and curated apartments tailored to lifestyle, comfort, and timeless elegance.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="elementor-testimonial__footer"></div>
+                  </div>
+                </div>
+                <div aria-roledescription="slide" className="swiper-slide" role="group">
+                  <div className="elementor-testimonial">
+                    <div className="elementor-testimonial__content">
+                      <div className="elementor-testimonial__text">
                         <div className="elementor elementor-6976" data-elementor-id="6976" data-elementor-post-type="elementor_library" data-elementor-type="section">
                           <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings='{"background_background":"classic"}'></div>
                           <div className="elementor-element elementor-element-a26b559 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="a26b559">
@@ -143,7 +163,7 @@ export default function ServicesSection() {
                               <h2 className="elementor-heading-title elementor-size-default">Commercial</h2>
                             </div>
                             <div className="elementor-element elementor-element-1c9f5b1 animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="1c9f5b1" data-settings='{"_animation":"none","_animation_delay":305}' data-widget_type="text-editor.default">
-                              Commercial interior design and fit-out solutions that combine functionality, brand identity, and efficient project execution.
+                              <p>Executive boardrooms, modern headquarters, and collaborative office interiors that balance prestige with operational precision.</p>
                             </div>
                           </div>
                         </div>
@@ -163,7 +183,7 @@ export default function ServicesSection() {
                               <h2 className="elementor-heading-title elementor-size-default">Hospitality</h2>
                             </div>
                             <div className="elementor-element elementor-element-1c9f5b1 animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="1c9f5b1" data-settings='{"_animation":"none","_animation_delay":305}' data-widget_type="text-editor.default">
-                              <p>Hospitality interior solutions designed to create welcoming, functional environments that enhance guest experience and reflect each property’s identity.</p>
+                              <p>Boutique hotel lounges, luxury dining, and signature bars crafted to immerse guests in refined luxury and sensory ambiance.</p>
                             </div>
                           </div>
                         </div>
@@ -180,10 +200,10 @@ export default function ServicesSection() {
                           <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings='{"background_background":"classic"}'></div>
                           <div className="elementor-element elementor-element-a26b559 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="a26b559">
                             <div className="elementor-element elementor-element-227b973 animated-slow elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="227b973" data-settings='{"_animation":"none","_animation_delay":300}' data-widget_type="heading.default">
-                              <h2 className="elementor-heading-title elementor-size-default">Sales Office</h2>
+                              <h2 className="elementor-heading-title elementor-size-default">Penthouse</h2>
                             </div>
                             <div className="elementor-element elementor-element-1c9f5b1 animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="1c9f5b1" data-settings='{"_animation":"none","_animation_delay":305}' data-widget_type="text-editor.default">
-                              <p>Sales office interiors designed to strengthen brand presentation, improve customer experience, and support effective property sales.</p>
+                              <p>Sky residences featuring double-height architectural elevations, panoramic skyline terraces, and sculptural statement stairways.</p>
                             </div>
                           </div>
                         </div>
@@ -200,10 +220,10 @@ export default function ServicesSection() {
                           <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings='{"background_background":"classic"}'></div>
                           <div className="elementor-element elementor-element-a26b559 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="a26b559">
                             <div className="elementor-element elementor-element-227b973 animated-slow elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="227b973" data-settings='{"_animation":"none","_animation_delay":300}' data-widget_type="heading.default">
-                              <h2 className="elementor-heading-title elementor-size-default">Show Flats</h2>
+                              <h2 className="elementor-heading-title elementor-size-default">Turnkey Project</h2>
                             </div>
                             <div className="elementor-element elementor-element-1c9f5b1 animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="1c9f5b1" data-settings='{"_animation":"none","_animation_delay":305}' data-widget_type="text-editor.default">
-                              <p>Show flat interiors designed to help buyers visualize refined, functional living spaces through thoughtful design and execution.</p>
+                              <p>End-to-end realization from 3D blueprints to civil renovation, bespoke joinery, on-site supervision, and white-glove handover.</p>
                             </div>
                           </div>
                         </div>
@@ -216,14 +236,14 @@ export default function ServicesSection() {
                   <div className="elementor-testimonial">
                     <div className="elementor-testimonial__content">
                       <div className="elementor-testimonial__text">
-                        <div className="elementor elementor-6980" data-elementor-id="6980" data-elementor-post-type="elementor_library" data-elementor-type="section">
+                        <div className="elementor elementor-exhibition" data-elementor-id="exhibition" data-elementor-post-type="elementor_library" data-elementor-type="section">
                           <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings='{"background_background":"classic"}'></div>
                           <div className="elementor-element elementor-element-a26b559 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="a26b559">
                             <div className="elementor-element elementor-element-227b973 animated-slow elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="227b973" data-settings='{"_animation":"none","_animation_delay":300}' data-widget_type="heading.default">
-                              <h2 className="elementor-heading-title elementor-size-default">Residential</h2>
+                              <h2 className="elementor-heading-title elementor-size-default">Exhibition</h2>
                             </div>
                             <div className="elementor-element elementor-element-1c9f5b1 animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="1c9f5b1" data-settings='{"_animation":"none","_animation_delay":305}' data-widget_type="text-editor.default">
-                              <p>Residential interior design and execution solutions tailored to individual lifestyles, functional needs, and everyday living.</p>
+                              <p>Experiential brand pavilions, interactive booths, and high-impact expo architectures engineered for maximum engagement.</p>
                             </div>
                           </div>
                         </div>
