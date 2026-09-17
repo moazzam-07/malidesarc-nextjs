@@ -1581,7 +1581,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    SPACEWORA team started their work with gusto and completed the project within 4 months. The entire team comprising of Principal Designer, Rachana along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
+                    SPACEWORA team started their work with gusto and completed the project within 4 months. The entire team comprising of our Principal Designer along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1629,7 +1629,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    The SPACEWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACEWORA Interior Division is fantastic and I highly recommend Rachana & her team, who immediately began collaborating on our office space.					
+                    The SPACEWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACEWORA Interior Division is fantastic and I highly recommend their team, who immediately began collaborating on our office space.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1653,7 +1653,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend Rachana & her team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
+                    Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend the SPACEWORA design team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">

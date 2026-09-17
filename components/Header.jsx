@@ -56,6 +56,16 @@ export default function Header() {
         data-element_type="container" 
         data-id="a2436b7" 
         data-settings='{"background_background":"classic","sticky_parent":"yes","sticky":"top","sticky_on":["desktop","laptop","tablet","mobile"],"sticky_offset":0,"sticky_effects_offset":0,"sticky_anchor_link_offset":0}'
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          flexWrap: 'nowrap',
+          width: '100%',
+          padding: '10px 20px',
+          boxSizing: 'border-box'
+        }}
       >
         {/* Brand Logo Container */}
         <div 
@@ -64,6 +74,14 @@ export default function Header() {
           data-element_type="container" 
           data-id="5caf2c5" 
           data-settings='{"background_background":"classic"}'
+          style={{
+            flex: '0 0 auto',
+            width: 'auto',
+            display: 'flex',
+            alignItems: 'center',
+            margin: 0,
+            padding: 0
+          }}
         >
           <a href="/" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', padding: '2px 0' }}>
             <img 
@@ -82,7 +100,7 @@ export default function Header() {
         </div>
 
         {/* Navigation Menu */}
-        <div className="elementor-element elementor-element-ce5d956 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="ce5d956">
+        <div className="elementor-element elementor-element-ce5d956 e-con-full elementor-hidden-mobile elementor-hidden-tablet e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="ce5d956">
           <div className="elementor-element elementor-element-322d3c8 .elementor-nav-menu elementor-hidden-mobile elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-e-type="widget" data-element_type="widget" data-id="322d3c8" data-settings='{"full_width":"stretch","layout":"horizontal"}'>
             <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
               <ul className="elementor-nav-menu" id="menu-1-322d3c8">
@@ -144,14 +162,49 @@ export default function Header() {
         </div>
 
         {/* Mobile Hamburger Icon */}
-        <div className="elementor-element elementor-element-6fcbaf5 elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet elementor-view-default elementor-widget elementor-widget-icon" data-e-type="widget" data-element_type="widget" data-id="6fcbaf5" data-widget_type="icon.default">
-          <div className="elementor-icon-wrapper">
-            <button type="button" aria-label="Open Menu" onClick={openMenu} className="elementor-icon" style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}>
-              <svg aria-hidden="true" className="e-font-icon-svg e-fas-bars" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
-              </svg>
-            </button>
-          </div>
+        <div 
+          className="elementor-element elementor-element-6fcbaf5 elementor-hidden-desktop elementor-hidden-laptop" 
+          data-e-type="widget" 
+          data-element_type="widget" 
+          data-id="6fcbaf5"
+          style={{
+            flex: '0 0 auto',
+            width: 'auto',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'flex-end',
+            margin: 0,
+            marginLeft: 'auto',
+            padding: 0,
+            position: 'relative',
+            zIndex: 999
+          }}
+        >
+          <button 
+            type="button" 
+            aria-label="Open Mobile Menu" 
+            onClick={openMenu} 
+            style={{ 
+              background: "rgba(255, 255, 255, 0.06)", 
+              border: "1px solid rgba(244, 198, 0, 0.4)", 
+              borderRadius: "8px",
+              cursor: "pointer", 
+              width: "42px",
+              height: "42px",
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              padding: 0,
+              position: 'relative',
+              zIndex: 1000
+            }}
+          >
+            <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block' }}>
+              <line x1="0" y1="1" x2="20" y2="1" stroke="#F4C600" strokeWidth="1.8" strokeLinecap="round"/>
+              <line x1="0" y1="7" x2="20" y2="7" stroke="#F4C600" strokeWidth="1.8" strokeLinecap="round"/>
+              <line x1="0" y1="13" x2="20" y2="13" stroke="#F4C600" strokeWidth="1.8" strokeLinecap="round"/>
+            </svg>
+          </button>
         </div>
 
         {/* Call To Action Button (Desktop & Tablet) */}

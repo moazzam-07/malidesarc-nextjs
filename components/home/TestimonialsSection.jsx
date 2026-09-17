@@ -105,7 +105,7 @@ export default function TestimonialsSection() {
 
                 <br />
                 <br />
-                Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend Rachana & her team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
+                Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend the SPACEWORA Design Team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
               </div>
             </div>
             <div className="elementor-testimonial__footer">

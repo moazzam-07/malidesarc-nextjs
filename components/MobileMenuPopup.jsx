@@ -21,12 +21,10 @@ export default function MobileMenuPopup() {
         height: '100vh',
         zIndex: 99999,
         display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: 'rgba(0, 0, 0, 0.8)',
-        backdropFilter: 'blur(8px)',
-        WebkitBackdropFilter: 'blur(8px)',
-        overflowY: 'auto'
+        flexDirection: 'column',
+        backgroundColor: '#0A0A0A',
+        overflowY: 'auto',
+        WebkitOverflowScrolling: 'touch'
       }}
       onClick={(e) => {
         if (e.target === e.currentTarget) {
@@ -34,125 +32,206 @@ export default function MobileMenuPopup() {
         }
       }}
     >
-      <div className="dialog-widget-content dialog-lightbox-widget-content" style={{ position: 'relative', width: '100%', maxWidth: '100%', minHeight: '100vh', display: 'flex' }}>
+      {/* Sleek Top Bar (Logo on Left, Close on Right) */}
+      <div 
+        style={{ 
+          width: '100%', 
+          height: '64px',
+          display: 'flex', 
+          alignItems: 'center', 
+          justifyContent: 'space-between', 
+          padding: '0 20px',
+          borderBottom: '1px solid rgba(244, 198, 0, 0.18)',
+          backgroundColor: '#0A0A0A',
+          flexShrink: 0,
+          position: 'sticky',
+          top: 0,
+          zIndex: 100
+        }}
+      >
+        <Link href="/" onClick={closeMenu} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>
+          <img 
+            src="/spacewora-logo-white-text.svg" 
+            alt="SPACEWORA Design Studio" 
+            style={{ 
+              height: '36px', 
+              width: 'auto', 
+              maxWidth: '180px', 
+              objectFit: 'contain', 
+              display: 'block' 
+            }} 
+          />
+        </Link>
+
         {/* Close Button */}
         <button
           type="button"
           aria-label="Close menu"
           onClick={closeMenu}
           style={{
-            position: 'fixed',
-            top: '25px',
-            right: '25px',
-            zIndex: 100000,
-            background: 'rgba(255, 255, 255, 0.1)',
-            border: '1px solid rgba(255, 255, 255, 0.2)',
+            background: 'rgba(255, 255, 255, 0.06)',
+            border: '1px solid rgba(244, 198, 0, 0.4)',
             borderRadius: '50%',
-            width: '45px',
-            height: '45px',
+            width: '40px',
+            height: '40px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             cursor: 'pointer',
-            color: '#ffffff',
+            color: '#F4C600',
             fontSize: '24px',
-            transition: 'all 0.3s ease'
+            lineHeight: 1,
+            transition: 'all 0.25s ease',
+            padding: 0
           }}
-          onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.25)'}
-          onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)'}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = 'rgba(244, 198, 0, 0.25)';
+            e.currentTarget.style.borderColor = '#F4C600';
+            e.currentTarget.style.color = '#FFFFFF';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = 'rgba(255, 255, 255, 0.06)';
+            e.currentTarget.style.borderColor = 'rgba(244, 198, 0, 0.4)';
+            e.currentTarget.style.color = '#F4C600';
+          }}
         >
           &times;
         </button>
-        <div className="dialog-message dialog-lightbox-message" style={{ width: '100%' }}>
-          <div className="elementor elementor-7903 elementor-location-popup" data-elementor-id="7903" data-elementor-post-type="elementor_library" data-elementor-type="popup" style={{ display: 'block', width: '100%', minHeight: '100vh' }}>
-            <div className="elementor-element elementor-element-9176d2a e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="9176d2a" data-settings='{"background_background":"classic"}'>
-    <div className="e-con-inner">
-      <div className="elementor-element elementor-element-23d46bf e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="23d46bf">
-        <div className="elementor-element elementor-element-0a953a0" data-e-type="widget" data-element_type="widget" data-id="0a953a0" style={{ padding: '10px 0' }}>
-          <a href="/" onClick={closeMenu} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>
-            <img 
-              src="/spacewora-logo-white-text.svg" 
-              alt="SPACEWORA Design Studio" 
-              style={{ 
-                height: '54px', 
-                width: 'auto', 
-                maxWidth: '230px', 
-                objectFit: 'contain', 
-                display: 'block' 
-              }} 
-            />
-          </a>
-        </div>
       </div>
-      <div className="elementor-element elementor-element-b8ff52f e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b8ff52f">
-        <div className="elementor-element elementor-element-3074b0f elementor-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-e-type="widget" data-element_type="widget" data-id="3074b0f" data-widget_type="icon-list.default">
-          <ul className="elementor-icon-list-items">
-            <li className="elementor-icon-list-item">
-              <a href="/" onClick={closeMenu}>
-                <span className="elementor-icon-list-icon">
-                  <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
-                </span>
-                <span className="elementor-icon-list-text">
-                  Home
-                </span>
-              </a>
+
+      {/* Drawer Content */}
+      <div 
+        style={{ 
+          flex: 1, 
+          display: 'flex', 
+          flexDirection: 'column', 
+          alignItems: 'center', 
+          justifyContent: 'center',
+          padding: '36px 24px 44px 24px',
+          width: '100%',
+          maxWidth: '440px',
+          margin: '0 auto',
+          textAlign: 'center'
+        }}
+      >
+        {/* Navigation Menu */}
+        <nav aria-label="Mobile Navigation" style={{ width: '100%', marginBottom: '28px' }}>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '4px' }}>
+            
+            <li>
+              <Link 
+                href="/" 
+                onClick={closeMenu}
+                style={{
+                  display: 'block',
+                  padding: '12px 0',
+                  color: '#FFFFFF',
+                  fontFamily: '"Bai Jamjuree", sans-serif',
+                  fontSize: '21px',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  letterSpacing: '0.5px',
+                  transition: 'color 0.2s ease'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#F4C600'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#FFFFFF'}
+              >
+                Home
+              </Link>
             </li>
-            <li className="elementor-icon-list-item">
-              <a href="/our-project/" onClick={closeMenu}>
-                <span className="elementor-icon-list-icon">
-                  <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
-                </span>
-                <span className="elementor-icon-list-text" style={{ color: '#F4C600', fontWeight: 600 }}>
-                  Our Projects
-                </span>
-              </a>
+
+            <li>
+              <Link 
+                href="/our-project/" 
+                onClick={closeMenu}
+                style={{
+                  display: 'block',
+                  padding: '12px 0',
+                  color: '#F4C600',
+                  fontFamily: '"Bai Jamjuree", sans-serif',
+                  fontSize: '21px',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  letterSpacing: '0.5px',
+                  transition: 'color 0.2s ease'
+                }}
+              >
+                Our Projects
+              </Link>
             </li>
-            <li className="elementor-icon-list-item">
-              <a href="/our-services/" onClick={closeMenu}>
-                <span className="elementor-icon-list-icon">
-                  <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
-                </span>
-                <span className="elementor-icon-list-text">
-                  Our Services
-                </span>
-              </a>
+
+            <li>
+              <Link 
+                href="/our-services/" 
+                onClick={closeMenu}
+                style={{
+                  display: 'block',
+                  padding: '12px 0',
+                  color: '#FFFFFF',
+                  fontFamily: '"Bai Jamjuree", sans-serif',
+                  fontSize: '21px',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  letterSpacing: '0.5px',
+                  transition: 'color 0.2s ease'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#F4C600'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#FFFFFF'}
+              >
+                Our Services
+              </Link>
             </li>
-            <li className="elementor-icon-list-item">
-              <a href="/about/" onClick={closeMenu}>
-                <span className="elementor-icon-list-icon">
-                  <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
-                </span>
-                <span className="elementor-icon-list-text">
-                  About Us
-                </span>
-              </a>
+
+            <li>
+              <Link 
+                href="/about/" 
+                onClick={closeMenu}
+                style={{
+                  display: 'block',
+                  padding: '12px 0',
+                  color: '#FFFFFF',
+                  fontFamily: '"Bai Jamjuree", sans-serif',
+                  fontSize: '21px',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  letterSpacing: '0.5px',
+                  transition: 'color 0.2s ease'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#F4C600'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#FFFFFF'}
+              >
+                About Us
+              </Link>
             </li>
-            {/* Temporarily hidden per client request:
-            <li className="elementor-icon-list-item">
-              <a href="/teams/" onClick={closeMenu}>
-                <span className="elementor-icon-list-icon">
-                  <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
-                </span>
-                <span className="elementor-icon-list-text">
-                  Team
-                </span>
-              </a>
+
+            <li>
+              <Link 
+                href="/contact/" 
+                onClick={closeMenu}
+                style={{
+                  display: 'block',
+                  padding: '12px 0',
+                  color: '#FFFFFF',
+                  fontFamily: '"Bai Jamjuree", sans-serif',
+                  fontSize: '21px',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                  letterSpacing: '0.5px',
+                  transition: 'color 0.2s ease'
+                }}
+                onMouseEnter={(e) => e.currentTarget.style.color = '#F4C600'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#FFFFFF'}
+              >
+                Contact Us
+              </Link>
             </li>
-            */}
-            <li className="elementor-icon-list-item">
-              <a href="/contact/" onClick={closeMenu}>
-                <span className="elementor-icon-list-icon">
-                  <i aria-hidden="true" className="jki jki-checkmark-circle-light"></i>
-                </span>
-                <span className="elementor-icon-list-text">
-                  Contact Us
-                </span>
-              </a>
-            </li>
+
           </ul>
-        </div>
-        <div style={{ marginTop: '20px', padding: '0 10px' }}>
-          <a 
+        </nav>
+
+        {/* CTA Button */}
+        <div style={{ width: '100%', maxWidth: '300px', marginBottom: '22px' }}>
+          <Link 
             href="/contact/" 
             onClick={closeMenu}
             style={{
@@ -160,19 +239,32 @@ export default function MobileMenuPopup() {
               textAlign: 'center',
               backgroundColor: '#F4C600',
               color: '#0A0A0A',
+              fontFamily: '"Quicksand", sans-serif',
               fontWeight: 700,
-              fontSize: '14px',
-              letterSpacing: '1px',
+              fontSize: '15px',
+              letterSpacing: '0.8px',
               textTransform: 'uppercase',
-              padding: '12px 24px',
-              borderRadius: '8px',
-              textDecoration: 'none'
+              padding: '14px 28px',
+              borderRadius: '30px',
+              textDecoration: 'none',
+              boxShadow: '0 4px 18px rgba(244, 198, 0, 0.35)',
+              transition: 'all 0.25s ease'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = '#FFFFFF';
+              e.currentTarget.style.boxShadow = '0 6px 24px rgba(255, 255, 255, 0.3)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = '#F4C600';
+              e.currentTarget.style.boxShadow = '0 4px 18px rgba(244, 198, 0, 0.35)';
             }}
           >
             Book Consultation
-          </a>
+          </Link>
         </div>
-        <div style={{ marginTop: '16px', textAlign: 'center' }}>
+
+        {/* Instagram Follow */}
+        <div style={{ marginBottom: '28px' }}>
           <a 
             href="https://www.instagram.com/spacwora" 
             target="_blank" 
@@ -183,8 +275,10 @@ export default function MobileMenuPopup() {
               gap: '8px',
               color: '#F4C600',
               textDecoration: 'none',
-              fontSize: '14px',
-              fontWeight: 600
+              fontSize: '14.5px',
+              fontFamily: '"Quicksand", sans-serif',
+              fontWeight: 600,
+              transition: 'color 0.2s ease'
             }}
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F4C600" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -195,19 +289,16 @@ export default function MobileMenuPopup() {
             Follow @spacwora
           </a>
         </div>
-        <div className="elementor-element elementor-element-b298139 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="b298139" data-widget_type="heading.default" style={{ marginTop: '25px' }}>
-          <span className="elementor-heading-title elementor-size-default" style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '13px' }}>
-            Copyright © 2026 SPACEWORA Design Studio.
+
+        {/* Copyright */}
+        <div>
+          <span style={{ color: 'rgba(255, 255, 255, 0.5)', fontSize: '12px', fontFamily: '"Quicksand", sans-serif', lineHeight: 1.6, display: 'block' }}>
+            Copyright &copy; 2026 SPACEWORA Design Studio.
             <br />
             All rights reserved.
           </span>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-        </div>
       </div>
     </div>
   );

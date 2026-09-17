@@ -106,14 +106,55 @@ export default function HeroSection() {
             alignItems: 'center',
             justifyContent: 'center',
             gap: '16px',
-            marginBottom: '20px'
+            marginBottom: '20px',
+            width: '100%',
+            maxWidth: '520px'
           }}
         >
-          <Link href="/contact/" className="spacewora-btn-primary">
+          <Link 
+            href="/contact/" 
+            className="spacewora-btn-primary"
+            style={{
+              backgroundColor: '#F4C600',
+              color: '#0A0A0A',
+              fontFamily: '"Quicksand", sans-serif',
+              fontWeight: 700,
+              fontSize: '15px',
+              padding: '14px 32px',
+              borderRadius: '30px',
+              border: '2px solid #F4C600',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              boxShadow: '0 4px 18px rgba(244, 198, 0, 0.35)',
+              transition: 'all 0.3s ease'
+            }}
+          >
             Book Free Consultation
           </Link>
 
-          <Link href="/our-project/" className="spacewora-btn-secondary">
+          <Link 
+            href="/our-project/" 
+            className="spacewora-btn-secondary"
+            style={{
+              backgroundColor: 'rgba(0, 0, 0, 0.5)',
+              color: '#FFFFFF',
+              fontFamily: '"Quicksand", sans-serif',
+              fontWeight: 600,
+              fontSize: '15px',
+              padding: '14px 32px',
+              borderRadius: '30px',
+              border: '2px solid rgba(255, 255, 255, 0.75)',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              backdropFilter: 'blur(8px)',
+              WebkitBackdropFilter: 'blur(8px)',
+              transition: 'all 0.3s ease'
+            }}
+          >
             Explore Our Projects
           </Link>
         </div>

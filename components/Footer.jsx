@@ -204,12 +204,12 @@ export default function Footer() {
 
           <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px' }}>
             {[
-              { label: 'Residential', href: '/our-services#residential' },
-              { label: 'Commercial', href: '/our-services#commercial' },
-              { label: 'Hospitality', href: '/our-services#hospitality' },
-              { label: 'Penthouse', href: '/our-services#penthouse' },
-              { label: 'Turnkey Project', href: '/our-services#turnkey-project' },
-              { label: 'Exhibition', href: '/our-services#exhibition' },
+              { label: 'Residential Interiors', href: '/our-services#residential' },
+              { label: 'Commercial Interiors', href: '/our-services#commercial' },
+              { label: 'Hospitality Design', href: '/our-services#hospitality' },
+              { label: 'Luxury Penthouses', href: '/our-services#penthouse' },
+              { label: 'Turnkey Execution', href: '/our-services#turnkey-project' },
+              { label: 'Exhibitions & Retail', href: '/our-services#exhibition' },
             ].map(item => (
               <li key={item.label}>
                 <Link 
