@@ -629,7 +629,7 @@ export default function HospitalityInteriorDesignPage() {
               <div aria-label="3 of 11" aria-roledescription="slide" className="swiper-slide" data-slide="3" role="group">
                 <div className="elementor-element elementor-element-3a01b97 e-flex e-con-boxed e-con e-child" data-e-type="container" data-element_type="container" data-id="3a01b97">
                   <div className="e-con-inner">
-                    <a className="elementor-element elementor-element-56a9e6e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="56a9e6e" href="/projects/ghatkopar-penthouse">
+                    <a className="elementor-element elementor-element-56a9e6e e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="56a9e6e" href="/projects/ghatkopar-premium-residence">
                       <div className="elementor-element elementor-element-e094064 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="e094064">
                         <div className="elementor-element elementor-element-1a53792 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="1a53792">
                           <div className="elementor-element elementor-element-6189a8b elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="6189a8b" data-widget_type="heading.default">

@@ -5,9 +5,11 @@ import { ALL_PROJECTS, getProjectBySlug } from '@/lib/projectsData';
 import ProjectGallery from '@/components/projects/ProjectGallery';
 
 export async function generateStaticParams() {
-  return ALL_PROJECTS.map((project) => ({
+  const params = ALL_PROJECTS.map((project) => ({
     slug: project.slug,
   }));
+  params.push({ slug: 'ghatkopar-penthouse' });
+  return params;
 }
 
 export async function generateMetadata({ params }) {

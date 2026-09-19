@@ -211,6 +211,7 @@ Turnkey Interior Designers.
                     <input name="form_id" type="hidden" value="9710" />
                     <input name="page_id" type="hidden" value="12182" />
                     <input name="form_type" type="hidden" value="default" />
+                    <input name="current_url" type="hidden" value="https://spacewora.com/residential-landing-page/" />
                     <input name="current_url" type="hidden" value="https://spacwora.com/residential-landing-page/" />
                     <input name="render_id" type="hidden" value="0" />
                     <input name="action" type="hidden" value="forminator_submit_form_custom-forms" />
