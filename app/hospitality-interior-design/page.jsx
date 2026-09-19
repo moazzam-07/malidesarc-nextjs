@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Hospitality Interior Design & Turnkey Space",
-  description: "Looking for hospitality interior designers in Mumbai? SPACEWORA delivers end-to-end design, MEP, civil, interiors and turnkey execution for hospitality spaces.",
+  description: "Looking for hospitality interior designers in Mumbai? SPACWORA delivers end-to-end design, MEP, civil, interiors and turnkey execution for hospitality spaces.",
 };
 
 export default function HospitalityInteriorDesignPage() {
@@ -42,7 +42,7 @@ export default function HospitalityInteriorDesignPage() {
             <p>
               One Vision. One Team. Complete Execution.
               <br />
-              SPACEWORA creating hospitality spaces where exceptional design meets disciplined execution.
+              SPACWORA creating hospitality spaces where exceptional design meets disciplined execution.
             </p>
           </div>
           <div className="elementor-element elementor-element-cc772e8 google-rating animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="cc772e8" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="text-editor.default">
@@ -278,8 +278,8 @@ export default function HospitalityInteriorDesignPage() {
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="650">
-                  0
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="80">
+                  80
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -298,8 +298,8 @@ export default function HospitalityInteriorDesignPage() {
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="18">
-                  0
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="7">
+                  7
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -362,8 +362,8 @@ export default function HospitalityInteriorDesignPage() {
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="650">
-                  0
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="80">
+                  80
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -382,8 +382,8 @@ export default function HospitalityInteriorDesignPage() {
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="18">
-                  0
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="7">
+                  7
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -439,7 +439,7 @@ export default function HospitalityInteriorDesignPage() {
         <div className="elementor-element elementor-element-2e0b36a6 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2e0b36a6">
           <div className="elementor-element elementor-element-3d386542 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="3d386542" data-widget_type="text-editor.default">
             <p>
-              Why Hospitality Businesses Choose SPACEWORA
+              Why Hospitality Businesses Choose SPACWORA
             </p>
           </div>
           <div className="elementor-element elementor-element-41d66236 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-e-type="widget" data-element_type="widget" data-id="41d66236" data-widget_type="divider.default">
@@ -634,7 +634,7 @@ export default function HospitalityInteriorDesignPage() {
                         <div className="elementor-element elementor-element-1a53792 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="1a53792">
                           <div className="elementor-element elementor-element-6189a8b elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="6189a8b" data-widget_type="heading.default">
                             <p className="elementor-heading-title elementor-size-default">
-                              Ghatkopar Penthouse
+                              Ghatkopar Premium Residence
                             </p>
                           </div>
                           <div className="elementor-element elementor-element-ae15daa elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="ae15daa" data-widget_type="text-editor.default">
@@ -643,7 +643,7 @@ export default function HospitalityInteriorDesignPage() {
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
-                               Penthouse Suite 
+                               Luxury Residence 
                               <span style={{ color: "#f4c600" }}>
                                 |
                               </span>
@@ -957,7 +957,7 @@ export default function HospitalityInteriorDesignPage() {
               </h3>
               <p className="elementor-icon-box-description">
                 
-						SPACEWORA delivers end-to-end turnkey hospitality design and execution solutions for high-value hotels, resorts, restaurants, luxury residences, clubs, and experiential hospitality spaces.					
+						SPACWORA delivers end-to-end turnkey hospitality design and execution solutions for high-value hotels, resorts, restaurants, luxury residences, clubs, and experiential hospitality spaces.					
               </p>
             </div>
           </div>
@@ -1261,7 +1261,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-9780" aria-expanded="true" className="e-n-accordion-item-title" data-accordion-index="1" tabIndex="0">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       What types of hospitality interiors does SPACEWORA design? 
+                       What types of hospitality interiors does SPACWORA design? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1280,7 +1280,7 @@ export default function HospitalityInteriorDesignPage() {
                 <div aria-labelledby="e-n-accordion-item-9780" className="elementor-element elementor-element-968edbf e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="968edbf" role="region">
                   <div className="elementor-element elementor-element-120188c elementor-widget__width-initial animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="120188c" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
                     <p>
-                      SPACEWORA designs and executes interiors for hotels, restaurants, resorts, cafés, clubs, boutique hospitality spaces and other guest-focused environments.
+                      SPACWORA designs and executes interiors for hotels, restaurants, resorts, cafés, clubs, boutique hospitality spaces and other guest-focused environments.
                     </p>
                   </div>
                 </div>
@@ -1289,7 +1289,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-9781" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="2" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Does SPACEWORA provide turnkey hospitality interior execution? 
+                       Does SPACWORA provide turnkey hospitality interior execution? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1308,7 +1308,7 @@ export default function HospitalityInteriorDesignPage() {
                 <div aria-labelledby="e-n-accordion-item-9781" className="elementor-element elementor-element-784fd57 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="784fd57" role="region">
                   <div className="elementor-element elementor-element-4e254cc elementor-widget__width-initial animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="4e254cc" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
                     <p>
-                      Yes. SPACEWORA manages the complete hospitality interior execution process, from design and planning to procurement, site execution, quality checks and final handover.
+                      Yes. SPACWORA manages the complete hospitality interior execution process, from design and planning to procurement, site execution, quality checks and final handover.
                     </p>
                   </div>
                 </div>
@@ -1345,7 +1345,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-9783" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="4" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Can SPACEWORA work with an existing hotel or restaurant design concept? 
+                       Can SPACWORA work with an existing hotel or restaurant design concept? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1407,7 +1407,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-3410" aria-expanded="true" className="e-n-accordion-item-title" data-accordion-index="1" tabIndex="0">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Where does SPACEWORA provide hospitality interior services? 
+                       Where does SPACWORA provide hospitality interior services? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1426,7 +1426,7 @@ export default function HospitalityInteriorDesignPage() {
                 <div aria-labelledby="e-n-accordion-item-3410" className="elementor-element elementor-element-d24a064 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="d24a064" role="region">
                   <div className="elementor-element elementor-element-e2e0176 elementor-widget__width-initial animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="e2e0176" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
                     <p>
-                      SPACEWORA is based in Mumbai and undertakes hospitality interior design and turnkey execution projects across Mumbai and other locations in India.
+                      SPACWORA is based in Mumbai and undertakes hospitality interior design and turnkey execution projects across Mumbai and other locations in India.
                     </p>
                   </div>
                 </div>
@@ -1435,7 +1435,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-3411" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="2" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       What is included in SPACEWORA's hospitality interior design services? 
+                       What is included in SPACWORA's hospitality interior design services? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1463,7 +1463,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-3412" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="3" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Can SPACEWORA handle complete hotel or restaurant fit-out projects? 
+                       Can SPACWORA handle complete hotel or restaurant fit-out projects? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1519,7 +1519,7 @@ export default function HospitalityInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-3414" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="5" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       How can I start my hospitality interior project with SPACEWORA? 
+                       How can I start my hospitality interior project with SPACWORA? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1577,7 +1577,7 @@ export default function HospitalityInteriorDesignPage() {
 
                     <br />
                     <br />
-                    SPACEWORA team started their work with gusto and completed the project within 4 months. The entire team comprising of our Principal Designer along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
+                    SPACWORA team started their work with gusto and completed the project within 4 months. The entire team comprising of our Principal Designer along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1625,7 +1625,7 @@ export default function HospitalityInteriorDesignPage() {
 
                     <br />
                     <br />
-                    The SPACEWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACEWORA Interior Division is fantastic and I highly recommend their team, who immediately began collaborating on our office space.					
+                    The SPACWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACWORA Interior Division is fantastic and I highly recommend their team, who immediately began collaborating on our office space.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1649,7 +1649,7 @@ export default function HospitalityInteriorDesignPage() {
 
                     <br />
                     <br />
-                    Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend the SPACEWORA design team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
+                    Our experience with SPACWORA was pleasurable because of the project managers and I highly recommend the SPACWORA design team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1673,7 +1673,7 @@ export default function HospitalityInteriorDesignPage() {
 
                     <br />
                     <br />
-                    I recently worked with SPACEWORA Design Studio on a hospitality project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
+                    I recently worked with SPACWORA Design Studio on a hospitality project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">

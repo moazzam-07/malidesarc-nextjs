@@ -62,7 +62,7 @@ export default function ClientLogosSection() {
             >
               <div className="cl-hd">
                 <p className="sub rv d2 in">
-                  From commercial workplaces and hospitality environments to residential interiors, our clients trust SPACEWORA for thoughtful design, reliable execution, and end-to-end interior contracting.
+                  From commercial workplaces and hospitality environments to residential interiors, our clients trust SPACWORA for thoughtful design, reliable execution, and end-to-end interior contracting.
                 </p>
               </div>
             </div>

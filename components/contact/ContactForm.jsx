@@ -77,7 +77,7 @@ export default function ContactForm() {
             margin: '0 auto 24px auto'
           }}
         >
-          Thank you, <strong>{formData.name || 'valued client'}</strong>. Our principal design team at SPACEWORA Design Studio will review your project requirements and connect with you within 24 hours.
+          Thank you, <strong>{formData.name || 'valued client'}</strong>. Our principal design team at SPACWORA Design Studio will review your project requirements and connect with you within 24 hours.
         </p>
         <button
           onClick={() => {

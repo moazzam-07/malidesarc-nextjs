@@ -52,7 +52,7 @@ export default function MobileMenuPopup() {
         <Link href="/" onClick={closeMenu} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>
           <img 
             src="/spacewora-logo-white-text.svg" 
-            alt="SPACEWORA Design Studio" 
+            alt="SPACWORA Design Studio" 
             style={{ 
               height: '36px', 
               width: 'auto', 
@@ -293,7 +293,7 @@ export default function MobileMenuPopup() {
         {/* Copyright */}
         <div>
           <span style={{ color: 'rgba(255, 255, 255, 0.5)', fontSize: '12px', fontFamily: '"Quicksand", sans-serif', lineHeight: 1.6, display: 'block' }}>
-            Copyright &copy; 2026 SPACEWORA Design Studio.
+            Copyright &copy; 2026 SPACWORA Design Studio.
             <br />
             All rights reserved.
           </span>

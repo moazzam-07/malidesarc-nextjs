@@ -35,10 +35,9 @@ export default function StatsSection() {
                     className="elementor-counter-number"
                     data-delimiter=","
                     data-duration="2000"
-                    data-from-value="5"
-                    data-to-value="250"
-                  >
-                    250
+                    data-from-value="0"
+                    data-to-value="80">
+                    80
                   </span>
                   <span className="elementor-counter-number-suffix">+</span>
                 </div>
@@ -101,10 +100,9 @@ export default function StatsSection() {
                     className="elementor-counter-number"
                     data-delimiter=","
                     data-duration="2000"
-                    data-from-value="4"
-                    data-to-value="18"
-                  >
-                    18
+                    data-from-value="0"
+                    data-to-value="7">
+                    7
                   </span>
                   <span className="elementor-counter-number-suffix">+</span>
                 </div>
@@ -178,10 +176,9 @@ export default function StatsSection() {
                     className="elementor-counter-number"
                     data-delimiter=","
                     data-duration="2000"
-                    data-from-value="3"
-                    data-to-value="250"
-                  >
-                    250
+                    data-from-value="0"
+                    data-to-value="80">
+                    80
                   </span>
                   <span className="elementor-counter-number-suffix">+</span>
                 </div>
@@ -245,9 +242,8 @@ export default function StatsSection() {
                     data-delimiter=","
                     data-duration="2000"
                     data-from-value="0"
-                    data-to-value="18"
-                  >
-                    18
+                    data-to-value="7">
+                    7
                   </span>
                   <span className="elementor-counter-number-suffix">+</span>
                 </div>

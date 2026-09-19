@@ -12,9 +12,9 @@ import FaqSection from '@/components/home/FaqSection';
 import CtaSection from '@/components/home/CtaSection';
 
 export const metadata = {
-  title: 'Luxury Interior Architecture & Design Studio | SPACEWORA Design Studio',
+  title: 'Luxury Interior Architecture & Design Studio | SPACWORA Design Studio',
   description:
-    'SPACEWORA Design Studio crafts timeless luxury interiors, turnkey architecture, and bespoke spaces that reflect your personality and elevate the way you live.',
+    'SPACWORA Design Studio crafts timeless luxury interiors, turnkey architecture, and bespoke spaces that reflect your personality and elevate the way you live.',
 };
 
 export default function HomePage() {

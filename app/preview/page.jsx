@@ -14,7 +14,7 @@ export default function PreviewPage() {
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px' }}>
             <div>
               <span style={{ color: '#F4C600', fontSize: '12px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase' }}>
-                SPACEWORA Design Studio &bull; Preview Mode
+                SPACWORA Design Studio &bull; Preview Mode
               </span>
               <h1 style={{ fontFamily: '"Bai Jamjuree", sans-serif', fontSize: 'clamp(24px, 3vw, 36px)', fontWeight: 700, color: '#111111', marginTop: '6px' }}>
                 Hero Section & Studio Showcase
@@ -190,7 +190,7 @@ export default function PreviewPage() {
             <a href="/" title="Click to view live home page" style={{ display: 'block', textDecoration: 'none' }}>
               <img 
                 src="/og-hero-thumbnail.jpg" 
-                alt="SPACEWORA Design Studio Hero Section Thumbnail"
+                alt="SPACWORA Design Studio Hero Section Thumbnail"
                 style={{
                   width: '100%',
                   height: 'auto',
@@ -210,9 +210,9 @@ export default function PreviewPage() {
           {/* Card Footer with quick jump */}
           <div style={{ padding: '16px 24px', backgroundColor: '#141414', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <img src="/favicon.svg" alt="SPACEWORA Favicon" style={{ width: '22px', height: '22px' }} />
+              <img src="/favicon.svg" alt="SPACWORA Favicon" style={{ width: '22px', height: '22px' }} />
               <span style={{ fontSize: '13px', color: '#FFFFFF', fontWeight: 600 }}>
-                SPACEWORA Design Studio — Hero Thumbnail Active
+                SPACWORA Design Studio — Hero Thumbnail Active
               </span>
             </div>
             <a 

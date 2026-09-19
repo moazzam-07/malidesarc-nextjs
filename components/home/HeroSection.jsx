@@ -95,7 +95,7 @@ export default function HeroSection() {
             textShadow: '0 2px 14px rgba(0, 0, 0, 0.95), 0 1px 3px rgba(0, 0, 0, 0.9)'
           }}
         >
-          Every space has the power to inspire, comfort, and tell a story. At <strong>SPACEWORA Design Studio</strong>, we create luxury interiors and architectural experiences that reflect your personality, celebrate your lifestyle, and elevate the way you live.
+          Every space has the power to inspire, comfort, and tell a story. At <strong>SPACWORA Design Studio</strong>, we create luxury interiors and architectural experiences that reflect your personality, celebrate your lifestyle, and elevate the way you live.
         </p>
 
         {/* Primary & Secondary Buttons */}

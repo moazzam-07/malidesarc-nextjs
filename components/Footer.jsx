@@ -30,7 +30,7 @@ export default function Footer() {
             <Link href="/" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>
               <img 
                 src="/spacewora-logo-white-text.svg" 
-                alt="SPACEWORA Design Studio" 
+                alt="SPACWORA Design Studio" 
                 style={{ 
                   height: '52px', 
                   width: 'auto', 
@@ -234,7 +234,7 @@ export default function Footer() {
         }}
       >
         <p style={{ color: '#888888', fontSize: '14px', margin: 0, fontFamily: '"Quicksand", sans-serif' }}>
-          © 2026 SPACEWORA Design Studio. All Rights Reserved.
+          © 2026 SPACWORA Design Studio. All Rights Reserved.
         </p>
       </div>
     </footer>

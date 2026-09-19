@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Our Services | SPACEWORA Design Studio",
-  description: "Explore SPACEWORA's bespoke architectural & interior services: Residential, Commercial, Hospitality, Penthouse, Turnkey Projects, and Exhibition Design.",
+  title: "Our Services | SPACWORA Design Studio",
+  description: "Explore SPACWORA's bespoke architectural & interior services: Residential, Commercial, Hospitality, Penthouse, Turnkey Projects, and Exhibition Design.",
 };
 
 const studioServices = [
@@ -13,7 +13,7 @@ const studioServices = [
     tagline: "Bespoke Luxury Residences, Apartments & Private Villas",
     description: "We curate high-end residences shaped around how modern families live, entertain, and recharge. From expansive multi-level villas to luxury high-rise apartments, our design studio orchestrates bespoke spatial planning, integrated custom joinery, exquisite marble finishes, fluted acoustic paneling, and circadian lighting systems that transform residences into enduring sanctuaries.",
     image: "/wp-content/uploads/2026/08/emerald-isle-residential-project-open-living-dining-area-scaled-1.webp",
-    imageAlt: "SPACEWORA Residential Interior Design"
+    imageAlt: "SPACWORA Residential Interior Design"
   },
   {
     id: "commercial",
@@ -21,7 +21,7 @@ const studioServices = [
     tagline: "Corporate Headquarters, Executive Boardrooms & Modern Workspaces",
     description: "We design high-impact corporate environments that embody company prestige, foster team productivity, and inspire everyday collaboration. Combining state-of-the-art acoustic management, ergonomic layout planning, technology-integrated boardrooms, and dramatic reception lounges, our commercial spaces deliver measurable excellence.",
     image: "/images/studio/spacwora-boardroom.webp",
-    imageAlt: "SPACEWORA Commercial Architecture and Executive Suites"
+    imageAlt: "SPACWORA Commercial Architecture and Executive Suites"
   },
   {
     id: "hospitality",
@@ -29,7 +29,7 @@ const studioServices = [
     tagline: "Boutique Hotels, Grand Lobbies, Fine Dining & Luxury Lounges",
     description: "Extraordinary hospitality begins with sensory impact and effortless spatial flow. We create unforgettable environments for luxury dining, boutique hotel lounges, signature cocktail bars, and reception lobbies. Every detail—from custom sculptural lighting and tactile wall finishes to ambient acoustic balance—is meticulously calibrated for guest delight.",
     image: "/images/studio/spacwora-hospitality-grand-lobby.webp",
-    imageAlt: "SPACEWORA Hospitality Interior Design and Grand Lobbies"
+    imageAlt: "SPACWORA Hospitality Interior Design and Grand Lobbies"
   },
   {
     id: "penthouse",
@@ -37,7 +37,7 @@ const studioServices = [
     tagline: "Sky Residences, Panoramic Terraces & Double-Height Living",
     description: "Penthouse design demands an elevated architectural vision. We specialize in transforming soaring sky residences into masterpieces of modern luxury, incorporating double-height glass elevations, statement sculptural floating staircases, seamless indoor-outdoor panoramic terrace lounges, and bespoke master suites tailored to panoramic city views.",
     image: "/images/homepage/hero_01_enscape_2023-06-14-01-34-23.webp",
-    imageAlt: "SPACEWORA Luxury Penthouse and Sky Residence Architecture"
+    imageAlt: "SPACWORA Luxury Penthouse and Sky Residence Architecture"
   },
   {
     id: "turnkey-project",
@@ -45,7 +45,7 @@ const studioServices = [
     tagline: "Complete End-to-End Architectural Execution & Handover",
     description: "Experience total peace of mind with our end-to-end turnkey project delivery. From concept blueprints and photo-realistic 3D visualizations to civil renovation, bespoke joinery, on-site MEP supervision, premium material sourcing, and white-glove styling, our single-point accountability guarantees flawless delivery on time and with zero compromise on craftsmanship.",
     image: "/images/studio/spacwora-reception-main.webp",
-    imageAlt: "SPACEWORA Turnkey Interior Project Execution and Delivery"
+    imageAlt: "SPACWORA Turnkey Interior Project Execution and Delivery"
   },
   {
     id: "exhibition",
@@ -53,7 +53,7 @@ const studioServices = [
     tagline: "Brand Experience Pavilions & Experiential Installations",
     description: "Transform your brand into a captivating spatial journey. We conceive, engineer, and execute bespoke exhibition pavilions, interactive trade show booths, and brand experience environments engineered for peak visual impact, maximum foot traffic, and memorable visitor immersion at major domestic and international expos.",
     image: "/images/studio/spacwora-hospitality-bar.webp",
-    imageAlt: "SPACEWORA Exhibition and Experiential Pavilion Design"
+    imageAlt: "SPACWORA Exhibition and Experiential Pavilion Design"
   }
 ];
 
@@ -108,7 +108,7 @@ export default function OurServicesPage() {
                 <div style={{ width: '60px', height: '2px', backgroundColor: '#F4C600', margin: '20px auto' }} />
                 <div style={{ maxWidth: '750px', margin: '0 auto' }}>
                   <p style={{ fontSize: '17px', lineHeight: 1.75, color: '#555555', margin: 0 }}>
-                    SPACEWORA delivers bespoke architecture, interior curation, and end-to-end turnkey execution across luxury residential, commercial, hospitality, penthouse, and exhibition projects.
+                    SPACWORA delivers bespoke architecture, interior curation, and end-to-end turnkey execution across luxury residential, commercial, hospitality, penthouse, and exhibition projects.
                   </p>
                 </div>
               </div>

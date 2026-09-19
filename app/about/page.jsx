@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "About Us - SPACEWORA Design Studio",
-  description: "At SPACEWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design.",
+  title: "About Us - SPACWORA Design Studio",
+  description: "At SPACWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design.",
 };
 
 export default function AboutPage() {
@@ -42,7 +42,7 @@ export default function AboutPage() {
           </div>
           <div className="elementor-element elementor-element-fd29a55 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="fd29a55" data-widget_type="text-editor.default">
             <p>
-              At SPACEWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design.
+              At SPACWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design.
             </p>
           </div>
         </div>
@@ -53,15 +53,15 @@ export default function AboutPage() {
           <div className="elementor-element elementor-element-2672510d e-con-full read-more-section e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2672510d">
             <div className="elementor-element elementor-element-16a143a9 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="16a143a9" data-widget_type="heading.default">
               <h2 className="elementor-heading-title elementor-size-default">
-                Explore SPACEWORA
+                Explore SPACWORA
               </h2>
             </div>
             <div className="elementor-element elementor-element-40628758 read-more-text elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="40628758" data-widget_type="text-editor.default">
               <p>
-                At SPACEWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design. Our team, driven by an unwavering commitment to excellence and transparent execution, delivers bespoke residential, commercial, and hospitality spaces. With a culture deeply rooted in creating timeless environments, we recognize that every client’s journey is distinct.
+                At SPACWORA Design Studio, we are not just interior designers; we are architects of unique narratives, weaving stories and luxury through design. Our team, driven by an unwavering commitment to excellence and transparent execution, delivers bespoke residential, commercial, and hospitality spaces. With a culture deeply rooted in creating timeless environments, we recognize that every client’s journey is distinct.
               </p>
               <p>
-                Our commitment extends beyond surface beauty. We are strategic problem-solvers, ensuring structural precision, meticulous craftsmanship, and flawless execution. SPACEWORA is where visionary creativity meets precision engineering, delivering exceptional design that stands the test of time.
+                Our commitment extends beyond surface beauty. We are strategic problem-solvers, ensuring structural precision, meticulous craftsmanship, and flawless execution. SPACWORA is where visionary creativity meets precision engineering, delivering exceptional design that stands the test of time.
               </p>
             </div>
             <div className="elementor-element elementor-element-bf5dd52 read-more-btn elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="bf5dd52" data-widget_type="html.default">
@@ -72,7 +72,7 @@ export default function AboutPage() {
           </div>
           <div className="elementor-element elementor-element-2d7f79e4 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2d7f79e4">
             <div className="elementor-element elementor-element-4f95b0a3 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="4f95b0a3" data-widget_type="image.default">
-              <img alt="SPACEWORA Design Studio" className="attachment-full size-full wp-image-10371" decoding="async" height="1207" sizes="(max-width: 1814px) 100vw, 1814px" src="/wp-content/uploads/2026/08/DAR_0149_01.webp" width="1814" />
+              <img alt="SPACWORA Design Studio" className="attachment-full size-full wp-image-10371" decoding="async" height="1207" sizes="(max-width: 1814px) 100vw, 1814px" src="/wp-content/uploads/2026/08/DAR_0149_01.webp" width="1814" />
             </div>
           </div>
         </div>
@@ -87,13 +87,13 @@ export default function AboutPage() {
             </div>
             <div className="elementor-element elementor-element-4f6dc9e read-more-text elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="4f6dc9e" data-widget_type="text-editor.default">
               <p>
-                SPACEWORA Design Studio is a premier turnkey interior architecture and contracting practice. Specialising in bespoke luxury residences, commercial workspaces, and high-end hospitality environments, we deliver end-to-end design solutions from initial concept to complete project delivery.
+                SPACWORA Design Studio is a premier turnkey interior architecture and contracting practice. Specialising in bespoke luxury residences, commercial workspaces, and high-end hospitality environments, we deliver end-to-end design solutions from initial concept to complete project delivery.
               </p>
               <p>
                 With an extensive track record of delivering successful high-profile spaces across Mumbai and beyond, we partner closely with discerning homeowners and leading enterprises to create timeless destinations where luxury meets functionality.
               </p>
               <p>
-                Explore our portfolio and experience the craftsmanship and design distinction that defines SPACEWORA. Our team is dedicated to exceeding your expectations at every step of the architectural and interior journey.
+                Explore our portfolio and experience the craftsmanship and design distinction that defines SPACWORA. Our team is dedicated to exceeding your expectations at every step of the architectural and interior journey.
               </p>
             </div>
             <div className="elementor-element elementor-element-efacec5 read-more-btn elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="efacec5" data-widget_type="html.default">
@@ -104,7 +104,7 @@ export default function AboutPage() {
           </div>
           <div className="elementor-element elementor-element-33fc09d e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="33fc09d">
             <div className="elementor-element elementor-element-116ed67 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="116ed67" data-widget_type="image.default">
-              <img alt="SPACEWORA Studio Reception" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-reception-main.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
+              <img alt="SPACWORA Studio Reception" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-reception-main.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
             </div>
           </div>
         </div>
@@ -114,12 +114,12 @@ export default function AboutPage() {
           <div className="elementor-element elementor-element-1ccff87 e-con-full read-more-section e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="1ccff87">
             <div className="elementor-element elementor-element-90399ac elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="90399ac" data-widget_type="heading.default">
               <h2 className="elementor-heading-title elementor-size-default">
-                The SPACEWORA Ethos
+                The SPACWORA Ethos
               </h2>
             </div>
             <div className="elementor-element elementor-element-39ebfb7 read-more-text elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="39ebfb7" data-widget_type="text-editor.default">
               <p>
-                At SPACEWORA, we recognise that architecture and interior design are far more than executing drawings. It is about bringing the client’s aspiration to life, where every material choice and lighting nuance is as critical as the overall spatial flow. We collaborate seamlessly with clients, project managers, and artisans to achieve flawless delivery.
+                At SPACWORA, we recognise that architecture and interior design are far more than executing drawings. It is about bringing the client’s aspiration to life, where every material choice and lighting nuance is as critical as the overall spatial flow. We collaborate seamlessly with clients, project managers, and artisans to achieve flawless delivery.
               </p>
               <p>
                 We are known for:
@@ -139,7 +139,7 @@ export default function AboutPage() {
                 </li>
               </ul>
               <p>
-                From private residences and penthouses to corporate offices and fine-dining spaces, SPACEWORA is your trusted design and execution partner.
+                From private residences and penthouses to corporate offices and fine-dining spaces, SPACWORA is your trusted design and execution partner.
               </p>
             </div>
             <div className="elementor-element elementor-element-942ba30 read-more-btn elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="942ba30" data-widget_type="html.default">
@@ -150,7 +150,136 @@ export default function AboutPage() {
           </div>
           <div className="elementor-element elementor-element-0d1d46d e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="0d1d46d">
             <div className="elementor-element elementor-element-ac347ae elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="ac347ae" data-widget_type="image.default">
-              <img alt="SPACEWORA Executive Boardroom" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-boardroom.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
+              <img alt="SPACWORA Executive Boardroom" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-boardroom.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="elementor-element elementor-element-127a1e4 e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="127a1e4" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div className="e-con-inner">
+          <div className="elementor-element elementor-element-b6845b9 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6845b9">
+            <div className="elementor-element elementor-element-8176255 elementor-widget-divider--view-line_text elementor-widget-divider--element-align-left elementor-widget elementor-widget-divider" data-e-type="widget" data-element_type="widget" data-id="8176255" data-widget_type="divider.default">
+              <div className="elementor-divider">
+                <span className="elementor-divider-separator">
+                  <span className="elementor-divider__text elementor-divider__element">
+                    
+				Our Design Process				
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div className="elementor-element elementor-element-cbf9194 text-reveal elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="cbf9194" data-widget_type="text-editor.default">
+              <p>
+                We create innovative, modern architectural designs that blend luxury, functionality, and timeless aesthetics. Every structure is meticulously planned to harmonize with its surroundings while delivering exceptional quality and sophistication.
+              </p>
+            </div>
+            <div className="elementor-element elementor-element-144f20c e-grid e-con-full e-con e-child" data-e-type="container" data-element_type="container" data-id="144f20c">
+              <div className="elementor-element elementor-element-b2092f1 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="b2092f1" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="button.default">
+                <a className="elementor-button elementor-size-sm" role="button">
+                  <span className="elementor-button-content-wrapper">
+                    <span className="elementor-button-icon">
+                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+                      </svg>
+                    </span>
+                    <span className="elementor-button-text">
+                      Discover
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="elementor-element elementor-element-fd1033b animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="fd1033b" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="button.default">
+                <a className="elementor-button elementor-size-sm" role="button">
+                  <span className="elementor-button-content-wrapper">
+                    <span className="elementor-button-icon">
+                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+                      </svg>
+                    </span>
+                    <span className="elementor-button-text">
+                      Design
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="elementor-element elementor-element-dc7e8c3 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="dc7e8c3" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="button.default">
+                <a className="elementor-button elementor-size-sm" role="button">
+                  <span className="elementor-button-content-wrapper">
+                    <span className="elementor-button-icon">
+                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
+                      </svg>
+                    </span>
+                    <span className="elementor-button-text">
+                      Execute
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="elementor-element elementor-element-103a9a1 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="103a9a1" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
+                <a className="elementor-button elementor-size-sm" role="button">
+                  <span className="elementor-button-content-wrapper">
+                    <span className="elementor-button-text">
+                      Deliver
+                    </span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div className="elementor-element elementor-element-8fa52d6 elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="8fa52d6" data-widget_type="html.default"></div>
+          </div>
+          <div className="elementor-element elementor-element-b6a0b87 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6a0b87">
+            <div className="elementor-element elementor-element-a54da87 elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-e-type="widget" data-element_type="widget" data-id="a54da87" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+              <div aria-label="Image Carousel" aria-roledescription="carousel" className="elementor-image-carousel-wrapper swiper" dir="ltr" role="region">
+                <div aria-live="off" className="elementor-image-carousel swiper-wrapper">
+                  <div aria-label="1 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="vora-icon-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vora-icon-feature-wall-design-scaled-rst3yn1vaqz79g7ttbvdv2eejrq6t03gxv74m1out8.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="2 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="stratum-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/stratum-feature-wall-design-rst3zy1ssgrjdybk6w6qbqjg91ajhva1sbtelvr664.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="3 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="hostellar-hostel-bedroom-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/hostellar-hostel-bedroom-design-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="4 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="vensco-sample-flat-tv-wall-living-room" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vensco-sample-flat-tv-wall-living-room-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="5 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="eurogrip-tyre-display-interior" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/eurogrip-tyre-display-interior-rsh3nmf4sgdokkd9wmo8qu8k4duykozu82xtt74qnw.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="6 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="Slide-1.webp" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/Slide-1-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="7 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="baluwala-sample-flat-modern-living-room-tv-unit" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/baluwala-sample-flat-modern-living-room-tv-unit-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="8 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="dgs-gurudarshan-sales-office-front-reception-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/dgs-gurudarshan-sales-office-front-reception-design-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
+                    </figure>
+                  </div>
+                  <div aria-label="9 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                    <figure className="swiper-slide-inner">
+                      <img alt="codeword-boss-sales-office-branded-wall-seating" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/codeword-boss-sales-office-branded-wall-seating-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
+                    </figure>
+                  </div>
+                </div>
+                <div className="swiper-pagination"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -169,8 +298,8 @@ export default function AboutPage() {
                 </div>
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
-                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="5" data-to-value="250">
-                    250
+                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="80">
+                    80
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -189,7 +318,7 @@ export default function AboutPage() {
                 </div>
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
-                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="4" data-to-value="8">
+                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="8">
                     8
                   </span>
                   <span className="elementor-counter-number-suffix">
@@ -209,8 +338,8 @@ export default function AboutPage() {
                 </div>
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
-                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="4" data-to-value="18">
-                    18
+                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="7">
+                    7
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -229,7 +358,7 @@ export default function AboutPage() {
                 </div>
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
-                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="5" data-to-value="96">
+                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="96">
                     96
                   </span>
                   <span className="elementor-counter-number-suffix">
@@ -253,8 +382,8 @@ export default function AboutPage() {
                 </div>
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
-                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="3" data-to-value="250">
-                    250
+                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="80">
+                    80
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -273,7 +402,7 @@ export default function AboutPage() {
                 </div>
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
-                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="3" data-to-value="8">
+                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="8">
                     8
                   </span>
                   <span className="elementor-counter-number-suffix">
@@ -293,8 +422,8 @@ export default function AboutPage() {
                 </div>
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
-                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="18">
-                    18
+                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="7">
+                    7
                   </span>
                   <span className="elementor-counter-number-suffix">
                     +
@@ -313,7 +442,7 @@ export default function AboutPage() {
                 </div>
                 <div className="elementor-counter-number-wrapper">
                   <span className="elementor-counter-number-prefix"></span>
-                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="1" data-to-value="96">
+                  <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="96">
                     96
                   </span>
                   <span className="elementor-counter-number-suffix">

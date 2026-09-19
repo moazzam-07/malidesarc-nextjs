@@ -86,7 +86,7 @@ export default function Header() {
           <a href="/" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', padding: '2px 0' }}>
             <img 
               src="/spacewora-logo-white-text.svg" 
-              alt="SPACEWORA Design Studio" 
+              alt="SPACWORA Design Studio" 
               style={{ 
                 height: 'clamp(38px, 3.6vw, 44px)', 
                 width: 'auto', 

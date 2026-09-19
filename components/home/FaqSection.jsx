@@ -184,7 +184,7 @@ export default function FaqSection() {
               lineHeight: 1.6
             }}
           >
-            Everything you need to know about partnering with SPACEWORA Design Studio for your bespoke interior architecture journey.
+            Everything you need to know about partnering with SPACWORA Design Studio for your bespoke interior architecture journey.
           </p>
           <div 
             style={{

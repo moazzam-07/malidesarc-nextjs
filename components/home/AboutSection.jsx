@@ -26,7 +26,7 @@ export default function AboutSection() {
                 marginBottom: '14px'
               }}
             >
-              ABOUT SPACEWORA
+              ABOUT SPACWORA
             </span>
             <div className="elementor-element elementor-element-60928c5 elementor-widget elementor-widget-heading">
               <h2 
@@ -57,7 +57,7 @@ export default function AboutSection() {
                 Great design is never about expensive materials or beautiful furniture alone. It begins with understanding people—their dreams, routines, aspirations, and the emotions they want to experience every day.
               </p>
               <p style={{ marginBottom: '16px' }}>
-                At <strong>SPACEWORA Design Studio</strong>, every project starts with listening. We believe every client deserves a space that reflects who they are, not just what is trending.
+                At <strong>SPACWORA Design Studio</strong>, every project starts with listening. We believe every client deserves a space that reflects who they are, not just what is trending.
               </p>
               <p style={{ marginBottom: '16px' }}>
                 With over 7 years of professional experience, we have transformed homes, offices, hospitality spaces, and commercial environments into timeless destinations where luxury meets functionality.
@@ -87,7 +87,7 @@ export default function AboutSection() {
               }}
             >
               <img 
-                alt="SPACEWORA Interior Architecture & Design Studio" 
+                alt="SPACWORA Interior Architecture & Design Studio" 
                 className="attachment-large size-large" 
                 loading="lazy"
                 src="/images/studio/spacwora-reception-main.webp" 
@@ -152,7 +152,7 @@ export default function AboutSection() {
               fontWeight: 600
             }}
           >
-            SPACEWORA DESIGN PHILOSOPHY
+            SPACWORA DESIGN PHILOSOPHY
           </span>
         </div>
       </div>

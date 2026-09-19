@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Commercial Interior Design & Turnkey Spaces - SPACEWORA",
-  description: "Premium Commercial Interiors by SPACEWORA Design Studio. Every new office carries an ambition. Every commercial space carries a promise, and represents an investment in the future.",
+  title: "Commercial Interior Design & Turnkey Spaces - SPACWORA",
+  description: "Premium Commercial Interiors by SPACWORA Design Studio. Every new office carries an ambition. Every commercial space carries a promise, and represents an investment in the future.",
 };
 
 export default function CommercialInteriorDesignPage() {
@@ -290,8 +290,8 @@ export default function CommercialInteriorDesignPage() {
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="3" data-to-value="18">
-                  3
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="7">
+                  7
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -354,8 +354,8 @@ export default function CommercialInteriorDesignPage() {
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="3" data-to-value="18">
-                  3
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="7">
+                  7
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -406,7 +406,7 @@ export default function CommercialInteriorDesignPage() {
           </div>
           <div className="elementor-element elementor-element-d4f3005 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="d4f3005" data-widget_type="text-editor.default">
             <p>
-              At SPACEWORA, we transform that vision into sophisticated, high-performing spaces through complete turnkey design and execution.
+              At SPACWORA, we transform that vision into sophisticated, high-performing spaces through complete turnkey design and execution.
               <br />
               From concept to handover, we manage design, planning, procurement and execution so you have one trusted partner and complete peace of mind.
               <br />
@@ -447,7 +447,7 @@ export default function CommercialInteriorDesignPage() {
       <div className="e-con-inner">
         <div className="elementor-element elementor-element-ba9944f elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="ba9944f" data-widget_type="heading.default">
           <h2 className="elementor-heading-title elementor-size-default">
-            Why Choose SPACEWORA
+            Why Choose SPACWORA
           </h2>
         </div>
       </div>
@@ -1108,7 +1108,7 @@ export default function CommercialInteriorDesignPage() {
           <div className="elementor-element elementor-element-9030074 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="9030074" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:305}" data-widget_type="text-editor.default">
             <div className="cl-hd">
               <p className="sub rv d2 in">
-                Whether you’re creating a corporate headquarters, premium sales office, experience centre or high-value commercial space, SPACEWORA brings together design expertise and turnkey execution to make it happen.
+                Whether you’re creating a corporate headquarters, premium sales office, experience centre or high-value commercial space, SPACWORA brings together design expertise and turnkey execution to make it happen.
                 <br />
                 Because we don’t just create interiors.
                 <br />
@@ -1293,7 +1293,7 @@ export default function CommercialInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-2081" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="2" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Does SPACEWORA provide turnkey commercial interior solutions? 
+                       Does SPACWORA provide turnkey commercial interior solutions? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1411,7 +1411,7 @@ export default function CommercialInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-2390" aria-expanded="true" className="e-n-accordion-item-title" data-accordion-index="1" tabIndex="0">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       Can SPACEWORA handle the complete project from design to handover? 
+                       Can SPACWORA handle the complete project from design to handover? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1523,7 +1523,7 @@ export default function CommercialInteriorDesignPage() {
                 <summary aria-controls="e-n-accordion-item-2394" aria-expanded="false" className="e-n-accordion-item-title" data-accordion-index="5" tabIndex="-1">
                   <span className="e-n-accordion-item-title-header">
                     <div className="e-n-accordion-item-title-text">
-                       How can I discuss my commercial interior project with SPACEWORA? 
+                       How can I discuss my commercial interior project with SPACWORA? 
                     </div>
                   </span>
                   <span className="e-n-accordion-item-title-icon">
@@ -1581,7 +1581,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    SPACEWORA team started their work with gusto and completed the project within 4 months. The entire team comprising of our Principal Designer along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
+                    SPACWORA team started their work with gusto and completed the project within 4 months. The entire team comprising of our Principal Designer along with Namita, Pradeep, Moin, Ramesh, etc, were very hands-on with the project. We are thoroughly happy with the end result.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1629,7 +1629,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    The SPACEWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACEWORA Interior Division is fantastic and I highly recommend their team, who immediately began collaborating on our office space.					
+                    The SPACWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACWORA Interior Division is fantastic and I highly recommend their team, who immediately began collaborating on our office space.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1653,7 +1653,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend the SPACEWORA design team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
+                    Our experience with SPACWORA was pleasurable because of the project managers and I highly recommend the SPACWORA design team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1677,7 +1677,7 @@ export default function CommercialInteriorDesignPage() {
 
                     <br />
                     <br />
-                    I recently worked with SPACEWORA Design Studio on an interior project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
+                    I recently worked with SPACWORA Design Studio on an interior project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">

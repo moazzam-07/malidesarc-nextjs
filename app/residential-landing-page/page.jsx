@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Residential Interior Design & Luxury Homes - SPACEWORA",
-  description: "Create a home that reflects your lifestyle with SPACEWORA's customized residential interior design services. We combine functionality, comfort, and timeless luxury.",
+  title: "Residential Interior Design & Luxury Homes - SPACWORA",
+  description: "Create a home that reflects your lifestyle with SPACWORA's customized residential interior design services. We combine functionality, comfort, and timeless luxury.",
 };
 
 export default function ResidentialLandingPagePage() {
@@ -31,7 +31,7 @@ export default function ResidentialLandingPagePage() {
           <div className="elementor-element elementor-element-304b37c0 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="304b37c0">
             <div className="elementor-element elementor-element-41807477 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="41807477" data-widget_type="image.default">
               <a href="/">
-                <img alt="SPACEWORA Design Studio" decoding="async" loading="lazy" src="/spacewora-logo-white-text.svg" style={{ height: '48px', width: 'auto' }} />
+                <img alt="SPACWORA Design Studio" decoding="async" loading="lazy" src="/spacewora-logo-white-text.svg" style={{ height: '48px', width: 'auto' }} />
               </a>
             </div>
             <div className="elementor-element elementor-element-4126b9b0 elementor-widget__width-inherit hero-heading animated-slow elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="4126b9b0" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="heading.default">
@@ -68,7 +68,7 @@ Turnkey Interior Designers.
             </div>
             <div className="elementor-element elementor-element-7bbb363a elementor-widget__width-initial animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="7bbb363a" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="text-editor.default">
               <p>
-                Create a home that reflects your lifestyle with SPACEWORA’s customized residential interior design services. We combine functionality, comfort, and timeless aesthetics to deliver thoughtfully designed spaces that enhance everyday living from planning to execution.
+                Create a home that reflects your lifestyle with SPACWORA’s customized residential interior design services. We combine functionality, comfort, and timeless aesthetics to deliver thoughtfully designed spaces that enhance everyday living from planning to execution.
               </p>
             </div>
           </div>
@@ -211,7 +211,7 @@ Turnkey Interior Designers.
                     <input name="form_id" type="hidden" value="9710" />
                     <input name="page_id" type="hidden" value="12182" />
                     <input name="form_type" type="hidden" value="default" />
-                    <input name="current_url" type="hidden" value="https://spacewora.com/residential-landing-page/" />
+                    <input name="current_url" type="hidden" value="https://spacwora.com/residential-landing-page/" />
                     <input name="render_id" type="hidden" value="0" />
                     <input name="action" type="hidden" value="forminator_submit_form_custom-forms" />
                   </form>
@@ -258,8 +258,8 @@ Turnkey Interior Designers.
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="650">
-                  0
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="80">
+                  80
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -278,8 +278,8 @@ Turnkey Interior Designers.
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="18">
-                  0
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="7">
+                  7
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -342,8 +342,8 @@ Turnkey Interior Designers.
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="650">
-                  0
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="80">
+                  80
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -362,8 +362,8 @@ Turnkey Interior Designers.
               </div>
               <div className="elementor-counter-number-wrapper">
                 <span className="elementor-counter-number-prefix"></span>
-                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="18">
-                  0
+                <span className="elementor-counter-number" data-delimiter="," data-duration="2000" data-from-value="0" data-to-value="7">
+                  7
                 </span>
                 <span className="elementor-counter-number-suffix">
                   +
@@ -419,7 +419,7 @@ Turnkey Interior Designers.
         <div className="elementor-element elementor-element-15cbef43 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="15cbef43">
           <div className="elementor-element elementor-element-153a010b elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="153a010b" data-widget_type="text-editor.default">
             <p>
-              Why Choose SPACEWORA?
+              Why Choose SPACWORA?
             </p>
           </div>
           <div className="elementor-element elementor-element-144a80fc elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-e-type="widget" data-element_type="widget" data-id="144a80fc" data-widget_type="divider.default">
@@ -429,7 +429,7 @@ Turnkey Interior Designers.
           </div>
           <div className="elementor-element elementor-element-2a154a4a elementor-widget__width-initial animated-slow elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="2a154a4a" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="text-editor.default">
             <p>
-              At SPACEWORA Design Studio, we create inspiring Commercial, Hospitality, Residential, and Corporate interiors through innovative design, quality craftsmanship, and seamless turnkey execution.
+              At SPACWORA Design Studio, we create inspiring Commercial, Hospitality, Residential, and Corporate interiors through innovative design, quality craftsmanship, and seamless turnkey execution.
             </p>
           </div>
           <div className="elementor-element elementor-element-48d14d49 animated-list elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-e-type="widget" data-element_type="widget" data-id="48d14d49" data-widget_type="icon-list.default">
@@ -519,7 +519,7 @@ Turnkey Interior Designers.
                 </div>
                 <div aria-label="4 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
                   <figure className="swiper-slide-inner">
-                    <img alt="Ghatkopar Penthouse Residence" className="swiper-slide-image" decoding="async" src="/images/projects/ghatkopar-penthouse/photo_01.webp" />
+                    <img alt="Ghatkopar Premium Residence" className="swiper-slide-image" decoding="async" src="/images/projects/ghatkopar-penthouse/photo_01.webp" />
                   </figure>
                 </div>
                 <div aria-label="5 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
@@ -573,7 +573,7 @@ Turnkey Interior Designers.
           </div>
           <div className="elementor-element elementor-element-629e717 elementor-widget__width-initial animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="629e717" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
             <p className="PDq2pG_selectionAnchorContainer" data-end="1342" data-start="1105">
-              Transform your home with SPACEWORA’s residential interior design services. We create stylish apartments, villas, and family homes through smart space planning, premium finishes, and turnkey interior solutions tailored to your lifestyle.
+              Transform your home with SPACWORA’s residential interior design services. We create stylish apartments, villas, and family homes through smart space planning, premium finishes, and turnkey interior solutions tailored to your lifestyle.
             </p>
           </div>
         </div>
@@ -1174,7 +1174,7 @@ Turnkey Interior Designers.
 
                     <br />
                     <br />
-                    I recently had the pleasure of working with SPACEWORA for my home renovation project. From the initial consultation to the final reveal, the team was incredibly professional and creative. They truly listened to my vision and transformed my space into a beautiful, functional, and personalized haven.					
+                    I recently had the pleasure of working with SPACWORA for my home renovation project. From the initial consultation to the final reveal, the team was incredibly professional and creative. They truly listened to my vision and transformed my space into a beautiful, functional, and personalized haven.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1199,7 +1199,7 @@ Turnkey Interior Designers.
                     <br />
                     <br />
                     It is a well managed interior design firm that had a very pleasant meeting with the team and We had got a very good design with premium finishing for our home.
-Thank you SPACEWORA & team.					
+Thank you SPACWORA & team.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1247,7 +1247,7 @@ Thank you SPACEWORA & team.
 
                     <br />
                     <br />
-                    A premier interior design firm with deep experience in bespoke luxury residential design. Expertise in modern concepts and craftsmanship. SPACEWORA has been an exceptional design partner.					
+                    A premier interior design firm with deep experience in bespoke luxury residential design. Expertise in modern concepts and craftsmanship. SPACWORA has been an exceptional design partner.					
                   </div>
                 </div>
                 <div className="elementor-testimonial__footer">
@@ -1271,7 +1271,7 @@ Thank you SPACEWORA & team.
 
                     <br />
                     <br />
-                    SPACEWORA Design Studio stands out as a top-notch interior design and turnkey contracting firm. Their creative approach, attention to detail, and seamless execution ensure stunning results every time.
+                    SPACWORA Design Studio stands out as a top-notch interior design and turnkey contracting firm. Their creative approach, attention to detail, and seamless execution ensure stunning results every time.
 
                     <br />
                     

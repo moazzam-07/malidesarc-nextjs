@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Privacy Policy - SPACEWORA Design Studio",
-  description: "Privacy Policy of SPACEWORA Design Studio. Our website address is: https://spacewora.vercel.app.",
+  title: "Privacy Policy - SPACWORA Design Studio",
+  description: "Privacy Policy of SPACWORA Design Studio. Our website address is: https://spacewora.vercel.app.",
 };
 
 export default function PrivacyPolicyPage() {

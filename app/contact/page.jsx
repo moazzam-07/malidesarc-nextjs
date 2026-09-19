@@ -4,9 +4,9 @@ import ContactForm from '@/components/contact/ContactForm';
 import FaqSection from '@/components/home/FaqSection';
 
 export const metadata = {
-  title: 'Contact Us | SPACEWORA Design Studio',
+  title: 'Contact Us | SPACWORA Design Studio',
   description:
-    "Tell us about your space, requirements and vision. Discuss your luxury interior architecture, turnkey execution, or landscape project with SPACEWORA Design Studio.",
+    "Tell us about your space, requirements and vision. Discuss your luxury interior architecture, turnkey execution, or landscape project with SPACWORA Design Studio.",
 };
 
 const contactCards = [
@@ -283,7 +283,7 @@ export default function ContactPage() {
                   marginBottom: '10px'
                 }}
               >
-                THE SPACEWORA EXPERIENCE
+                THE SPACWORA EXPERIENCE
               </span>
               <h3 
                 style={{

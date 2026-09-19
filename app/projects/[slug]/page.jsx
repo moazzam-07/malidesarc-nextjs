@@ -16,15 +16,15 @@ export async function generateMetadata({ params }) {
 
   if (!project) {
     return {
-      title: 'Project Not Found | SPACEWORA Design Studio',
+      title: 'Project Not Found | SPACWORA Design Studio',
     };
   }
 
   return {
-    title: `${project.title} | Luxury Interior Architecture | SPACEWORA Design Studio`,
+    title: `${project.title} | Luxury Interior Architecture | SPACWORA Design Studio`,
     description: project.description,
     openGraph: {
-      title: `${project.title} | SPACEWORA Design Studio`,
+      title: `${project.title} | SPACWORA Design Studio`,
       description: project.description,
       images: [
         {

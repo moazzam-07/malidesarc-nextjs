@@ -8,8 +8,8 @@ import ClientAnimationManager from '@/components/ClientAnimationManager';
 import { MobileMenuProvider } from '@/components/MobileMenuContext';
 
 export const metadata = {
-  title: 'SPACEWORA Design Studio | Luxury Interior Architecture & Design',
-  description: 'SPACEWORA Design Studio creates luxury interiors and architectural experiences that reflect your personality, celebrate your lifestyle, and elevate the way you live.',
+  title: 'SPACWORA Design Studio | Luxury Interior Architecture & Design',
+  description: 'SPACWORA Design Studio creates luxury interiors and architectural experiences that reflect your personality, celebrate your lifestyle, and elevate the way you live.',
   metadataBase: new URL('https://spacewora.vercel.app'),
   icons: {
     icon: [
@@ -22,16 +22,16 @@ export const metadata = {
     ],
   },
   openGraph: {
-    title: 'SPACEWORA Design Studio | Luxury Interior Architecture & Design',
+    title: 'SPACWORA Design Studio | Luxury Interior Architecture & Design',
     description: 'Designing Timeless Spaces That Feel As Extraordinary As They Look. Bespoke interiors, commercial architecture, and turnkey execution.',
     url: 'https://spacewora.vercel.app',
-    siteName: 'SPACEWORA Design Studio',
+    siteName: 'SPACWORA Design Studio',
     images: [
       {
         url: '/og-hero-thumbnail.jpg',
         width: 1200,
         height: 630,
-        alt: 'SPACEWORA Design Studio Hero Section Thumbnail',
+        alt: 'SPACWORA Design Studio Hero Section Thumbnail',
       },
     ],
     locale: 'en_US',
@@ -39,7 +39,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SPACEWORA Design Studio | Luxury Interior Architecture & Design',
+    title: 'SPACWORA Design Studio | Luxury Interior Architecture & Design',
     description: 'Designing Timeless Spaces That Feel As Extraordinary As They Look.',
     images: ['/og-hero-thumbnail.jpg'],
   },

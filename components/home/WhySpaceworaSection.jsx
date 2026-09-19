@@ -96,7 +96,7 @@ export default function WhySpaceworaSection() {
               marginBottom: '14px'
             }}
           >
-            WHY SPACEWORA
+            WHY SPACWORA
           </span>
           <h2 
             style={{
@@ -109,7 +109,7 @@ export default function WhySpaceworaSection() {
               margin: '0 auto 18px auto'
             }}
           >
-            Why Clients Trust SPACEWORA Design Studio
+            Why Clients Trust SPACWORA Design Studio
           </h2>
           <div 
             style={{

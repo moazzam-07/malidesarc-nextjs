@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
 
                 <br />
                 <br />
-                SPACEWORA team started their work with gusto and completed the project within 4 months. The entire design and execution team were very hands-on with the project. We are thoroughly happy with the end result.					
+                SPACWORA team started their work with gusto and completed the project within 4 months. The entire design and execution team were very hands-on with the project. We are thoroughly happy with the end result.					
               </div>
             </div>
             <div className="elementor-testimonial__footer">
@@ -81,7 +81,7 @@ export default function TestimonialsSection() {
 
                 <br />
                 <br />
-                The SPACEWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACEWORA Interior Division is fantastic and I highly recommend their team, who immediately began collaborating on our office space.					
+                The SPACWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACWORA Interior Division is fantastic and I highly recommend their team, who immediately began collaborating on our office space.					
               </div>
             </div>
             <div className="elementor-testimonial__footer">
@@ -105,7 +105,7 @@ export default function TestimonialsSection() {
 
                 <br />
                 <br />
-                Our experience with SPACEWORA was pleasurable because of the project managers and I highly recommend the SPACEWORA Design Team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
+                Our experience with SPACWORA was pleasurable because of the project managers and I highly recommend the SPACWORA Design Team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
               </div>
             </div>
             <div className="elementor-testimonial__footer">
@@ -129,7 +129,7 @@ export default function TestimonialsSection() {
 
                 <br />
                 <br />
-                I recently worked with SPACEWORA Pvt Ltd on a hospitality project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
+                I recently worked with SPACWORA Pvt Ltd on a hospitality project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
               </div>
             </div>
             <div className="elementor-testimonial__footer">

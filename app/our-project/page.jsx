@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import ProjectsFilterGrid from '@/components/projects/ProjectsFilterGrid';
 
 export const metadata = {
-  title: 'Our Architecture & Interior Projects | SPACEWORA Design Studio',
+  title: 'Our Architecture & Interior Projects | SPACWORA Design Studio',
   description: 'Explore our portfolio of luxury residential, commercial, and hospitality interior architecture projects across Mumbai.',
 };
 
