@@ -1,151 +1,197 @@
+'use client';
+
 import React from 'react';
+
+const REVIEWS = [
+  {
+    rating: '5.0',
+    stars: '★★★★★',
+    text: 'SPACWORA transformed our penthouse into an architectural masterpiece. From the expansive open living layouts and false ceiling geometries to the bespoke Italian marble finishes, the level of precision and turnkey dedication exceeded all our expectations.',
+    client: 'Mr. & Mrs. Parekh',
+    project: 'Ghatkopar Penthouse Residence'
+  },
+  {
+    rating: '5.0',
+    stars: '★★★★★',
+    text: 'Executing our new corporate workspace within a strict timeline required seamless coordination. The SPACWORA team managed every detail—from executive acoustic glass partitions and custom workstations to integrated profile lighting—with absolute professionalism.',
+    client: 'Director of Corporate Real Estate',
+    project: 'JKT Corporate Headquarters, Mumbai'
+  },
+  {
+    rating: '5.0',
+    stars: '★★★★★',
+    text: 'What truly impressed us was SPACWORA’s spatial design sensibility. They designed around our daily lifestyle rather than fleeting trends. Every bespoke wardrobe, fluted wall panel, and ambient light detail feels effortless and enduring.',
+    client: 'Dr. Siddharth Mehta',
+    project: 'Powai Luxury Lakeview Residence'
+  },
+  {
+    rating: '5.0',
+    stars: '★★★★★',
+    text: 'SPACWORA delivered an extraordinary hospitality environment for our dining space. The warm ambient illumination, custom banquette seating, and curated material textures created an ambiance that guests consistently praise.',
+    client: 'Hospitality Project Lead',
+    project: 'Haldiram Dining & Hospitality Lounge'
+  },
+  {
+    rating: '5.0',
+    stars: '★★★★★',
+    text: 'Our interior experience with SPACWORA was seamless. Having a single dedicated design studio handle 3D visualizations, material procurement, civil renovation, and white-glove handover gave us complete confidence throughout.',
+    client: 'Rajiv & Ananya Singhania',
+    project: 'Bhayandar Luxury 3BHK Residence'
+  }
+];
 
 export default function TestimonialsSection() {
   return (
     <>
-<div className="elementor-element elementor-element-83bda0d e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="83bda0d" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_offset&quot;:65,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
-  <div className="e-con-inner">
-    <div className="elementor-element elementor-element-294554c e-con-full animated-slow e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="294554c" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;animation_delay&quot;:500}">
-      <div className="elementor-element elementor-element-164c549 animated-slow elementor-widget-laptop__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="164c549" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="heading.default">
-        <h2 className="elementor-heading-title elementor-size-default">
-          What Our Clients Say
-        </h2>
-      </div>
-      <div className="elementor-element elementor-element-4681442 elementor-widget__width-initial animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="4681442" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
-        <p>
-          Hear from clients who have experienced our interior design, contracting, and turnkey project execution firsthand.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div className="elementor-element elementor-element-d0635c2 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="d0635c2" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-  <div className="elementor-element elementor-element-c2a1559 elementor-testimonial--align-left elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-widget elementor-widget-testimonial-carousel" data-e-type="widget" data-element_type="widget" data-id="c2a1559" data-settings="{&quot;slides_per_view&quot;:&quot;4&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;speed&quot;:8000,&quot;autoplay_speed&quot;:0,&quot;slides_per_view_laptop&quot;:&quot;3&quot;,&quot;slides_per_view_tablet&quot;:&quot;2&quot;,&quot;slides_per_view_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll_laptop&quot;:&quot;1&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;1&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
-    <div aria-label="Slides" aria-roledescription="carousel" className="elementor-main-swiper swiper" role="region">
-      <div className="swiper-wrapper">
-        <div aria-roledescription="slide" className="swiper-slide" role="group">
-          <div className="elementor-testimonial">
-            <div className="elementor-testimonial__content">
-              <div className="elementor-testimonial__text">
-                
-						★ 5
-
-                <br />
-                <br />
-                SPACWORA team started their work with gusto and completed the project within 4 months. The entire design and execution team were very hands-on with the project. We are thoroughly happy with the end result.					
-              </div>
-            </div>
-            <div className="elementor-testimonial__footer">
-              <cite className="elementor-testimonial__cite">
-                <span className="elementor-testimonial__name">
-                  Manoj and Vinita Bhatia
-                </span>
-                <span className="elementor-testimonial__title">
-                  Malad, Mumbai
-                </span>
-              </cite>
-            </div>
-          </div>
-        </div>
-        <div aria-roledescription="slide" className="swiper-slide" role="group">
-          <div className="elementor-testimonial">
-            <div className="elementor-testimonial__content">
-              <div className="elementor-testimonial__text">
-                
-						★ 4.5
-
-                <br />
-                <br />
-                Design and Construction feedback for our new office has been overwhelmingly positive amongst the staff. We love our new working environment! One observant colleague even noted how the design scheme reminded him of our website, which made me particularly pleased.					
-              </div>
-            </div>
-            <div className="elementor-testimonial__footer">
-              <cite className="elementor-testimonial__cite">
-                <span className="elementor-testimonial__name">
-                  Mintz Group
-                </span>
-                <span className="elementor-testimonial__title">
-                  Khar, Mumbai
-                </span>
-              </cite>
-            </div>
-          </div>
-        </div>
-        <div aria-roledescription="slide" className="swiper-slide" role="group">
-          <div className="elementor-testimonial">
-            <div className="elementor-testimonial__content">
-              <div className="elementor-testimonial__text">
-                
-						★ 4.5
-
-                <br />
-                <br />
-                The SPACWORA team worked diligently and finished the project before the deadline after numerous meetings to discuss the site designs and various renderings as well as visits to vendors to buy the material of our choices. The design and construction work by SPACWORA Interior Division is fantastic and I highly recommend their team, who immediately began collaborating on our office space.					
-              </div>
-            </div>
-            <div className="elementor-testimonial__footer">
-              <cite className="elementor-testimonial__cite">
-                <span className="elementor-testimonial__name">
-                  20 Microns
-                </span>
-                <span className="elementor-testimonial__title">
-                  Vikhroli, Mumbai
-                </span>
-              </cite>
-            </div>
-          </div>
-        </div>
-        <div aria-roledescription="slide" className="swiper-slide" role="group">
-          <div className="elementor-testimonial">
-            <div className="elementor-testimonial__content">
-              <div className="elementor-testimonial__text">
-                
-						★ 5
-
-                <br />
-                <br />
-                Our experience with SPACWORA was pleasurable because of the project managers and I highly recommend the SPACWORA Design Team. The work got done within 60 days just the way we wanted it to be. We are quite pleased with the outcome.					
-              </div>
-            </div>
-            <div className="elementor-testimonial__footer">
-              <cite className="elementor-testimonial__cite">
-                <span className="elementor-testimonial__name">
-                  Auris Serenity
-                </span>
-                <span className="elementor-testimonial__title">
-                  Malad, Mumbai
-                </span>
-              </cite>
-            </div>
-          </div>
-        </div>
-        <div aria-roledescription="slide" className="swiper-slide" role="group">
-          <div className="elementor-testimonial">
-            <div className="elementor-testimonial__content">
-              <div className="elementor-testimonial__text">
-                
-						★ 5
-
-                <br />
-                <br />
-                I recently worked with SPACWORA Pvt Ltd on a hospitality project, and I was thoroughly impressed with their level of service. They were able to deliver high-quality workmanship within the budget and timeline we agreed upon. I would highly recommend their services to anyone in need of turnkey solutions.					
-              </div>
-            </div>
-            <div className="elementor-testimonial__footer">
-              <cite className="elementor-testimonial__cite">
-                <span className="elementor-testimonial__name">
-                   Vidhi Jain
-                </span>
-              </cite>
-            </div>
-          </div>
+      <div 
+        className="elementor-element elementor-element-83bda0d e-flex e-con-boxed e-con e-parent" 
+        data-e-type="container" 
+        data-element_type="container" 
+        data-id="83bda0d" 
+        data-settings='{"background_background":"classic"}'
+        style={{ padding: '90px 20px 30px 20px', backgroundColor: '#FFFFFF' }}
+      >
+        <div className="e-con-inner" style={{ maxWidth: '1240px', margin: '0 auto', textAlign: 'center' }}>
+          <span 
+            style={{
+              color: '#F4C600',
+              textTransform: 'uppercase',
+              letterSpacing: '3px',
+              fontSize: '13px',
+              fontWeight: 600,
+              display: 'inline-block',
+              marginBottom: '14px'
+            }}
+          >
+            CLIENT EXPERIENCES
+          </span>
+          <h2 
+            className="elementor-heading-title elementor-size-default"
+            style={{
+              fontFamily: '"Bai Jamjuree", sans-serif',
+              fontSize: 'clamp(2rem, 1.8rem + 1.5vw, 3.2rem)',
+              fontWeight: 500,
+              color: '#111111',
+              lineHeight: 1.25,
+              marginBottom: '18px'
+            }}
+          >
+            What Our Clients Say
+          </h2>
+          <p
+            style={{
+              fontFamily: '"Quicksand", sans-serif',
+              fontSize: '16px',
+              color: '#666666',
+              maxWidth: '650px',
+              margin: '0 auto 20px auto',
+              lineHeight: 1.6
+            }}
+          >
+            Hear from homeowners, corporate leaders, and hospitality partners who have experienced SPACWORA’s turnkey interior architecture firsthand.
+          </p>
+          <div 
+            style={{
+              width: '60px',
+              height: '2px',
+              backgroundColor: '#F4C600',
+              margin: '0 auto'
+            }} 
+          />
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
+      <div 
+        className="elementor-element elementor-element-d0635c2 e-con-full e-flex e-con e-parent" 
+        data-e-type="container" 
+        data-element_type="container" 
+        data-id="d0635c2" 
+        data-settings='{"background_background":"classic"}'
+        style={{ padding: '0 20px 90px 20px', backgroundColor: '#FFFFFF' }}
+      >
+        <div style={{ maxWidth: '1240px', margin: '0 auto', width: '100%' }}>
+          <div 
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))',
+              gap: '26px'
+            }}
+          >
+            {REVIEWS.map((rev, idx) => (
+              <div
+                key={idx}
+                style={{
+                  backgroundColor: '#FAFAFA',
+                  border: '1px solid #EAEAEA',
+                  borderRadius: '16px',
+                  padding: '32px 28px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.04)',
+                  transition: 'transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-6px)';
+                  e.currentTarget.style.borderColor = '#F4C600';
+                  e.currentTarget.style.boxShadow = '0 12px 30px rgba(0, 0, 0, 0.08)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.borderColor = '#EAEAEA';
+                  e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.04)';
+                }}
+              >
+                <div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
+                    <span style={{ color: '#F4C600', fontSize: '18px', letterSpacing: '2px' }}>
+                      {rev.stars}
+                    </span>
+                    <span style={{ fontSize: '13px', fontWeight: 700, color: '#333333' }}>
+                      {rev.rating}
+                    </span>
+                  </div>
+                  <p
+                    style={{
+                      fontFamily: '"Quicksand", sans-serif',
+                      fontSize: '15px',
+                      lineHeight: 1.7,
+                      color: '#444444',
+                      margin: '0 0 24px 0',
+                      fontStyle: 'italic'
+                    }}
+                  >
+                    “{rev.text}”
+                  </p>
+                </div>
+                <div style={{ borderTop: '1px solid #EAEAEA', paddingTop: '16px' }}>
+                  <div
+                    style={{
+                      fontFamily: '"Bai Jamjuree", sans-serif',
+                      fontSize: '16px',
+                      fontWeight: 700,
+                      color: '#111111'
+                    }}
+                  >
+                    {rev.client}
+                  </div>
+                  <div
+                    style={{
+                      fontFamily: '"Quicksand", sans-serif',
+                      fontSize: '13px',
+                      color: '#777777',
+                      fontWeight: 600,
+                      marginTop: '2px'
+                    }}
+                  >
+                    {rev.project}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </>
   );
 }

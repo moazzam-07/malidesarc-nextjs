@@ -12,7 +12,7 @@ const studioServices = [
     title: "Residential",
     tagline: "Bespoke Luxury Residences, Apartments & Private Villas",
     description: "We curate high-end residences shaped around how modern families live, entertain, and recharge. From expansive multi-level villas to luxury high-rise apartments, our design studio orchestrates bespoke spatial planning, integrated custom joinery, exquisite marble finishes, fluted acoustic paneling, and circadian lighting systems that transform residences into enduring sanctuaries.",
-    image: "/wp-content/uploads/2026/08/emerald-isle-residential-project-open-living-dining-area-scaled-1.webp",
+    image: "/images/projects/ghatkopar-architectural-residence/01_enscape_2023-06-14-01-21-18.webp",
     imageAlt: "SPACWORA Residential Interior Design"
   },
   {

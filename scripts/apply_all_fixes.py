@@ -145,3 +145,4 @@ for td in TARGET_DIRS:
                 replace_brand_in_file(os.path.join(root, f))
 
 print('All replacements completed successfully!')
+

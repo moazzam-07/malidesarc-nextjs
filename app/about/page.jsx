@@ -72,7 +72,7 @@ export default function AboutPage() {
           </div>
           <div className="elementor-element elementor-element-2d7f79e4 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="2d7f79e4">
             <div className="elementor-element elementor-element-4f95b0a3 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="4f95b0a3" data-widget_type="image.default">
-              <img alt="SPACWORA Design Studio" className="attachment-full size-full wp-image-10371" decoding="async" height="1207" sizes="(max-width: 1814px) 100vw, 1814px" src="/wp-content/uploads/2026/08/DAR_0149_01.webp" width="1814" />
+              <img alt="SPACWORA Design Studio" className="attachment-full size-full" decoding="async" height="1024" loading="lazy" src="/images/studio/spacwora-hospitality-grand-lobby.webp" width="1536" style={{ borderRadius: '12px', border: '1px solid rgba(244, 198, 0, 0.2)' }} />
             </div>
           </div>
         </div>
@@ -155,135 +155,7 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="elementor-element elementor-element-127a1e4 e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="127a1e4" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div className="e-con-inner">
-          <div className="elementor-element elementor-element-b6845b9 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6845b9">
-            <div className="elementor-element elementor-element-8176255 elementor-widget-divider--view-line_text elementor-widget-divider--element-align-left elementor-widget elementor-widget-divider" data-e-type="widget" data-element_type="widget" data-id="8176255" data-widget_type="divider.default">
-              <div className="elementor-divider">
-                <span className="elementor-divider-separator">
-                  <span className="elementor-divider__text elementor-divider__element">
-                    
-				Our Design Process				
-                  </span>
-                </span>
-              </div>
-            </div>
-            <div className="elementor-element elementor-element-cbf9194 text-reveal elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="cbf9194" data-widget_type="text-editor.default">
-              <p>
-                We create innovative, modern architectural designs that blend luxury, functionality, and timeless aesthetics. Every structure is meticulously planned to harmonize with its surroundings while delivering exceptional quality and sophistication.
-              </p>
-            </div>
-            <div className="elementor-element elementor-element-144f20c e-grid e-con-full e-con e-child" data-e-type="container" data-element_type="container" data-id="144f20c">
-              <div className="elementor-element elementor-element-b2092f1 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="b2092f1" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="button.default">
-                <a className="elementor-button elementor-size-sm" role="button">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-icon">
-                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
-                      </svg>
-                    </span>
-                    <span className="elementor-button-text">
-                      Discover
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="elementor-element elementor-element-fd1033b animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="fd1033b" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="button.default">
-                <a className="elementor-button elementor-size-sm" role="button">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-icon">
-                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
-                      </svg>
-                    </span>
-                    <span className="elementor-button-text">
-                      Design
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="elementor-element elementor-element-dc7e8c3 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="dc7e8c3" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="button.default">
-                <a className="elementor-button elementor-size-sm" role="button">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-icon">
-                      <svg aria-hidden="true" className="e-font-icon-svg e-fas-arrow-right" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" />
-                      </svg>
-                    </span>
-                    <span className="elementor-button-text">
-                      Execute
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="elementor-element elementor-element-103a9a1 animated-slow elementor-invisible elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="103a9a1" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:1000}" data-widget_type="button.default">
-                <a className="elementor-button elementor-size-sm" role="button">
-                  <span className="elementor-button-content-wrapper">
-                    <span className="elementor-button-text">
-                      Deliver
-                    </span>
-                  </span>
-                </a>
-              </div>
-            </div>
-            <div className="elementor-element elementor-element-8fa52d6 elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="8fa52d6" data-widget_type="html.default"></div>
-          </div>
-          <div className="elementor-element elementor-element-b6a0b87 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6a0b87">
-            <div className="elementor-element elementor-element-a54da87 elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-e-type="widget" data-element_type="widget" data-id="a54da87" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
-              <div aria-label="Image Carousel" aria-roledescription="carousel" className="elementor-image-carousel-wrapper swiper" dir="ltr" role="region">
-                <div aria-live="off" className="elementor-image-carousel swiper-wrapper">
-                  <div aria-label="1 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="vora-icon-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vora-icon-feature-wall-design-scaled-rst3yn1vaqz79g7ttbvdv2eejrq6t03gxv74m1out8.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="2 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="stratum-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/stratum-feature-wall-design-rst3zy1ssgrjdybk6w6qbqjg91ajhva1sbtelvr664.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="3 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="hostellar-hostel-bedroom-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/hostellar-hostel-bedroom-design-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="4 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="vensco-sample-flat-tv-wall-living-room" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vensco-sample-flat-tv-wall-living-room-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="5 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="eurogrip-tyre-display-interior" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/eurogrip-tyre-display-interior-rsh3nmf4sgdokkd9wmo8qu8k4duykozu82xtt74qnw.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="6 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="Slide-1.webp" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/Slide-1-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="7 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="baluwala-sample-flat-modern-living-room-tv-unit" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/baluwala-sample-flat-modern-living-room-tv-unit-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="8 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="dgs-gurudarshan-sales-office-front-reception-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/dgs-gurudarshan-sales-office-front-reception-design-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="9 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="codeword-boss-sales-office-branded-wall-seating" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/codeword-boss-sales-office-branded-wall-seating-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
-                    </figure>
-                  </div>
-                </div>
-                <div className="swiper-pagination"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       {/* Metrics / Statistics Section (Obsidian & Gold Credibility Banner) */}
       <div className="elementor-element elementor-element-1edfdfc elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="1edfdfc" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -529,52 +401,32 @@ export default function AboutPage() {
             <div className="elementor-element elementor-element-8fa52d6 elementor-widget elementor-widget-html" data-e-type="widget" data-element_type="widget" data-id="8fa52d6" data-widget_type="html.default"></div>
           </div>
           <div className="elementor-element elementor-element-b6a0b87 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b6a0b87">
-            <div className="elementor-element elementor-element-a54da87 elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-e-type="widget" data-element_type="widget" data-id="a54da87" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+            <div className="elementor-element elementor-element-a54da87 elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-e-type="widget" data-element_type="widget" data-id="a54da87" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500}' data-widget_type="image-carousel.default">
               <div aria-label="Image Carousel" aria-roledescription="carousel" className="elementor-image-carousel-wrapper swiper" dir="ltr" role="region">
                 <div aria-live="off" className="elementor-image-carousel swiper-wrapper">
-                  <div aria-label="1 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                  <div aria-label="1 of 5" aria-roledescription="slide" className="swiper-slide" role="group">
                     <figure className="swiper-slide-inner">
-                      <img alt="vora-icon-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vora-icon-feature-wall-design-scaled-rst3yn1vaqz79g7ttbvdv2eejrq6t03gxv74m1out8.webp" />
+                      <img alt="Ghatkopar Penthouse Residence" className="swiper-slide-image" decoding="async" src="/images/projects/ghatkopar-penthouse/01_20240803_181944.webp" />
                     </figure>
                   </div>
-                  <div aria-label="2 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                  <div aria-label="2 of 5" aria-roledescription="slide" className="swiper-slide" role="group">
                     <figure className="swiper-slide-inner">
-                      <img alt="stratum-feature-wall-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/stratum-feature-wall-design-rst3zy1ssgrjdybk6w6qbqjg91ajhva1sbtelvr664.webp" />
+                      <img alt="Powai Luxury Residence" className="swiper-slide-image" decoding="async" src="/images/projects/powai-residence/01_img-20230322-wa0015.webp" />
                     </figure>
                   </div>
-                  <div aria-label="3 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                  <div aria-label="3 of 5" aria-roledescription="slide" className="swiper-slide" role="group">
                     <figure className="swiper-slide-inner">
-                      <img alt="hostellar-hostel-bedroom-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/hostellar-hostel-bedroom-design-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
+                      <img alt="JKT Corporate Headquarters" className="swiper-slide-image" decoding="async" src="/images/projects/jkt-corporate-office/01_picture1.webp" />
                     </figure>
                   </div>
-                  <div aria-label="4 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                  <div aria-label="4 of 5" aria-roledescription="slide" className="swiper-slide" role="group">
                     <figure className="swiper-slide-inner">
-                      <img alt="vensco-sample-flat-tv-wall-living-room" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/vensco-sample-flat-tv-wall-living-room-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
+                      <img alt="Haldiram Hospitality Lounge" className="swiper-slide-image" decoding="async" src="/images/projects/haldiram-hospitality/01_global-photo-01.webp" />
                     </figure>
                   </div>
-                  <div aria-label="5 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
+                  <div aria-label="5 of 5" aria-roledescription="slide" className="swiper-slide" role="group">
                     <figure className="swiper-slide-inner">
-                      <img alt="eurogrip-tyre-display-interior" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/eurogrip-tyre-display-interior-rsh3nmf4sgdokkd9wmo8qu8k4duykozu82xtt74qnw.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="6 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="Slide-1.webp" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/Slide-1-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="7 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="baluwala-sample-flat-modern-living-room-tv-unit" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/baluwala-sample-flat-modern-living-room-tv-unit-rsh3nlhalmce8yen249m6ch3izzlczw3vyacbx64u4.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="8 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="dgs-gurudarshan-sales-office-front-reception-design" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/dgs-gurudarshan-sales-office-front-reception-design-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
-                    </figure>
-                  </div>
-                  <div aria-label="9 of 9" aria-roledescription="slide" className="swiper-slide" role="group">
-                    <figure className="swiper-slide-inner">
-                      <img alt="codeword-boss-sales-office-branded-wall-seating" className="swiper-slide-image" decoding="async" src="/wp-content/uploads/elementor/thumbs/codeword-boss-sales-office-branded-wall-seating-rsh3nncyzaeyw6bwr52vbc00prqbse3kk7lbah3cho.webp" />
+                      <img alt="Bhayandar Luxury Residence" className="swiper-slide-image" decoding="async" src="/images/projects/bhayander-residence/01_img-20230228-wa0004.webp" />
                     </figure>
                   </div>
                 </div>
@@ -584,270 +436,6 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      {/* Our Team section hidden per client request */}
-      {false && (
-      <>
-      <div className="elementor-element elementor-element-514681e e-flex e-con-boxed e-con e-parent" data-e-type="container" data-element_type="container" data-id="514681e" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div className="e-con-inner">
-          <div className="elementor-element elementor-element-48eb4152 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="48eb4152" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:350}" data-widget_type="heading.default">
-            <h2 className="elementor-heading-title elementor-size-default">
-              Our Team
-            </h2>
-          </div>
-          <div className="elementor-element elementor-element-3bdbea3a animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="3bdbea3a" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:550}" data-widget_type="heading.default">
-            <p className="elementor-heading-title elementor-size-default">
-              A short introduction to your team members and why their background should inspire potential clients’ confidence.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="elementor-element elementor-element-edf0d4a e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="edf0d4a">
-        <div className="elementor-element elementor-element-9cae785 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="9cae785" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-          <div className="elementor-element elementor-element-4662dfc animated-slow testimonial-links services-carousel elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-testimonial--align-center elementor-arrows-yes elementor-invisible elementor-widget elementor-widget-testimonial-carousel" data-e-type="widget" data-element_type="widget" data-id="4662dfc" data-settings="{&quot;slides_per_view&quot;:&quot;4&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;slides_per_view_laptop&quot;:&quot;3&quot;,&quot;slides_per_view_tablet&quot;:&quot;2&quot;,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:550,&quot;space_between_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:6,&quot;sizes&quot;:[]},&quot;show_arrows&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
-            <div aria-label="Slides" aria-roledescription="carousel" className="elementor-main-swiper swiper" role="region">
-              <div className="swiper-wrapper">
-                <div aria-roledescription="slide" className="swiper-slide" role="group">
-                  <div className="elementor-testimonial">
-                    <div className="elementor-testimonial__content">
-                      <div className="elementor-testimonial__text">
-                        <div className="elementor elementor-13492" data-elementor-id="13492" data-elementor-post-type="elementor_library" data-elementor-type="section">
-                          <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div className="elementor-element elementor-element-c8b9127 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-e-type="widget" data-element_type="widget" data-id="c8b9127" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="call-to-action.default">
-                              <div className="elementor-cta">
-                                <div className="elementor-cta__bg-wrapper">
-                                  <div aria-label="Project Head - Pankaj Patil" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"../wp-content/uploads/2026/08/Project-Head-Pankaj-Patil.webp\")" }}></div>
-                                  <div aria-label="Project Head - Pankaj Patil" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"/wp-content/uploads/2026/08/Project-Head-Pankaj-Patil.webp\")" }}></div>
-                                  <div className="elementor-cta__bg-overlay"></div>
-                                </div>
-                                <div className="elementor-cta__content">
-                                  <span className="elementor-cta__title elementor-cta__content-item elementor-content-item">
-                                    
-						Pankaj Patil					
-                                  </span>
-                                  <div className="elementor-cta__description elementor-cta__content-item elementor-content-item">
-                                    
-						Senior Partner | Project Head					
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="elementor-testimonial__footer"></div>
-                  </div>
-                </div>
-                <div aria-roledescription="slide" className="swiper-slide" role="group">
-                  <div className="elementor-testimonial">
-                    <div className="elementor-testimonial__content">
-                      <div className="elementor-testimonial__text">
-                        <div className="elementor elementor-7479" data-elementor-id="7479" data-elementor-post-type="elementor_library" data-elementor-type="section">
-                          <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div className="elementor-element elementor-element-c8b9127 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-e-type="widget" data-element_type="widget" data-id="c8b9127" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="call-to-action.default">
-                              <div className="elementor-cta">
-                                <div className="elementor-cta__bg-wrapper">
-                                  <div aria-label="Ar. Azim Ansari" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"../wp-content/uploads/2026/07/Ar.-Azim-Ansari.webp\")" }}></div>
-                                  <div aria-label="Ar. Azim Ansari" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"/wp-content/uploads/2026/07/Ar.-Azim-Ansari.webp\")" }}></div>
-                                  <div className="elementor-cta__bg-overlay"></div>
-                                </div>
-                                <div className="elementor-cta__content">
-                                  <span className="elementor-cta__title elementor-cta__content-item elementor-content-item">
-                                    
-						Ar. Azim Ansari					
-                                  </span>
-                                  <div className="elementor-cta__description elementor-cta__content-item elementor-content-item">
-                                    
-						Architect | Design Lead					
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="elementor-testimonial__footer"></div>
-                  </div>
-                </div>
-                <div aria-roledescription="slide" className="swiper-slide" role="group">
-                  <div className="elementor-testimonial">
-                    <div className="elementor-testimonial__content">
-                      <div className="elementor-testimonial__text">
-                        <div className="elementor elementor-7548" data-elementor-id="7548" data-elementor-post-type="elementor_library" data-elementor-type="section">
-                          <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div className="elementor-element elementor-element-7b48626 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-e-type="widget" data-element_type="widget" data-id="7b48626" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="call-to-action.default">
-                              <div className="elementor-cta">
-                                <div className="elementor-cta__bg-wrapper">
-                                  <div aria-label="Rupali" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"../wp-content/uploads/2026/07/Rupali.webp\")" }}></div>
-                                  <div aria-label="Rupali" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"/wp-content/uploads/2026/07/Rupali.webp\")" }}></div>
-                                  <div className="elementor-cta__bg-overlay"></div>
-                                </div>
-                                <div className="elementor-cta__content">
-                                  <span className="elementor-cta__title elementor-cta__content-item elementor-content-item">
-                                    
-						Rupali Shinde					
-                                  </span>
-                                  <div className="elementor-cta__description elementor-cta__content-item elementor-content-item">
-                                    
-						Interior Designer					
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="elementor-testimonial__footer"></div>
-                  </div>
-                </div>
-                <div aria-roledescription="slide" className="swiper-slide" role="group">
-                  <div className="elementor-testimonial">
-                    <div className="elementor-testimonial__content">
-                      <div className="elementor-testimonial__text">
-                        <div className="elementor elementor-13482" data-elementor-id="13482" data-elementor-post-type="elementor_library" data-elementor-type="section">
-                          <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div className="elementor-element elementor-element-c8b9127 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-e-type="widget" data-element_type="widget" data-id="c8b9127" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="call-to-action.default">
-                              <div className="elementor-cta">
-                                <div className="elementor-cta__bg-wrapper">
-                                  <div aria-label="Nitiraj Khedekar" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"../wp-content/uploads/2026/08/Nitiraj-Khedekar.webp\")" }}></div>
-                                  <div aria-label="Nitiraj Khedekar" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"/wp-content/uploads/2026/08/Nitiraj-Khedekar.webp\")" }}></div>
-                                  <div className="elementor-cta__bg-overlay"></div>
-                                </div>
-                                <div className="elementor-cta__content">
-                                  <span className="elementor-cta__title elementor-cta__content-item elementor-content-item">
-                                    
-						Nitiraj Khedekar					
-                                  </span>
-                                  <div className="elementor-cta__description elementor-cta__content-item elementor-content-item">
-                                    
-						Interior Designer | 3D Visualizer 					
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="elementor-testimonial__footer"></div>
-                  </div>
-                </div>
-                <div aria-roledescription="slide" className="swiper-slide" role="group">
-                  <div className="elementor-testimonial">
-                    <div className="elementor-testimonial__content">
-                      <div className="elementor-testimonial__text">
-                        <div className="elementor elementor-13486" data-elementor-id="13486" data-elementor-post-type="elementor_library" data-elementor-type="section">
-                          <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div className="elementor-element elementor-element-c8b9127 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-e-type="widget" data-element_type="widget" data-id="c8b9127" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="call-to-action.default">
-                              <div className="elementor-cta">
-                                <div className="elementor-cta__bg-wrapper">
-                                  <div aria-label="Kaushit Patel" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"../wp-content/uploads/2026/08/Kaushit-Patel.webp\")" }}></div>
-                                  <div aria-label="Kaushit Patel" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"/wp-content/uploads/2026/08/Kaushit-Patel.webp\")" }}></div>
-                                  <div className="elementor-cta__bg-overlay"></div>
-                                </div>
-                                <div className="elementor-cta__content">
-                                  <span className="elementor-cta__title elementor-cta__content-item elementor-content-item">
-                                    
-						Kaushit Patel					
-                                  </span>
-                                  <div className="elementor-cta__description elementor-cta__content-item elementor-content-item">
-                                    
-						Senior Designer | Process Management					
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="elementor-testimonial__footer"></div>
-                  </div>
-                </div>
-                <div aria-roledescription="slide" className="swiper-slide" role="group">
-                  <div className="elementor-testimonial">
-                    <div className="elementor-testimonial__content">
-                      <div className="elementor-testimonial__text">
-                        <div className="elementor elementor-7537" data-elementor-id="7537" data-elementor-post-type="elementor_library" data-elementor-type="section">
-                          <div className="elementor-element elementor-element-c4b6ac8 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="c4b6ac8" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div className="elementor-element elementor-element-4e825b1 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-e-type="widget" data-element_type="widget" data-id="4e825b1" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="call-to-action.default">
-                              <div className="elementor-cta">
-                                <div className="elementor-cta__bg-wrapper">
-                                  <div aria-label="Pradeep-Suvarna" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"../wp-content/uploads/2026/08/Pradeep-Suvarna.webp\")" }}></div>
-                                  <div aria-label="Pradeep-Suvarna" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"/wp-content/uploads/2026/08/Pradeep-Suvarna.webp\")" }}></div>
-                                  <div className="elementor-cta__bg-overlay"></div>
-                                </div>
-                                <div className="elementor-cta__content">
-                                  <span className="elementor-cta__title elementor-cta__content-item elementor-content-item">
-                                    
-						Pradeep Suvarna					
-                                  </span>
-                                  <div className="elementor-cta__description elementor-cta__content-item elementor-content-item">
-                                    
-						Senior Partner
-					
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="elementor-testimonial__footer"></div>
-                  </div>
-                </div>
-                <div aria-roledescription="slide" className="swiper-slide" role="group">
-                  <div className="elementor-testimonial">
-                    <div className="elementor-testimonial__content">
-                      <div className="elementor-testimonial__text">
-                        <div className="elementor elementor-13092" data-elementor-id="13092" data-elementor-post-type="elementor_library" data-elementor-type="section">
-                          <div className="elementor-element elementor-element-b413cd0 e-con-full e-flex e-con e-parent" data-e-type="container" data-element_type="container" data-id="b413cd0" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div className="elementor-element elementor-element-5b88249 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-e-type="widget" data-element_type="widget" data-id="5b88249" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="call-to-action.default">
-                              <div className="elementor-cta">
-                                <div className="elementor-cta__bg-wrapper">
-                                  <div aria-label="Suryaprakash Jangir" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"../wp-content/uploads/2026/08/Suryaprakash-Jangir.webp\")" }}></div>
-                                  <div aria-label="Suryaprakash Jangir" className="elementor-cta__bg elementor-bg" role="img" style={{ backgroundImage: "url(\"/wp-content/uploads/2026/08/Suryaprakash-Jangir.webp\")" }}></div>
-                                  <div className="elementor-cta__bg-overlay"></div>
-                                </div>
-                                <div className="elementor-cta__content">
-                                  <span className="elementor-cta__title elementor-cta__content-item elementor-content-item">
-                                    
-						Suryaprakash Jangir					
-                                  </span>
-                                  <div className="elementor-cta__description elementor-cta__content-item elementor-content-item">
-                                    
-						Interior Designer					
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="elementor-testimonial__footer"></div>
-                  </div>
-                </div>
-              </div>
-              <div aria-label="Previous" className="elementor-swiper-button elementor-swiper-button-prev" role="button" tabIndex="0">
-                <svg aria-hidden="true" className="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z" />
-                </svg>
-              </div>
-              <div aria-label="Next" className="elementor-swiper-button elementor-swiper-button-next" role="button" tabIndex="0">
-                <svg aria-hidden="true" className="e-font-icon-svg e-eicon-chevron-right" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </>
-      )}
     </div>
   </div>
 </main>

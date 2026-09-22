@@ -3,12 +3,14 @@
 import { useState, useEffect } from 'react';
 
 const SLIDES = [
-  '/wp-content/uploads/2026/08/Bandra-House.webp',
+  '/images/studio/spacwora-hospitality-grand-lobby.webp',
   '/images/homepage/hero_01_enscape_2023-06-14-01-34-23.webp',
   '/images/homepage/hero_02_img-20230204-wa0008.webp',
   '/images/homepage/hero_03_img-20230208-wa0046.webp',
+  '/images/studio/spacwora-boardroom.webp',
   '/images/homepage/hero_07_img-20230305-wa0028.webp',
   '/images/homepage/hero_09_img-20230322-wa0022.webp',
+  '/images/studio/spacwora-hospitality-bar.webp',
   '/images/homepage/hero_13_picture4.webp',
   '/images/homepage/hero_05_img-20230210-wa0007.webp',
 ];

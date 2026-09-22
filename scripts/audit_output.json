@@ -1,0 +1,112 @@
+[
+  {
+    "file": "app/layout.jsx",
+    "wp_images": [
+      "/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css",
+      "/wp-content/uploads/elementor/css/post-6.css",
+      "/wp-content/uploads/elementor/css/post-10604.css",
+      "/wp-content/uploads/elementor/css/custom-widget-contact-buttons-base.min.css",
+      "/wp-content/uploads/elementor/css/post-6932.css",
+      "/wp-content/uploads/elementor/css/custom-apple-webkit.min.css",
+      "/wp-content/uploads/elementor/css/post-6984.css",
+      "/wp-content/uploads/elementor/css/custom-frontend.min.css",
+      "/wp-content/uploads/elementor/css/post-6886.css",
+      "/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+      "/wp-content/uploads/elementor/css/post-13403.css",
+      "/wp-content/uploads/elementor/css/post-6980.css",
+      "/wp-content/uploads/elementor/css/custom-pro-widget-testimonial-carousel.min.css",
+      "/wp-content/uploads/elementor/css/custom-pro-widget-loop-grid.min.css",
+      "/wp-content/uploads/elementor/css/post-10205.css",
+      "/wp-content/uploads/elementor/css/post-7903.css",
+      "/wp-content/uploads/elementor/css/post-11543.css",
+      "/wp-content/uploads/elementor/css/post-6976.css",
+      "/wp-content/uploads/elementor/css/post-9770.css"
+    ],
+    "copied_names_or_brands": [],
+    "headings": [],
+    "has_testimonials": true,
+    "has_client_logos": false,
+    "has_founders_or_team": false
+  },
+  {
+    "file": "app/page.jsx",
+    "wp_images": [],
+    "copied_names_or_brands": [],
+    "headings": [],
+    "has_testimonials": true,
+    "has_client_logos": false,
+    "has_founders_or_team": false
+  },
+  {
+    "file": "app/about/page.jsx",
+    "wp_images": [
+      "/wp-content/uploads/elementor/css/post-13486.css",
+      "/wp-content/uploads/elementor/css/custom-widget-image-box.min.css",
+      "/wp-content/uploads/elementor/css/post-7903.css",
+      "/wp-content/uploads/elementor/css/post-9770.css",
+      "/wp-content/uploads/elementor/css/post-7537.css",
+      "/wp-content/uploads/elementor/css/post-13482.css",
+      "/wp-content/uploads/elementor/css/post-6.css",
+      "/wp-content/uploads/elementor/css/post-11543.css",
+      "/wp-content/uploads/elementor/css/post-13492.css",
+      "/wp-content/uploads/elementor/css/custom-pro-widget-testimonial-carousel.min.css",
+      "/wp-content/uploads/elementor/css/post-7479.css",
+      "/wp-content/uploads/elementor/css/post-9938.css",
+      "/wp-content/uploads/elementor/css/post-13092.css",
+      "/wp-content/uploads/elementor/css/custom-pro-widget-call-to-action.min.css",
+      "/wp-content/uploads/elementor/css/post-7548.css",
+      "/wp-content/uploads/elementor/css/post-6886.css"
+    ],
+    "copied_names_or_brands": [],
+    "headings": [
+      "About Us",
+      "Explore SPACWORA",
+      "Studio Journey",
+      "The SPACWORA Ethos"
+    ],
+    "has_testimonials": true,
+    "has_client_logos": false,
+    "has_founders_or_team": true
+  },
+  {
+    "file": "app/our-services/page.jsx",
+    "wp_images": [
+      "/wp-content/uploads/elementor/css/post-7903.css",
+      "/wp-content/uploads/elementor/css/post-9770.css",
+      "/wp-content/uploads/elementor/css/post-10816.css",
+      "/wp-content/uploads/elementor/css/post-6.css",
+      "/wp-content/uploads/elementor/css/post-11543.css",
+      "/wp-content/uploads/elementor/css/post-6886.css"
+    ],
+    "copied_names_or_brands": [],
+    "headings": [
+      "Our Services",
+      "{service.title}",
+      "{service.tagline}",
+      "Ready to Craft Your Signature Space?"
+    ],
+    "has_testimonials": false,
+    "has_client_logos": false,
+    "has_founders_or_team": false
+  },
+  {
+    "file": "components/ClientAnimationManager.jsx",
+    "wp_images": [],
+    "copied_names_or_brands": [],
+    "headings": [],
+    "has_testimonials": true,
+    "has_client_logos": true,
+    "has_founders_or_team": false
+  },
+  {
+    "file": "components/home/TestimonialsSection.jsx",
+    "wp_images": [],
+    "copied_names_or_brands": [],
+    "headings": [
+      "What Our Clients Say"
+    ],
+    "has_testimonials": true,
+    "has_client_logos": true,
+    "has_founders_or_team": false
+  }
+]
