@@ -48,124 +48,125 @@ const REVIEWS = [
 ];
 
 export default function TestimonialsSection() {
-  // Duplicate array for seamless infinite marquee loop
+  // Duplicate array for continuous infinite marquee loop
   const marqueeReviews = [...REVIEWS, ...REVIEWS];
 
   return (
-    <section className="testimonials-section-wrapper" style={{ backgroundColor: '#FFFFFF', overflow: 'hidden' }}>
+    <section 
+      style={{ 
+        backgroundColor: '#FFFFFF', 
+        overflow: 'hidden',
+        position: 'relative',
+        zIndex: 4,
+        clear: 'both',
+        display: 'block',
+        width: '100%',
+        padding: '100px 0 90px 0',
+        boxSizing: 'border-box'
+      }}
+    >
       
       {/* Header Container */}
-      <div 
-        className="elementor-element elementor-element-83bda0d e-flex e-con-boxed e-con e-parent" 
-        data-e-type="container" 
-        data-element_type="container" 
-        data-id="83bda0d" 
-        style={{ padding: '90px 20px 30px 20px', backgroundColor: '#FFFFFF' }}
-      >
-        <div className="e-con-inner" style={{ maxWidth: '1240px', margin: '0 auto', textAlign: 'center' }}>
-          <span 
-            style={{
-              color: '#F4C600',
-              textTransform: 'uppercase',
-              letterSpacing: '3px',
-              fontSize: '13px',
-              fontWeight: 600,
-              display: 'inline-block',
-              marginBottom: '14px'
-            }}
-          >
-            CLIENT EXPERIENCES
-          </span>
-          <h2 
-            className="elementor-heading-title elementor-size-default"
-            style={{
-              fontFamily: '"Bai Jamjuree", sans-serif',
-              fontSize: 'clamp(2rem, 1.8rem + 1.5vw, 3.2rem)',
-              fontWeight: 500,
-              color: '#111111',
-              lineHeight: 1.25,
-              marginBottom: '18px'
-            }}
-          >
-            What Our Clients Say
-          </h2>
-          <p
-            style={{
-              fontFamily: '"Quicksand", sans-serif',
-              fontSize: '16px',
-              color: '#666666',
-              maxWidth: '650px',
-              margin: '0 auto 20px auto',
-              lineHeight: 1.6
-            }}
-          >
-            Hear from clients who have experienced our interior design, contracting, and turnkey project execution firsthand.
-          </p>
-          <div 
-            style={{
-              width: '60px',
-              height: '2px',
-              backgroundColor: '#F4C600',
-              margin: '0 auto'
-            }} 
-          />
-        </div>
+      <div style={{ maxWidth: '1240px', margin: '0 auto', textAlign: 'center', padding: '0 20px 50px 20px' }}>
+        <span 
+          style={{
+            color: '#F4C600',
+            textTransform: 'uppercase',
+            letterSpacing: '3px',
+            fontSize: '13px',
+            fontWeight: 700,
+            display: 'inline-block',
+            marginBottom: '14px'
+          }}
+        >
+          CLIENT EXPERIENCES
+        </span>
+        <h2 
+          style={{
+            fontFamily: '"Bai Jamjuree", sans-serif',
+            fontSize: 'clamp(2.2rem, 1.8rem + 1.5vw, 3.4rem)',
+            fontWeight: 600,
+            color: '#111111',
+            lineHeight: 1.25,
+            margin: '0 0 18px 0'
+          }}
+        >
+          What Our Clients Say
+        </h2>
+        <p
+          style={{
+            fontFamily: '"Quicksand", sans-serif',
+            fontSize: '16px',
+            color: '#666666',
+            maxWidth: '650px',
+            margin: '0 auto 24px auto',
+            lineHeight: 1.65
+          }}
+        >
+          Hear from clients who have experienced our interior design, contracting, and turnkey project execution firsthand.
+        </p>
+        <div 
+          style={{
+            width: '60px',
+            height: '2px',
+            backgroundColor: '#F4C600',
+            margin: '0 auto'
+          }} 
+        />
       </div>
 
       {/* Infinite Horizontal Marquee Carousel */}
-      <div className="reviews-marquee-section">
-        <div className="reviews-marquee-container">
-          <div className="reviews-marquee-track">
-            {marqueeReviews.map((rev, idx) => (
-              <div key={idx} className="reviews-marquee-card">
-                <div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
-                    <span style={{ color: '#F4C600', fontSize: '18px', letterSpacing: '2px' }}>
-                      {rev.stars}
-                    </span>
-                    <span style={{ fontSize: '13px', fontWeight: 700, color: '#333333' }}>
-                      {rev.rating}
-                    </span>
-                  </div>
-                  <p
-                    style={{
-                      fontFamily: '"Quicksand", sans-serif',
-                      fontSize: '15px',
-                      lineHeight: 1.7,
-                      color: '#444444',
-                      margin: '0 0 24px 0',
-                      fontStyle: 'italic'
-                    }}
-                  >
-                    “{rev.text}”
-                  </p>
+      <div className="reviews-marquee-container">
+        <div className="reviews-marquee-track">
+          {marqueeReviews.map((rev, idx) => (
+            <div key={idx} className="reviews-marquee-card">
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
+                  <span style={{ color: '#F4C600', fontSize: '18px', letterSpacing: '2px' }}>
+                    {rev.stars}
+                  </span>
+                  <span style={{ fontSize: '13px', fontWeight: 700, color: '#333333' }}>
+                    {rev.rating}
+                  </span>
                 </div>
-                <div style={{ borderTop: '1px solid #EAEAEA', paddingTop: '16px' }}>
-                  <div
-                    style={{
-                      fontFamily: '"Bai Jamjuree", sans-serif',
-                      fontSize: '16px',
-                      fontWeight: 700,
-                      color: '#111111'
-                    }}
-                  >
-                    {rev.client}
-                  </div>
-                  <div
-                    style={{
-                      fontFamily: '"Quicksand", sans-serif',
-                      fontSize: '13px',
-                      color: '#777777',
-                      fontWeight: 600,
-                      marginTop: '2px'
-                    }}
-                  >
-                    {rev.project}
-                  </div>
+                <p
+                  style={{
+                    fontFamily: '"Quicksand", sans-serif',
+                    fontSize: '15px',
+                    lineHeight: 1.7,
+                    color: '#444444',
+                    margin: '0 0 24px 0',
+                    fontStyle: 'italic'
+                  }}
+                >
+                  “{rev.text}”
+                </p>
+              </div>
+              <div style={{ borderTop: '1px solid #EAEAEA', paddingTop: '16px' }}>
+                <div
+                  style={{
+                    fontFamily: '"Bai Jamjuree", sans-serif',
+                    fontSize: '16px',
+                    fontWeight: 700,
+                    color: '#111111'
+                  }}
+                >
+                  {rev.client}
+                </div>
+                <div
+                  style={{
+                    fontFamily: '"Quicksand", sans-serif',
+                    fontSize: '13px',
+                    color: '#777777',
+                    fontWeight: 600,
+                    marginTop: '2px'
+                  }}
+                >
+                  {rev.project}
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
 

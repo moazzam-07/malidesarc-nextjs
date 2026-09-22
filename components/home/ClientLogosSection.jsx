@@ -29,9 +29,15 @@ export default function ClientLogosSection() {
       style={{
         backgroundColor: '#0A0A0A',
         color: '#FFFFFF',
-        padding: '80px 24px',
+        padding: '90px 24px',
         borderTop: '1px solid rgba(244, 198, 0, 0.25)',
         borderBottom: '1px solid rgba(244, 198, 0, 0.25)',
+        position: 'relative',
+        zIndex: 5,
+        clear: 'both',
+        display: 'block',
+        width: '100%',
+        boxSizing: 'border-box'
       }}
     >
       <div style={{ maxWidth: '1240px', margin: '0 auto' }}>
