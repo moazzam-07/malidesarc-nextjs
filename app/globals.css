@@ -188,6 +188,96 @@ html.lenis, html.lenis body {
 }
 
 /* =========================================
+   REVIEWS INFINITE MARQUEE
+========================================= */
+.reviews-marquee-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0 90px 0;
+  background-color: #FFFFFF;
+}
+
+.reviews-marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 10px 0 30px 0;
+  mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+}
+
+.reviews-marquee-track {
+  display: flex;
+  gap: 26px;
+  width: max-content;
+  will-change: transform;
+  animation: reviewsMarqueeScroll 42s linear infinite;
+}
+
+.reviews-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.reviews-marquee-card {
+  flex: 0 0 380px;
+  width: 380px;
+  background: #FAFAFA;
+  border: 1px solid #EAEAEA;
+  border-radius: 16px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  justifyContent: space-between;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+.reviews-marquee-card:hover {
+  transform: translateY(-6px);
+  border-color: #F4C600;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.09);
+  background: #FFFFFF;
+}
+
+@keyframes reviewsMarqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 13px));
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews-marquee-card {
+    flex: 0 0 310px;
+    width: 310px;
+    padding: 24px 20px;
+  }
+  .reviews-marquee-track {
+    gap: 18px;
+    animation-duration: 34s;
+  }
+  @keyframes reviewsMarqueeScroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-50% - 9px));
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reviews-marquee-track {
+    animation: none;
+    overflow-x: auto;
+  }
+}
+
+/* =========================================
    ELEMENTOR RESPONSIVE & VISIBILITY FIXES
 ========================================= */
 @media (max-width: 767px) {

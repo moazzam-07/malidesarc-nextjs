@@ -37,18 +37,29 @@ const REVIEWS = [
     text: 'Our interior experience with SPACWORA was seamless. Having a single dedicated design studio handle 3D visualizations, material procurement, civil renovation, and white-glove handover gave us complete confidence throughout.',
     client: 'Rajiv & Ananya Singhania',
     project: 'Bhayandar Luxury 3BHK Residence'
+  },
+  {
+    rating: '5.0',
+    stars: '★★★★★',
+    text: 'From concept blueprints to final turnkey handover, SPACWORA handled every civil, electrical, and bespoke carpentry milestone with total transparency. Their attention to lighting accents and premium veneer finishes is second to none.',
+    client: 'Karan & Shweta Desai',
+    project: 'Borivali Contemporary Duplex'
   }
 ];
 
 export default function TestimonialsSection() {
+  // Duplicate array for seamless infinite marquee loop
+  const marqueeReviews = [...REVIEWS, ...REVIEWS];
+
   return (
-    <>
+    <section className="testimonials-section-wrapper" style={{ backgroundColor: '#FFFFFF', overflow: 'hidden' }}>
+      
+      {/* Header Container */}
       <div 
         className="elementor-element elementor-element-83bda0d e-flex e-con-boxed e-con e-parent" 
         data-e-type="container" 
         data-element_type="container" 
         data-id="83bda0d" 
-        data-settings='{"background_background":"classic"}'
         style={{ padding: '90px 20px 30px 20px', backgroundColor: '#FFFFFF' }}
       >
         <div className="e-con-inner" style={{ maxWidth: '1240px', margin: '0 auto', textAlign: 'center' }}>
@@ -88,7 +99,7 @@ export default function TestimonialsSection() {
               lineHeight: 1.6
             }}
           >
-            Hear from homeowners, corporate leaders, and hospitality partners who have experienced SPACWORA’s turnkey interior architecture firsthand.
+            Hear from clients who have experienced our interior design, contracting, and turnkey project execution firsthand.
           </p>
           <div 
             style={{
@@ -101,47 +112,12 @@ export default function TestimonialsSection() {
         </div>
       </div>
 
-      <div 
-        className="elementor-element elementor-element-d0635c2 e-con-full e-flex e-con e-parent" 
-        data-e-type="container" 
-        data-element_type="container" 
-        data-id="d0635c2" 
-        data-settings='{"background_background":"classic"}'
-        style={{ padding: '0 20px 90px 20px', backgroundColor: '#FFFFFF' }}
-      >
-        <div style={{ maxWidth: '1240px', margin: '0 auto', width: '100%' }}>
-          <div 
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))',
-              gap: '26px'
-            }}
-          >
-            {REVIEWS.map((rev, idx) => (
-              <div
-                key={idx}
-                style={{
-                  backgroundColor: '#FAFAFA',
-                  border: '1px solid #EAEAEA',
-                  borderRadius: '16px',
-                  padding: '32px 28px',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'space-between',
-                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.04)',
-                  transition: 'transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease'
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-6px)';
-                  e.currentTarget.style.borderColor = '#F4C600';
-                  e.currentTarget.style.boxShadow = '0 12px 30px rgba(0, 0, 0, 0.08)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.borderColor = '#EAEAEA';
-                  e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.04)';
-                }}
-              >
+      {/* Infinite Horizontal Marquee Carousel */}
+      <div className="reviews-marquee-section">
+        <div className="reviews-marquee-container">
+          <div className="reviews-marquee-track">
+            {marqueeReviews.map((rev, idx) => (
+              <div key={idx} className="reviews-marquee-card">
                 <div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px' }}>
                     <span style={{ color: '#F4C600', fontSize: '18px', letterSpacing: '2px' }}>
@@ -192,6 +168,7 @@ export default function TestimonialsSection() {
           </div>
         </div>
       </div>
-    </>
+
+    </section>
   );
 }
