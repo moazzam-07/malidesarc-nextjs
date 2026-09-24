@@ -231,7 +231,8 @@ export default function FaqSection() {
                     background: 'none',
                     border: 'none',
                     cursor: 'pointer',
-                    textAlign: 'left'
+                    textAlign: 'left',
+                    whiteSpace: 'normal'
                   }}
                 >
                   <div 
@@ -240,7 +241,8 @@ export default function FaqSection() {
                       alignItems: 'flex-start', 
                       gap: 'clamp(10px, 1.8vw, 18px)',
                       flex: 1,
-                      minWidth: 0
+                      minWidth: 0,
+                      whiteSpace: 'normal'
                     }}
                   >
                     <span 
@@ -251,20 +253,25 @@ export default function FaqSection() {
                         fontWeight: 700,
                         minWidth: '24px',
                         flexShrink: 0,
-                        paddingTop: '2px'
+                        paddingTop: '2px',
+                        display: 'inline-block'
                       }}
                     >
                       {faq.num}.
                     </span>
                     <span 
+                      className="faq-question-text"
                       style={{
                         fontFamily: '"Bai Jamjuree", sans-serif',
                         fontSize: 'clamp(15px, 2.2vw, 18px)',
                         fontWeight: 600,
                         color: '#111111',
                         lineHeight: 1.4,
+                        display: 'block',
+                        whiteSpace: 'normal',
                         wordBreak: 'break-word',
-                        overflowWrap: 'break-word'
+                        overflowWrap: 'break-word',
+                        flex: 1
                       }}
                     >
                       {faq.q}
@@ -301,6 +308,7 @@ export default function FaqSection() {
                       fontSize: 'clamp(14.5px, 1.8vw, 15.5px)',
                       lineHeight: 1.75,
                       color: '#444444',
+                      whiteSpace: 'normal',
                       wordBreak: 'break-word',
                       overflowWrap: 'break-word'
                     }}

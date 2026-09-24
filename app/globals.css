@@ -1090,12 +1090,25 @@ button, a, input, select {
   .faq-accordion-btn {
     padding: 16px 14px !important;
     gap: 12px !important;
+    white-space: normal !important;
+    width: 100% !important;
+  }
+
+  .faq-question-text {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    display: block !important;
+    flex: 1 !important;
   }
 
   .faq-accordion-answer {
     padding: 0 14px 18px 14px !important;
     font-size: 14px !important;
     line-height: 1.65 !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
   }
 }
 
