@@ -71,14 +71,14 @@ export default function ServicesSection() {
     <section 
       className="services-flagship-section"
       style={{
-        padding: '90px 20px 70px 20px',
+        padding: 'clamp(60px, 8vw, 90px) 20px 70px 20px',
         backgroundColor: '#FFFFFF',
         color: '#111111'
       }}
     >
       <div style={{ maxWidth: '1240px', margin: '0 auto' }}>
         {/* Header */}
-        <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+        <div style={{ textAlign: 'center', marginBottom: 'clamp(36px, 5vw, 50px)' }}>
           <span 
             style={{
               color: '#F4C600',

@@ -117,7 +117,7 @@ export default function ContactForm() {
         backgroundColor: '#FFFFFF',
         border: '1px solid #EAEAEA',
         borderRadius: '16px',
-        padding: '44px 36px',
+        padding: 'clamp(28px, 4vw, 44px) clamp(18px, 3.5vw, 36px)',
         boxShadow: '0 12px 40px rgba(0, 0, 0, 0.05)'
       }}
     >
@@ -128,7 +128,7 @@ export default function ContactForm() {
             textTransform: 'uppercase',
             letterSpacing: '2.5px',
             fontSize: '12px',
-            fontWeight: 600,
+            fontWeight: 700,
             display: 'inline-block',
             marginBottom: '8px'
           }}
@@ -138,18 +138,19 @@ export default function ContactForm() {
         <h3 
           style={{
             fontFamily: '"Bai Jamjuree", sans-serif',
-            fontSize: '28px',
+            fontSize: 'clamp(22px, 3.5vw, 28px)',
             fontWeight: 600,
             color: '#111111',
             lineHeight: 1.3,
-            margin: 0
+            margin: 0,
+            wordBreak: 'break-word'
           }}
         >
           Let's Create A Space You'll Love
         </h3>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))', gap: '20px', marginBottom: '20px' }}>
         {/* Full Name */}
         <div>
           <label 

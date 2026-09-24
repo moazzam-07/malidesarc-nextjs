@@ -8,7 +8,7 @@ export default function Footer() {
       style={{
         backgroundColor: '#0A0A0A',
         color: '#FFFFFF',
-        padding: '80px 24px 0 24px',
+        padding: 'clamp(50px, 7vw, 80px) 20px 0 20px',
         borderTop: '1px solid rgba(244, 198, 0, 0.2)',
         position: 'relative',
         zIndex: 10
@@ -19,8 +19,8 @@ export default function Footer() {
           maxWidth: '1240px',
           margin: '0 auto',
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
-          gap: '48px',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 240px), 1fr))',
+          gap: '40px',
           paddingBottom: '60px'
         }}
       >

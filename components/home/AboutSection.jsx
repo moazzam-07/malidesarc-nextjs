@@ -10,11 +10,11 @@ export default function AboutSection() {
         data-element_type="container" 
         data-id="2d632b7" 
         data-settings='{"background_background":"classic"}'
-        style={{ padding: '90px 20px' }}
+        style={{ padding: 'clamp(60px, 8vw, 90px) 20px' }}
       >
         <div className="e-con-inner" style={{ maxWidth: '1240px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '40px' }}>
           {/* Left Text Content */}
-          <div className="elementor-element elementor-element-c99afc7 e-con-full e-flex e-con e-child" style={{ flex: '1 1 540px' }}>
+          <div className="elementor-element elementor-element-c99afc7 e-con-full e-flex e-con e-child" style={{ flex: '1 1 min(100%, 540px)' }}>
             <span 
               style={{
                 color: '#F4C600',
@@ -33,11 +33,12 @@ export default function AboutSection() {
                 className="elementor-heading-title elementor-size-default"
                 style={{
                   fontFamily: '"Bai Jamjuree", sans-serif',
-                  fontSize: 'clamp(2rem, 1.6rem + 1.6vw, 3.2rem)',
+                  fontSize: 'clamp(1.85rem, 1.5rem + 1.6vw, 3.2rem)',
                   fontWeight: 600,
                   lineHeight: 1.25,
                   color: '#111111',
-                  marginBottom: '22px'
+                  marginBottom: '22px',
+                  wordBreak: 'break-word'
                 }}
               >
                 We Design More Than Interiors. <br />We Design The Way You Live.
@@ -50,7 +51,8 @@ export default function AboutSection() {
                 fontSize: '16px',
                 lineHeight: 1.8,
                 color: '#444444',
-                marginBottom: '32px'
+                marginBottom: '32px',
+                wordBreak: 'break-word'
               }}
             >
               <p style={{ marginBottom: '16px' }}>
@@ -66,7 +68,7 @@ export default function AboutSection() {
                 Our philosophy is simple: Create spaces that remain beautiful long after trends have disappeared.
               </p>
             </div>
-            <div className="elementor-element elementor-element-a6d9a61 e-grid e-con-full e-con e-child" style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+            <div className="elementor-element elementor-element-a6d9a61 e-grid e-con-full e-con e-child" style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
               <Link href="/about/" className="spacewora-btn-dark">
                 ABOUT THE STUDIO
               </Link>
@@ -77,7 +79,7 @@ export default function AboutSection() {
           </div>
 
           {/* Right Image Feature */}
-          <div className="elementor-element elementor-element-6e77d41 e-con-full e-flex e-con e-child" style={{ flex: '1 1 480px', position: 'relative' }}>
+          <div className="elementor-element elementor-element-6e77d41 e-con-full e-flex e-con e-child" style={{ flex: '1 1 min(100%, 480px)', position: 'relative' }}>
             <div 
               style={{
                 borderRadius: '16px',
@@ -104,7 +106,7 @@ export default function AboutSection() {
           backgroundColor: '#0A0A0A',
           borderTop: '1px solid rgba(244, 198, 0, 0.2)',
           borderBottom: '1px solid rgba(244, 198, 0, 0.2)',
-          padding: '70px 20px',
+          padding: 'clamp(50px, 6vw, 70px) 20px',
           textAlign: 'center',
           position: 'relative'
         }}

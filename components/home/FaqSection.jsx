@@ -138,24 +138,24 @@ export default function FaqSection() {
 
   return (
     <section 
-      className="faq-section"
+      className="spacwora-faq-section"
       style={{
         backgroundColor: '#FFFFFF',
         color: '#111111',
-        padding: '100px 20px',
+        padding: 'clamp(60px, 8vw, 100px) 20px',
         position: 'relative'
       }}
     >
       <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
         {/* Header */}
-        <div style={{ textAlign: 'center', marginBottom: '60px' }}>
+        <div style={{ textAlign: 'center', marginBottom: 'clamp(36px, 5vw, 60px)' }}>
           <span 
             style={{
               color: '#F4C600',
               textTransform: 'uppercase',
               letterSpacing: '3px',
               fontSize: '13px',
-              fontWeight: 600,
+              fontWeight: 700,
               display: 'inline-block',
               marginBottom: '14px'
             }}
@@ -165,11 +165,13 @@ export default function FaqSection() {
           <h2 
             style={{
               fontFamily: '"Bai Jamjuree", sans-serif',
-              fontSize: 'clamp(2rem, 1.8rem + 1.5vw, 3.2rem)',
-              fontWeight: 500,
+              fontSize: 'clamp(1.85rem, 1.6rem + 1.5vw, 3.2rem)',
+              fontWeight: 600,
               color: '#111111',
               lineHeight: 1.25,
-              marginBottom: '18px'
+              marginBottom: '16px',
+              wordBreak: 'break-word',
+              overflowWrap: 'break-word'
             }}
           >
             Frequently Asked Questions
@@ -177,11 +179,12 @@ export default function FaqSection() {
           <p
             style={{
               fontFamily: '"Quicksand", sans-serif',
-              fontSize: '16px',
+              fontSize: 'clamp(14.5px, 1rem, 16px)',
               color: '#666666',
               maxWidth: '650px',
               margin: '0 auto 20px auto',
-              lineHeight: 1.6
+              lineHeight: 1.65,
+              wordBreak: 'break-word'
             }}
           >
             Everything you need to know about partnering with SPACWORA Design Studio for your bespoke interior architecture journey.
@@ -197,15 +200,16 @@ export default function FaqSection() {
         </div>
 
         {/* Accordion List */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
           {displayedFaqs.map((faq) => {
             const isOpen = openId === faq.id;
             return (
               <div
                 key={faq.id}
+                className="faq-accordion-card"
                 style={{
                   border: isOpen ? '1px solid #F4C600' : '1px solid #EAEAEA',
-                  borderRadius: '10px',
+                  borderRadius: '12px',
                   backgroundColor: isOpen ? '#FAFAFA' : '#FFFFFF',
                   transition: 'all 0.25s ease',
                   overflow: 'hidden',
@@ -216,27 +220,38 @@ export default function FaqSection() {
                   type="button"
                   onClick={() => toggle(faq.id)}
                   aria-expanded={isOpen}
+                  className="faq-accordion-btn"
                   style={{
                     width: '100%',
-                    padding: '22px 28px',
+                    padding: 'clamp(16px, 2.5vw, 22px) clamp(16px, 3vw, 28px)',
                     display: 'flex',
-                    alignItems: 'center',
+                    alignItems: 'flex-start',
                     justifyContent: 'space-between',
-                    gap: '20px',
+                    gap: '14px',
                     background: 'none',
                     border: 'none',
                     cursor: 'pointer',
                     textAlign: 'left'
                   }}
                 >
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '18px' }}>
+                  <div 
+                    style={{ 
+                      display: 'flex', 
+                      alignItems: 'flex-start', 
+                      gap: 'clamp(10px, 1.8vw, 18px)',
+                      flex: 1,
+                      minWidth: 0
+                    }}
+                  >
                     <span 
                       style={{
                         fontFamily: '"Bai Jamjuree", sans-serif',
                         color: '#F4C600',
-                        fontSize: '17px',
-                        fontWeight: 600,
-                        minWidth: '28px'
+                        fontSize: 'clamp(15px, 2vw, 17px)',
+                        fontWeight: 700,
+                        minWidth: '24px',
+                        flexShrink: 0,
+                        paddingTop: '2px'
                       }}
                     >
                       {faq.num}.
@@ -244,10 +259,12 @@ export default function FaqSection() {
                     <span 
                       style={{
                         fontFamily: '"Bai Jamjuree", sans-serif',
-                        fontSize: '18px',
+                        fontSize: 'clamp(15px, 2.2vw, 18px)',
                         fontWeight: 600,
                         color: '#111111',
-                        lineHeight: 1.35
+                        lineHeight: 1.4,
+                        wordBreak: 'break-word',
+                        overflowWrap: 'break-word'
                       }}
                     >
                       {faq.q}
@@ -256,6 +273,7 @@ export default function FaqSection() {
                   <div 
                     style={{
                       minWidth: '28px',
+                      width: '28px',
                       height: '28px',
                       borderRadius: '50%',
                       backgroundColor: isOpen ? '#111111' : '#F4F4F4',
@@ -265,6 +283,8 @@ export default function FaqSection() {
                       justifyContent: 'center',
                       fontSize: '18px',
                       fontWeight: 600,
+                      flexShrink: 0,
+                      marginTop: '2px',
                       transition: 'all 0.25s ease'
                     }}
                   >
@@ -274,12 +294,15 @@ export default function FaqSection() {
 
                 {isOpen && (
                   <div 
+                    className="faq-accordion-answer"
                     style={{
-                      padding: '0 28px 24px 74px',
+                      padding: '0 clamp(16px, 3vw, 28px) clamp(18px, 2.5vw, 24px) clamp(16px, 4vw, 54px)',
                       fontFamily: '"Quicksand", sans-serif',
-                      fontSize: '15.5px',
+                      fontSize: 'clamp(14.5px, 1.8vw, 15.5px)',
                       lineHeight: 1.75,
-                      color: '#444444'
+                      color: '#444444',
+                      wordBreak: 'break-word',
+                      overflowWrap: 'break-word'
                     }}
                   >
                     {faq.a}
@@ -291,21 +314,22 @@ export default function FaqSection() {
         </div>
 
         {/* View All / Collapse Button */}
-        <div style={{ textAlign: 'center', marginTop: '45px' }}>
+        <div style={{ textAlign: 'center', marginTop: '40px' }}>
           <button
             type="button"
             onClick={() => setShowAll((prev) => !prev)}
             style={{
               fontFamily: '"Quicksand", sans-serif',
-              fontSize: '15px',
-              fontWeight: 600,
+              fontSize: '14.5px',
+              fontWeight: 700,
               color: '#111111',
               backgroundColor: '#FFFFFF',
               border: '2px solid #111111',
-              padding: '12px 32px',
+              padding: '12px 30px',
               borderRadius: '30px',
               cursor: 'pointer',
-              transition: 'all 0.3s ease'
+              transition: 'all 0.3s ease',
+              maxWidth: '100%'
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.backgroundColor = '#111111';
@@ -323,4 +347,3 @@ export default function FaqSection() {
     </section>
   );
 }
-

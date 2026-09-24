@@ -82,7 +82,7 @@ export default function ContactPage() {
         style={{
           backgroundColor: '#0A0A0A',
           color: '#FFFFFF',
-          padding: '160px 24px 90px 24px',
+          padding: 'clamp(120px, 14vw, 160px) 20px 80px 20px',
           textAlign: 'center',
           position: 'relative',
           borderBottom: '1px solid rgba(244, 198, 0, 0.2)'
@@ -95,7 +95,7 @@ export default function ContactPage() {
               textTransform: 'uppercase',
               letterSpacing: '3px',
               fontSize: '13px',
-              fontWeight: 600,
+              fontWeight: 700,
               display: 'inline-block',
               marginBottom: '14px'
             }}
@@ -105,11 +105,12 @@ export default function ContactPage() {
           <h1 
             style={{
               fontFamily: '"Bai Jamjuree", sans-serif',
-              fontSize: 'clamp(2.4rem, 2rem + 1.8vw, 3.8rem)',
+              fontSize: 'clamp(2.1rem, 1.8rem + 1.8vw, 3.8rem)',
               fontWeight: 600,
               color: '#FFFFFF',
               lineHeight: 1.2,
-              marginBottom: '18px'
+              marginBottom: '18px',
+              wordBreak: 'break-word'
             }}
           >
             Contact SPACE<span style={{ color: '#F4C600' }}>WORA</span> Design Studio
@@ -121,7 +122,8 @@ export default function ContactPage() {
               lineHeight: 1.7,
               color: '#CCCCCC',
               maxWidth: '680px',
-              margin: '0 auto'
+              margin: '0 auto',
+              wordBreak: 'break-word'
             }}
           >
             Tell us about your space, requirements, and vision. Let's discuss the right design, planning, and execution approach for your upcoming residential, commercial, or architectural project.
@@ -134,7 +136,7 @@ export default function ContactPage() {
         <div 
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 250px), 1fr))',
             gap: '20px'
           }}
         >
@@ -221,7 +223,8 @@ export default function ContactPage() {
                       fontWeight: 600,
                       color: '#333333',
                       display: 'block',
-                      lineHeight: 1.4
+                      lineHeight: 1.4,
+                      wordBreak: 'break-word'
                     }}
                   >
                     {card.value}
@@ -252,8 +255,8 @@ export default function ContactPage() {
         <div 
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
-            gap: '48px',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))',
+            gap: '40px',
             alignItems: 'start'
           }}
         >
@@ -267,7 +270,7 @@ export default function ContactPage() {
                 backgroundColor: '#0A0A0A',
                 color: '#FFFFFF',
                 borderRadius: '16px',
-                padding: '40px 36px',
+                padding: 'clamp(28px, 4vw, 40px) clamp(20px, 3.5vw, 36px)',
                 border: '1px solid rgba(244, 198, 0, 0.25)',
                 boxShadow: '0 12px 35px rgba(0, 0, 0, 0.12)'
               }}

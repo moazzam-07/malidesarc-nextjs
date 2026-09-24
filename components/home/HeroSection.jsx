@@ -73,10 +73,12 @@ export default function HeroSection() {
           style={{
             fontFamily: '"Bai Jamjuree", sans-serif',
             color: '#FFFFFF',
-            fontSize: 'clamp(2.2rem, 1.8rem + 2.4vw, 4.4rem)',
+            fontSize: 'clamp(1.9rem, 1.5rem + 2.2vw, 4.2rem)',
             fontWeight: 600,
-            lineHeight: 1.2,
+            lineHeight: 1.22,
             margin: '0 auto 20px auto',
+            wordBreak: 'break-word',
+            overflowWrap: 'break-word',
             textShadow: '0 3px 25px rgba(0, 0, 0, 0.9), 0 1px 5px rgba(0, 0, 0, 0.95)'
           }}
         >
@@ -88,10 +90,11 @@ export default function HeroSection() {
           style={{
             fontFamily: '"Quicksand", sans-serif',
             color: '#FFFFFF',
-            fontSize: 'clamp(1rem, 0.95rem + 0.3vw, 1.22rem)',
+            fontSize: 'clamp(0.95rem, 0.9rem + 0.3vw, 1.2rem)',
             lineHeight: 1.7,
             maxWidth: '860px',
-            margin: '0 auto 34px auto',
+            margin: '0 auto 32px auto',
+            wordBreak: 'break-word',
             textShadow: '0 2px 14px rgba(0, 0, 0, 0.95), 0 1px 3px rgba(0, 0, 0, 0.9)'
           }}
         >
@@ -105,7 +108,7 @@ export default function HeroSection() {
             flexWrap: 'wrap',
             alignItems: 'center',
             justifyContent: 'center',
-            gap: '16px',
+            gap: '14px',
             marginBottom: '20px',
             width: '100%',
             maxWidth: '520px'

@@ -147,8 +147,8 @@ export default function OurServicesPage() {
                         {/* Text Column */}
                         <div 
                           style={{
-                            flex: '1 1 450px',
-                            padding: 'clamp(28px, 4vw, 48px)',
+                            flex: '1 1 min(100%, 450px)',
+                            padding: 'clamp(24px, 4vw, 48px)',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -174,11 +174,12 @@ export default function OurServicesPage() {
 
                           <h2 
                             style={{ 
-                              fontSize: 'clamp(1.8rem, 1.6rem + 1vw, 2.4rem)',
+                              fontSize: 'clamp(1.7rem, 1.5rem + 1vw, 2.4rem)',
                               fontWeight: 600,
                               color: '#111111',
                               margin: '8px 0 10px 0',
-                              lineHeight: 1.25
+                              lineHeight: 1.25,
+                              wordBreak: 'break-word'
                             }}
                           >
                             {service.title}
@@ -190,7 +191,8 @@ export default function OurServicesPage() {
                               fontWeight: 600, 
                               color: '#888888', 
                               marginBottom: '16px',
-                              letterSpacing: '0.3px'
+                              letterSpacing: '0.3px',
+                              wordBreak: 'break-word'
                             }}
                           >
                             {service.tagline}
@@ -211,7 +213,8 @@ export default function OurServicesPage() {
                               lineHeight: 1.75, 
                               color: '#444444',
                               margin: '0 0 24px 0',
-                              fontFamily: '"Quicksand", sans-serif'
+                              fontFamily: '"Quicksand", sans-serif',
+                              wordBreak: 'break-word'
                             }}
                           >
                             {service.description}
@@ -245,8 +248,8 @@ export default function OurServicesPage() {
                         {/* Image Column */}
                         <div 
                           style={{
-                            flex: '1 1 450px',
-                            minHeight: '340px',
+                            flex: '1 1 min(100%, 450px)',
+                            minHeight: 'clamp(240px, 35vw, 380px)',
                             position: 'relative',
                             overflow: 'hidden'
                           }}
