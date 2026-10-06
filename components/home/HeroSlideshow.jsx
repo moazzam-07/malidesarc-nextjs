@@ -3,16 +3,16 @@
 import { useState, useEffect } from 'react';
 
 const SLIDES = [
-  '/images/studio/spacwora-hospitality-grand-lobby.webp',
-  '/images/homepage/hero_01_enscape_2023-06-14-01-34-23.webp',
-  '/images/homepage/hero_02_img-20230204-wa0008.webp',
-  '/images/homepage/hero_03_img-20230208-wa0046.webp',
-  '/images/studio/spacwora-boardroom.webp',
-  '/images/homepage/hero_07_img-20230305-wa0028.webp',
-  '/images/homepage/hero_09_img-20230322-wa0022.webp',
-  '/images/studio/spacwora-hospitality-bar.webp',
-  '/images/homepage/hero_13_picture4.webp',
-  '/images/homepage/hero_05_img-20230210-wa0007.webp',
+  '/images/homepage/hero-slide-01.jpg',
+  '/images/homepage/hero-slide-02.jpg',
+  '/images/homepage/hero-slide-03.jpg',
+  '/images/homepage/hero-slide-04.jpg',
+  '/images/homepage/hero-slide-05.jpg',
+  '/images/homepage/hero-slide-06.jpg',
+  '/images/homepage/hero-slide-07.jpg',
+  '/images/homepage/hero-slide-08.jpg',
+  '/images/homepage/hero-slide-09.jpg',
+  '/images/homepage/hero-slide-10.jpg',
 ];
 
 export default function HeroSlideshow() {
